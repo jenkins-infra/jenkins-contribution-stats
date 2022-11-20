@@ -104,7 +104,6 @@ GroupBy(user.login),count(org)
 "jay-hershkowitz",4
 "jdelnano",1
 "jdkandersson",3
-"jenkins-infra-bot",3
 "jglick",16
 "jimklimov",1
 "jjasghar",1

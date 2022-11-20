@@ -93,7 +93,7 @@ getOrganizationData() {
         batch="B"
     fi
 
-    local query="is:pr -author:app/dependabot -author:app/renovate created:${year}-${month_nbr}-${start_day}..${year}-${month_nbr}-${end_day}"
+    local query="is:pr -author:app/dependabot -author:app/renovate -author:jenkins-infra-bot created:${year}-${month_nbr}-${start_day}..${year}-${month_nbr}-${end_day}"
     local json_filename_main="${org}-${month}-${year}-${batch}"
     local json_filename="json_data/${json_filename_main}-"
 
@@ -125,7 +125,29 @@ getOrganizationData() {
 ##################
 # Main processing
 ##################
-
+# TODO: process parameters
 # TODO: check parameters before processing
-getContributions 2022 SEP
-#getContributions 2022 OCT
+
+getContributions 2021 JAN
+getContributions 2021 FEB
+getContributions 2021 MAR
+getContributions 2021 APR
+getContributions 2021 MAY
+getContributions 2021 JUN
+# getContributions 2021 JUL
+# getContributions 2021 AUG
+# getContributions 2021 SEP
+# getContributions 2021 OCT
+# getContributions 2021 NOV
+# getContributions 2021 DEC
+
+# getContributions 2022 JAN
+# getContributions 2022 FEB
+# getContributions 2022 MAR
+# getContributions 2022 APR
+# getContributions 2022 MAY
+# getContributions 2022 JUN
+# getContributions 2022 JUL
+# getContributions 2022 AUG
+# getContributions 2022 SEP
+# getContributions 2022 OCT
