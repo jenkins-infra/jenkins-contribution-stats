@@ -128,12 +128,25 @@ getOrganizationData() {
 # TODO: process parameters
 # TODO: check parameters before processing
 
-getContributions 2021 JAN
-getContributions 2021 FEB
-getContributions 2021 MAR
-getContributions 2021 APR
-getContributions 2021 MAY
-getContributions 2021 JUN
+getContributions 2020 JAN
+getContributions 2020 FEB
+getContributions 2020 MAR
+getContributions 2020 APR
+getContributions 2020 MAY
+getContributions 2020 JUN
+getContributions 2020 JUL
+getContributions 2020 AUG
+getContributions 2020 SEP
+getContributions 2020 OCT
+getContributions 2020 NOV
+getContributions 2020 DEC
+
+# getContributions 2021 JAN
+# getContributions 2021 FEB
+# getContributions 2021 MAR
+# getContributions 2021 APR
+# getContributions 2021 MAY
+# getContributions 2021 JUN
 # getContributions 2021 JUL
 # getContributions 2021 AUG
 # getContributions 2021 SEP
