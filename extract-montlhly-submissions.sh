@@ -24,45 +24,16 @@ set -e
 # Function to retrieve the data for all organizations for a given month
 # The month is split in two queries to avoid hitting limits.
 getContributions(){
-    local year="$1"  # example "2022"
-    local month="$2"  # JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
+    local year="$1"  
+    local month_decimal="$2"
 
 
-    # Convert the month to its numeric value
-    case "$month" in
-        JAN) month_decimal="01"
-            ;;
-        FEB) month_decimal="02"
-            ;;
-        MAR) month_decimal="03"
-            ;;
-        APR) month_decimal="04"
-            ;;
-        MAY) month_decimal="05"
-            ;;
-        JUN) month_decimal="06"
-            ;;
-        JUL) month_decimal="07"
-            ;;
-        AUG) month_decimal="08"
-            ;;
-        SEP) month_decimal="09"
-            ;;
-        OCT) month_decimal="10"
-            ;;
-        NOV) month_decimal="11"
-            ;;
-        DEC) month_decimal="12"
-            ;;
-        *) echo "Unsupported month: $month"
-            exit 1
-            ;;
-    esac
+
     # Get the last day of that given month of that particular year
     # NOTE: gdate is the GNU implementation of date on Mac OS
     last_day=$(gdate -d "${year}/${month_decimal}/1 + 1 month - 1 day" "+%d")
 
-    csv_filename="data/contributions-${year}-${month_decimal}.csv"
+    csv_filename="data/submissions-${year}-${month_decimal}.csv"
     echo 'org,repository,url,state,created_at,merged_at,user.login,title' >"$csv_filename"
 
 
@@ -72,7 +43,7 @@ getContributions(){
     getOrganizationData jenkins-infra "$year" "$month_decimal" 16 "$last_day" "$csv_filename"
 
     # Create the pivot table for the month we downloaded
-    summaryContributors="data/pr_per_contributor-${year}-${month_decimal}.csv"
+    summaryContributors="data/pr_per_sunmitter-${year}-${month_decimal}.csv"
     #see https://medium.com/clarityai-engineering/back-to-basics-how-to-analyze-files-with-gnu-commands-fe9f41665eb3
     awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$csv_filename" | datamash -t, --sort --headers groupby 7 count 1 > "$summaryContributors"
 }
@@ -94,7 +65,7 @@ getOrganizationData() {
     fi
 
     local query="is:pr -author:app/dependabot -author:app/renovate -author:jenkins-infra-bot created:${year}-${month_nbr}-${start_day}..${year}-${month_nbr}-${end_day}"
-    local json_filename_main="${org}-${month}-${year}-${batch}"
+    local json_filename_main="${org}-${month_nbr}-${year}-${batch}"
     local json_filename="json_data/${json_filename_main}-"
 
 
@@ -125,42 +96,72 @@ getOrganizationData() {
 ##################
 # Main processing
 ##################
-# TODO: process parameters
-# TODO: check parameters before processing
 
-getContributions 2020 JAN
-getContributions 2020 FEB
-getContributions 2020 MAR
-getContributions 2020 APR
-getContributions 2020 MAY
-getContributions 2020 JUN
-getContributions 2020 JUL
-getContributions 2020 AUG
-getContributions 2020 SEP
-getContributions 2020 OCT
-getContributions 2020 NOV
-getContributions 2020 DEC
+year_to_process="$1"
+# Has the year parameter been given?
+if [ -z "$year_to_process" ];
+then
+    echo "Usage: \"extract-montlhly-contributions.sh YYYY MMM\""
+    echo "   where"
+    echo "      YYYY is the year (ex 2022)"
+    echo "      MMM is the month in three letters (ex OCT)"
+    exit 1
+fi
+case "$year_to_process" in
+    2020) 
+        ;;
+    2021) 
+        ;;
+    2022) 
+        ;;
+    *) echo "Unsupported year: $year_to_process"
+        exit 1
+        ;;
+esac
 
-# getContributions 2021 JAN
-# getContributions 2021 FEB
-# getContributions 2021 MAR
-# getContributions 2021 APR
-# getContributions 2021 MAY
-# getContributions 2021 JUN
-# getContributions 2021 JUL
-# getContributions 2021 AUG
-# getContributions 2021 SEP
-# getContributions 2021 OCT
-# getContributions 2021 NOV
-# getContributions 2021 DEC
 
-# getContributions 2022 JAN
-# getContributions 2022 FEB
-# getContributions 2022 MAR
-# getContributions 2022 APR
-# getContributions 2022 MAY
-# getContributions 2022 JUN
-# getContributions 2022 JUL
-# getContributions 2022 AUG
-# getContributions 2022 SEP
-# getContributions 2022 OCT
+month_input="$2"
+# Has the year parameter been given?
+if [ -z "$month_input" ];
+then
+    echo "Error: no month specified"
+    echo "Usage: \"extract-montlhly-contributions.sh YYYY MMM\""
+    echo "   where"
+    echo "      YYYY is the year (ex 2022)"
+    echo "      MMM is the month in three letters (ex OCT)"
+    exit 1
+fi
+# set to uppercase
+month_to_process=$(echo "$month_input" | tr '[:lower:]' '[:upper:]')
+# Convert the month to its numeric value
+case "$month_to_process" in
+    JAN) numerical_month="01"
+        ;;
+    FEB) numerical_month="02"
+        ;;
+    MAR) numerical_month="03"
+        ;;
+    APR) numerical_month="04"
+        ;;
+    MAY) numerical_month="05"
+        ;;
+    JUN) numerical_month="06"
+        ;;
+    JUL) numerical_month="07"
+        ;;
+    AUG) numerical_month="08"
+        ;;
+    SEP) numerical_month="09"
+        ;;
+    OCT) numerical_month="10"
+        ;;
+    NOV) numerical_month="11"
+        ;;
+    DEC) numerical_month="12"
+        ;;
+    *) echo "Unsupported month: $month_to_process"
+        exit 1
+        ;;
+esac
+
+getContributions "$year_to_process" "$numerical_month"
