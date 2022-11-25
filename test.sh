@@ -2,4 +2,7 @@
 
 set -e
 
-date '+%Y%m%d%H%M%S'
+date '+%Y%b%d%H%M%S'
+date '+%Y'
+date '+%b'
+gdate -d "2022/11/1 - 1 month" "+%Y %b"
