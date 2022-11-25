@@ -15,22 +15,31 @@ while :
 do
     to_process_year=$(gdate -d "${oldest_year}/${oldest_month}/1 + ${i} month" "+%Y")
     to_process_month=$(gdate -d "${oldest_year}/${oldest_month}/1 + ${i} month" "+%b")
+    to_process_month_decimal=$(gdate -d "${oldest_year}/${oldest_month}/1 + ${i} month" "+%m")
+
     full_to_process_date="${to_process_month} ${to_process_year}"
 
     if [[ "$current_year_month" == "$full_to_process_date" ]]; then
         echo "done..."
         break
     fi    
-    
+
     echo " "
     echo "Processing ${full_to_process_date}"
-    ./extract-montlhly-submissions.sh "$to_process_year" "$to_process_month"
+
+    csv_filename="data/submissions-${to_process_year}-${to_process_month_decimal}.csv"
+    if [ -f "$csv_filename" ] 
+    then
+        echo "Data file \"$csv_filename\" already exist. Skipping....."
+    else
+        ./extract-montlhly-submissions.sh "$to_process_year" "$to_process_month"
+    fi
 
     # For Debug
-    # if [[ "$i" == '2' ]]; then
-    #     echo "STOP !!!!"
-    #     break
-    # fi
+    if [[ "$i" == '4' ]]; then
+        echo "STOP !!!!"
+        break
+    fi
     ((i++))
 done
 
