@@ -31,6 +31,7 @@ getContributions(){
 
     # Get the last day of that given month of that particular year
     # NOTE: gdate is the GNU implementation of date on Mac OS
+    # FIXME: This is Mac only. Make this portable for linux/Mac (Windows is excluded)
     last_day=$(gdate -d "${year}/${month_decimal}/1 + 1 month - 1 day" "+%d")
 
     csv_filename="data/submissions-${year}-${month_decimal}.csv"
