@@ -36,10 +36,11 @@ do
     fi
 
     # For Debug
-    if [[ "$i" == '4' ]]; then
-        echo "STOP !!!!"
-        break
-    fi
+    # if [[ "$i" == '4' ]]; then
+    #     echo "STOP !!!!"
+    #     break
+    # fi
+
     ((i++))
 done
 

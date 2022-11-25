@@ -44,7 +44,7 @@ getContributions(){
     getOrganizationData jenkins-infra "$year" "$month_decimal" 16 "$last_day" "$csv_filename"
 
     # Create the pivot table for the month we downloaded
-    summaryContributors="data/pr_per_sunmitter-${year}-${month_decimal}.csv"
+    summaryContributors="data/pr_per_submitter-${year}-${month_decimal}.csv"
     #see https://medium.com/clarityai-engineering/back-to-basics-how-to-analyze-files-with-gnu-commands-fe9f41665eb3
     awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$csv_filename" | datamash -t, --sort --headers groupby 7 count 1 > "$summaryContributors"
 }
