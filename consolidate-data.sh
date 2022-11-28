@@ -2,7 +2,8 @@
 
 set -e
 
-# cosntants
+# constants
+monthly_file_spec="./data/submissions*.csv"
 data_dir="./consolidated_data"
 backup_dir="./consolidated_data/backup"
 consolidation_filename="${data_dir}/submissions.csv"
@@ -22,7 +23,6 @@ fi
 # create a new file
 echo "org,repository,url,state,created_at,merged_at,user.login,title" > $consolidation_filename
 # Loop through the data files and make sure that they are in the correct order to append
-monthly_file_spec="./data/contributions*.csv"
 for FILE in $(find $monthly_file_spec | sort -g)
 do 
     echo "Appending $FILE to $consolidation_filename"; 
