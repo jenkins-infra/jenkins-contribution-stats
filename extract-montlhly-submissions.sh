@@ -38,10 +38,9 @@ getContributions(){
     echo 'org,repository,url,state,created_at,merged_at,user.login,title' >"$csv_filename"
 
 
-    getOrganizationData jenkinsci "$year" "$month_decimal" 01 15 "$csv_filename"
-    getOrganizationData jenkinsci "$year" "$month_decimal" 16 "$last_day" "$csv_filename"
-    getOrganizationData jenkins-infra "$year" "$month_decimal" 01 15 "$csv_filename"
-    getOrganizationData jenkins-infra "$year" "$month_decimal" 16 "$last_day" "$csv_filename"
+    getOrganizationData gradle "$year" "$month_decimal" 01 15 "$csv_filename"
+    getOrganizationData gradle "$year" "$month_decimal" 16 "$last_day" "$csv_filename"
+
 
     # Create the pivot table for the month we downloaded
     summaryContributors="data/pr_per_submitter-${year}-${month_decimal}.csv"
