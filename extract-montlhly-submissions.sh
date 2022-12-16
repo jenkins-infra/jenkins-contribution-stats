@@ -35,7 +35,7 @@ getContributions(){
     last_day=$(gdate -d "${year}/${month_decimal}/1 + 1 month - 1 day" "+%d")
 
     csv_filename="data/submissions-${year}-${month_decimal}.csv"
-    echo 'org,repository,url,state,created_at,merged_at,user.login,title' >"$csv_filename"
+    echo 'org,repository,url,state,created_at,merged_at,user.login,month_year,title' >"$csv_filename"
 
 
     getOrganizationData jenkinsci "$year" "$month_decimal" 01 15 "$csv_filename"
@@ -58,6 +58,7 @@ getOrganizationData() {
     local start_day="$4"            # first day of the query
     local end_day="$5"              # Last day of the query
     local output_csv_filename="$6"  # The CSV file to write the output to
+    local month_year="${year}-${month_nbr}"
 
     if [ "$start_day" = "01" ]; then
         batch="A"
@@ -90,7 +91,7 @@ getOrganizationData() {
     done
 
     # filter the collected json data and convert it to a CSV
-    jq --arg org "$org" --raw-output --slurp --from-file json_to_csv.jq "$json_filename"*.json >>"$output_csv_filename"
+    jq --arg org "$org" --arg month_year "$month_year" --raw-output --slurp --from-file json_to_csv.jq "$json_filename"*.json >>"$output_csv_filename"
 
 }
 
