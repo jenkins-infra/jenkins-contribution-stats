@@ -1,4 +1,4 @@
-CREATE TABLE submitters (
+CREATE TABLE submissions (
     org TEXT,
     repository TEXT,
     pr_url TEXT PRIMARY KEY,
@@ -9,3 +9,5 @@ CREATE TABLE submitters (
     month_year TEXT,
     title TEXT
 );
+
+\copy submissions FROM '/tmp/submissions.csv' DELIMITER ',' CSV HEADER;
