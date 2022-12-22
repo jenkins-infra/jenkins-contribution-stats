@@ -2,6 +2,7 @@
 
 set -e
 
-# TODO: could this be a symlink to the datafile
-cp ../consolidated_data/submissions.csv ./flyway_docker/
+cp ../consolidated_data/submissions.csv ./DB_dockerDir/
 
+docker compose build db
+docker compose up -d
