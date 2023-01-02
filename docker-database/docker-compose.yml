@@ -1,7 +1,5 @@
-# version: '3.8'
 services:
   db:
-    # container_name: database
     build: DB_dockerDir/
     restart: unless-stopped
     environment:
@@ -10,6 +8,7 @@ services:
     ports:
       - '5432:5432'
     volumes: 
+      # Recommendation: avoid defining a named volume (and let docker compose manage all for you) or use a tmpfs.
       - db:/var/lib/postgresql/data
 volumes:
   db:
