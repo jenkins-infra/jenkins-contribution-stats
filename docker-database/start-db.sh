@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-set -e
+set -eu -o pipefail
 
 cp ../consolidated_data/submissions.csv ./DB_dockerDir/
 
-docker compose build db
-docker compose up -d
+docker compose up -d —-build —-force-recreate
