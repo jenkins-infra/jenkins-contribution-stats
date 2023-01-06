@@ -8,8 +8,7 @@ services:
     ports:
       - '5432:5432'
     volumes: 
-      # Recommendation: avoid defining a named volume (and let docker compose manage all for you) or use a tmpfs.
-      - db:/var/lib/postgresql/data
+      - type: tmpfs
+        target: /var/lib/postgresql/data
 volumes:
   db:
-    driver: local
