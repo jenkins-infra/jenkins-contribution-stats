@@ -1,0 +1,14 @@
+services:
+  db:
+    build: DB_dockerDir/
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5432:5432'
+    volumes: 
+      - type: tmpfs
+        target: /var/lib/postgresql/data
+volumes:
+  db:

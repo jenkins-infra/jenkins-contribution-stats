@@ -21,7 +21,7 @@ if [ -f "$consolidation_filename" ]; then
 fi
 
 # create a new file
-echo "org,repository,url,state,created_at,merged_at,user.login,title" > $consolidation_filename
+echo "org,repository,url,state,created_at,merged_at,user.login,month_year,title" > $consolidation_filename
 # Loop through the data files and make sure that they are in the correct order to append
 for FILE in $(find $monthly_file_spec | sort -g)
 do 
