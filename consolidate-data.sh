@@ -29,3 +29,6 @@ do
     tail -n +2 "$FILE" >> $consolidation_filename
 done
 
+#Create a pivot table for the whole dataset on submitter, month, count of PR
+overview_file="${data_dir}/overview.csv"
+awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consolidation_filename" | datamash -t, --sort --headers crosstab 7,8 count 1 | sed "s/N\/A/0/g" > "$overview_file"
