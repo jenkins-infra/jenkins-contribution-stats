@@ -34,3 +34,8 @@ overview_file="${data_dir}/overview.csv"
 awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consolidation_filename" | datamash -t, --sort --headers crosstab 7,8 count 1 | sed "s/N\/A/0/g" > "$overview_file"
 #The generated CSV file doesn't have a valid format. The first line must removed
 tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$overview_file"
+
+
+#Generate the latest top-35 submitters with the generated data
+./jenkins-top-submitters extract ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters.csv
+
