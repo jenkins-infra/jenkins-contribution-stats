@@ -9,6 +9,8 @@ This is a strict interpretation of "contribution". Other statistics (lile those 
 1. Update/create the consolidated data file with `./consolidate-data.sh`.
 1. Update/create global summary file (nbr submitters and submissions per month) with `./submission-submitter-report.sh`.
 
+All the above operations can be performed with `update-stats.sh`
+
 ## Script list
 
 Following scripts are available:
