@@ -37,5 +37,5 @@ tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$
 
 
 #Generate the latest top-35 submitters with the generated data
-./jenkins-top-submitters extract ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters.csv
-
+jenkins-top-submitters extract ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters.csv
+jenkins-top-submitters compare ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters_evolution.csv -c=3
