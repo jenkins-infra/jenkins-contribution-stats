@@ -11,6 +11,8 @@ This is a strict interpretation of "contribution". Other statistics (lile those 
 
 All the above operations can be performed with `update-stats.sh`
 
+## available consolidated data
+
 ## Script list
 
 Following scripts are available:
@@ -21,5 +23,7 @@ Following scripts are available:
 - `submission-submitter-report.sh` uses the existing monthly data to generate a summary CSV with the number of submissions and the number of submitters. The resulting output is stored in `consolidated_data/summary_counts.csv`
 
 - `update-stats.sh` is the script that performs the necessary update operation in sequence
+
+## pre-requisite
 
 #FIXME: add information about jenkins-top-submitters
