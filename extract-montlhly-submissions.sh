@@ -35,7 +35,7 @@ getContributions(){
     last_day=$(gdate -d "${year}/${month_decimal}/1 + 1 month - 1 day" "+%d")
 
     csv_filename="data/submissions-${year}-${month_decimal}.csv"
-    echo 'org,repository,url,state,created_at,merged_at,user.login,month_year,title' >"$csv_filename"
+    echo 'org,repository,number,url,state,created_at,merged_at,user.login,month_year,title' >"$csv_filename"
 
 
     getOrganizationData jenkinsci "$year" "$month_decimal" 01 15 "$csv_filename"
@@ -47,7 +47,7 @@ getContributions(){
     summaryContributors="data/pr_per_submitter-${year}-${month_decimal}.csv"
     echo "user,PR" > "$summaryContributors" 
     #see https://medium.com/clarityai-engineering/back-to-basics-how-to-analyze-files-with-gnu-commands-fe9f41665eb3
-    awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$csv_filename" | datamash -t, --sort --headers groupby 7 count 1 | tail -n +2 | sort  -t ',' -nr --key=2 >> "$summaryContributors"
+    awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$csv_filename" | datamash -t, --sort --headers groupby 8 count 1 | tail -n +2 | sort  -t ',' -nr --key=2 >> "$summaryContributors"
 }
 
 

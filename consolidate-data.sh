@@ -21,7 +21,7 @@ if [ -f "$consolidation_filename" ]; then
 fi
 
 # create a new file
-echo "org,repository,url,state,created_at,merged_at,user.login,month_year,title" > $consolidation_filename
+echo "org,repository,number,url,state,created_at,merged_at,user.login,month_year,title" > $consolidation_filename
 # Loop through the data files and make sure that they are in the correct order to append
 for FILE in $(find $monthly_file_spec | sort -g)
 do 
@@ -31,7 +31,7 @@ done
 
 #Create a pivot table for the whole dataset on submitter, month, count of PR
 overview_file="${data_dir}/overview.csv"
-awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consolidation_filename" | datamash -t, --sort --headers crosstab 7,8 count 1 | sed "s/N\/A/0/g" > "$overview_file"
+awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consolidation_filename" | datamash -t, --sort --headers crosstab 8,9 count 1 | sed "s/N\/A/0/g" > "$overview_file"
 #The generated CSV file doesn't have a valid format. The first line must removed
 tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$overview_file"
 

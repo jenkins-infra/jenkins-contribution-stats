@@ -9,6 +9,7 @@ map(.items)
         $org,
         # Hacky, but requires far less API calls
         (.repository_url | split("/") | last),
+        .number,
         .html_url,
         .state,
         .created_at,
