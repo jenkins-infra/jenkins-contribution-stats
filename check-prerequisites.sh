@@ -27,6 +27,12 @@ then
     exit 1
 fi
 
+if ! command -v "jenkins-stats" >/dev/null 2>&1
+then
+    echo "ERROR: command line 'jenkins-stats' required but not found. Exiting."
+    exit 1
+fi
+
 # FIXME: This is Mac only. Make this portable for linux/Mac (Windows is excluded)
 if ! command -v "gdate" >/dev/null 2>&1
 then
