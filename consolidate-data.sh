@@ -29,6 +29,8 @@ do
     tail -n +2 "$FILE" >> $consolidation_filename
 done
 
+
+#FIXME: Correct the pivot table
 #Create a pivot table for the whole dataset on submitter, month, count of PR
 overview_file="${data_dir}/overview.csv"
 awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consolidation_filename" | datamash -t, --sort --headers crosstab 7,8 count 1 | sed "s/N\/A/0/g" > "$overview_file"
@@ -37,5 +39,5 @@ tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$
 
 
 #Generate the latest top-35 submitters with the generated data
-jenkins-top-submitters extract ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters.csv
-jenkins-top-submitters compare ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters_evolution.csv -c=3
+# jenkins-top-submitters extract ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters.csv
+# jenkins-top-submitters compare ./consolidated_data/overview.csv -o ./consolidated_data/top-submitters_evolution.csv -c=3
