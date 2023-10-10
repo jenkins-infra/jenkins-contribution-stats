@@ -3,5 +3,5 @@
 set -e
 
 ./collect-missing-data.sh
-./consolidate-data.sh
-./submission-submitter-report.sh
+# ./consolidate-data.sh
+# ./submission-submitter-report.sh

@@ -41,6 +41,17 @@ getContributions(){
     echo "user,PR" > "$summaryContributors" 
     #see https://medium.com/clarityai-engineering/back-to-basics-how-to-analyze-files-with-gnu-commands-fe9f41665eb3
     awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$csv_filename" | datamash -t, --sort --headers groupby 8 count 1 | tail -n +2 | sort  -t ',' -nr --key=2 >> "$summaryContributors"
+
+    # retrieve the commenters for that month
+    commenters_csv_filename="data/comments-${year}-${month_decimal}.csv"
+    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" 
+
+    # Create the pivot table for the month we downloaded
+    summaryCommenters="data/comments_per_commenter-${year}-${month_decimal}.csv"
+    echo "user,PR" > "${summaryCommenters}"
+    #see https://medium.com/clarityai-engineering/back-to-basics-how-to-analyze-files-with-gnu-commands-fe9f41665eb3
+    awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$commenters_csv_filename" | datamash -t, --sort --headers groupby 2 count 1 | tail -n +2 | sort  -t ',' -nr --key=2 >> "$summaryCommenters"
+
 }
 
 
