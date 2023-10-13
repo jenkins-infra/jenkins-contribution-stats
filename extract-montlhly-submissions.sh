@@ -33,8 +33,8 @@ getContributions(){
 
     local searched_month="${year}-${month_decimal}"
     # Jenkins-stats is a tool that will retrieve the required data from GitHub
-    jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}"
-    jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}"
+    jenkins-stats get submitters jenkinsci "${searched_month}" -a --skip_closed -o "${csv_filename}" --debug
+    jenkins-stats get submitters jenkins-infra "${searched_month}" -a --skip_closed -o "${csv_filename}" --debug
 
     # Create the pivot table for the month we downloaded
     summaryContributors="data/pr_per_submitter-${year}-${month_decimal}.csv"
@@ -44,7 +44,7 @@ getContributions(){
 
     # retrieve the commenters for that month
     commenters_csv_filename="data/comments-${year}-${month_decimal}.csv"
-    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" 
+    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" --debug
 
     # Create the pivot table for the month we downloaded
     summaryCommenters="data/comments_per_commenter-${year}-${month_decimal}.csv"
