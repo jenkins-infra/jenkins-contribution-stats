@@ -78,6 +78,8 @@ case "$year_to_process" in
         ;;
     2023) 
         ;;
+    2024) 
+        ;;
     *) echo "Unsupported year: $year_to_process"
         exit 1
         ;;
