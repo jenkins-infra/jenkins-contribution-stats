@@ -12,8 +12,8 @@ then
     echo "      TYPE is the consolidation type requested (\"submissions\" or \"comments\")"
     exit 1
 fi
-test_value=$(echo "$consolidation_type" | awk '{print toupper($0)}')
-case "$test_value" in
+uppercased_consolidation_type=$(echo "$consolidation_type" | awk '{print toupper($0)}')
+case "$uppercased_consolidation_type" in
     SUBMISSIONS) 
         ;;
     COMMENTS) 
@@ -25,7 +25,7 @@ esac
 
 
 # constants
-monthly_file_spec="./data/$consolidation_type*.csv"
+monthly_file_spec="./data/$consolidation_type-*.csv"
 data_dir="./consolidated_data"
 backup_dir="./consolidated_data/backup"
 consolidation_filename="${data_dir}/$consolidation_type.csv"
@@ -43,8 +43,23 @@ if [ -f "$consolidation_filename" ]; then
     cp "$consolidation_filename" "$backup_filename"
 fi
 
+case "$uppercased_consolidation_type" in
+    SUBMISSIONS) 
+        pivot_columns="8,9"
+        consolidation_header="org,repository,number,url,state,created_at,merged_at,user.login,month_year,title"
+        ;;
+    COMMENTS) 
+        pivot_columns="2,3"
+        consolidation_header="PR_ref,commenter,month"
+        ;;
+    *) echo "Unsupported consolidation type ($consolidation_type). Should be either : \"submissions\" or \"comments\"."
+        exit 1
+        ;;
+esac
+
 # create a new file
-echo "org,repository,number,url,state,created_at,merged_at,user.login,month_year,title" > $consolidation_filename
+# FIXME: Header should be different per type
+echo "$consolidation_header" > $consolidation_filename
 # Loop through the data files and make sure that they are in the correct order to append
 for FILE in $(find $monthly_file_spec | sort -g)
 do 
@@ -58,7 +73,7 @@ echo "creating pivot table"
 
 #Create a pivot table for the whole dataset on submitter, month, count of PR
 overview_file="${data_dir}/${consolidation_type}_overview.csv"
-awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consolidation_filename" | datamash -t, --sort --headers crosstab 8,9 count 1 | sed "s/N\/A/0/g" > "$overview_file"
+awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consolidation_filename" | datamash -t, --sort --headers crosstab "$pivot_columns" count 1 | sed "s/N\/A/0/g" > "$overview_file"
 #The generated CSV file doesn't have a valid format. The first line must removed
 tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$overview_file"
 
