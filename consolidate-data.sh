@@ -23,11 +23,35 @@ case "$uppercased_consolidation_type" in
         ;;
 esac
 
+org_to_process="$2"
+# Has the org parameter been given?
+if [ -z "$org_to_process" ];
+then
+    echo "Processing the Jenkins org (no alternate org specified)"
+    org_to_process="jenkins"
+fi
+
+
+if [[ "$org_to_process" == "jenkins" ]];
+then
+    org_data_dir="data"
+    org_data_consolidation_dir="./consolidated_data"
+else
+    org_data_dir="alt_orgs/${org_to_process}/data"
+    org_data_consolidation_dir="alt_orgs/${org_to_process}/consolidated_data"
+fi
+
+# create the data directory if it doesn't exist
+[ -d "$org_data_dir" ] || mkdir -p "$org_data_dir"
+[ -d "$org_data_consolidation_dir" ] || mkdir -p "$org_data_consolidation_dir"
+
+
+
 
 # constants
-monthly_file_spec="./data/$consolidation_type-*.csv"
-data_dir="./consolidated_data"
-backup_dir="./consolidated_data/backup"
+monthly_file_spec="$org_data_dir/$consolidation_type-*.csv"
+data_dir="$org_data_consolidation_dir"
+backup_dir="$org_data_consolidation_dir/backup"
 consolidation_filename="${data_dir}/$consolidation_type.csv"
 
 # create the data directory if it doesn't exist
@@ -81,5 +105,5 @@ tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$
 #Generate the latest top-35 submitters with the generated data
 echo " "
 echo "Computing top ${consolidation_type}"
-jenkins-top-submitters extract "$overview_file" -o ./consolidated_data/top_"$consolidation_type".csv
-jenkins-top-submitters compare "$overview_file" -o ./consolidated_data/top_"$consolidation_type"_evolution.csv -c=3
+jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".csv
+jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.csv -c=3
