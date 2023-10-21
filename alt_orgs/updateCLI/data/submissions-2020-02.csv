@@ -1,0 +1,4 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",5,"https://github.com/updatecli/updatecli/pull/5","MERGED","2020-02-19T20:29:58Z","2020-02-19T20:30:14Z","olblak","2020-02","Rename release-drafter config..."
+"updatecli","updatecli",4,"https://github.com/updatecli/updatecli/pull/4","MERGED","2020-02-18T09:05:31Z","2020-02-18T09:05:38Z","olblak","2020-02","Add github repository type to..."
+"updatecli","updatecli",3,"https://github.com/updatecli/updatecli/pull/3","MERGED","2020-02-16T13:53:28Z","2020-02-16T13:56:32Z","olblak","2020-02","Add Docker Image"

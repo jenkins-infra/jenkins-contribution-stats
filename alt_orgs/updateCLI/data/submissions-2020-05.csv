@@ -1,0 +1,7 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",50,"https://github.com/updatecli/updatecli/pull/50","MERGED","2020-05-27T16:05:13Z","2020-05-28T07:00:15Z","olblak","2020-05","Bump go to 1.14"
+"updatecli","updatecli",48,"https://github.com/updatecli/updatecli/pull/48","MERGED","2020-05-27T15:51:05Z","2020-05-29T07:11:42Z","olblak","2020-05","Migrate from src-d v4 to..."
+"updatecli","updatecli",47,"https://github.com/updatecli/updatecli/pull/47","MERGED","2020-05-27T15:38:20Z","2020-05-28T06:48:30Z","olblak","2020-05","Add helmchart..."
+"updatecli","updatecli",45,"https://github.com/updatecli/updatecli/pull/45","MERGED","2020-05-13T16:11:52Z","2020-05-13T16:14:45Z","olblak","2020-05","Always clean working..."
+"updatecli","updatecli",43,"https://github.com/updatecli/updatecli/pull/43","MERGED","2020-05-03T14:37:42Z","2020-05-03T14:38:42Z","olblak","2020-05","Add a diff sub command and..."
+"updatecli","updatecli",42,"https://github.com/updatecli/updatecli/pull/42","MERGED","2020-05-01T13:10:47Z","2020-05-01T13:11:55Z","olblak","2020-05","Split default behavior into..."

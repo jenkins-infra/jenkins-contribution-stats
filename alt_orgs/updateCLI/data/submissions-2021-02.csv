@@ -1,0 +1,12 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",183,"https://github.com/updatecli/updatecli/pull/183","MERGED","2021-02-20T19:54:16Z","2021-03-15T20:02:30Z","olblak","2021-02","Add multi sources support"
+"updatecli","updatecli",181,"https://github.com/updatecli/updatecli/pull/181","CLOSED","2021-02-18T18:21:36Z","","olblak","2021-02","[WIP] Allows reinjecting..."
+"updatecli","updatecli",180,"https://github.com/updatecli/updatecli/pull/180","MERGED","2021-02-18T12:30:23Z","2021-02-18T17:47:50Z","dduportal","2021-02","Switch build process to..."
+"updatecli","updatecli",179,"https://github.com/updatecli/updatecli/pull/179","MERGED","2021-02-15T20:15:26Z","2021-02-16T08:37:27Z","olblak","2021-02","Update README shield links"
+"updatecli","updatecli",177,"https://github.com/updatecli/updatecli/pull/177","MERGED","2021-02-13T15:43:20Z","2021-02-16T12:12:07Z","olblak","2021-02","Reusable GitHub Pull  Request"
+"updatecli","updatecli",176,"https://github.com/updatecli/updatecli/pull/176","MERGED","2021-02-11T20:49:36Z","2021-02-16T08:52:52Z","dduportal","2021-02","Introduces a new..."
+"updatecli","updatecli",174,"https://github.com/updatecli/updatecli/pull/174","MERGED","2021-02-02T16:10:20Z","2021-02-04T19:28:05Z","dduportal","2021-02","🔨 Improve build process:..."
+"updatecli","updatecli",173,"https://github.com/updatecli/updatecli/pull/173","MERGED","2021-02-02T08:34:56Z","2021-02-04T19:14:12Z","jetersen","2021-02","fix go version to 1.15 during..."
+"updatecli","updatecli",171,"https://github.com/updatecli/updatecli/pull/171","MERGED","2021-02-01T18:23:55Z","2021-02-01T18:33:15Z","olblak","2021-02","Throw away local changes from..."
+"updatecli","updatecli",170,"https://github.com/updatecli/updatecli/pull/170","MERGED","2021-02-01T15:42:10Z","2021-02-01T16:23:03Z","olblak","2021-02","Checkout base branch before..."
+"updatecli","updatecli",169,"https://github.com/updatecli/updatecli/pull/169","MERGED","2021-02-01T14:29:16Z","2021-02-01T14:38:08Z","olblak","2021-02","Checkout workflow"

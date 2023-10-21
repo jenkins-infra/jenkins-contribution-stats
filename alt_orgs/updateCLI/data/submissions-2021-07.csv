@@ -1,0 +1,11 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",257,"https://github.com/updatecli/updatecli/pull/257","MERGED","2021-07-16T09:45:39Z","2021-07-16T10:09:53Z","olblak","2021-07","Fix path when updating files..."
+"updatecli","updatecli",254,"https://github.com/updatecli/updatecli/pull/254","MERGED","2021-07-13T08:35:52Z","2021-07-15T12:42:42Z","olblak","2021-07","Add Runtime templating"
+"updatecli","updatecli",252,"https://github.com/updatecli/updatecli/pull/252","CLOSED","2021-07-10T07:36:03Z","","olblak","2021-07","Add runtime templating in..."
+"updatecli","updatecli-action",13,"https://github.com/updatecli/updatecli-action/pull/13","MERGED","2021-07-09T19:11:15Z","2021-07-09T19:12:03Z","olblak","2021-07","[updatecli] Bump updatecli..."
+"updatecli","updatecli",251,"https://github.com/updatecli/updatecli/pull/251","MERGED","2021-07-08T15:10:25Z","2021-07-08T18:23:38Z","dduportal","2021-07","Revert 'Add runtime..."
+"updatecli","updatecli-action",12,"https://github.com/updatecli/updatecli-action/pull/12","CLOSED","2021-07-08T07:39:13Z","","olblak","2021-07","Bump updatecli version to..."
+"updatecli","updatecli-action",11,"https://github.com/updatecli/updatecli-action/pull/11","MERGED","2021-07-08T07:22:36Z","2021-07-08T07:24:31Z","olblak","2021-07","Update ghcr credential in..."
+"updatecli","website",98,"https://github.com/updatecli/website/pull/98","MERGED","2021-07-04T16:21:54Z","2021-07-04T16:24:24Z","olblak","2021-07","Remove npm run clean from..."
+"updatecli","updatecli",247,"https://github.com/updatecli/updatecli/pull/247","MERGED","2021-07-04T08:10:48Z","2021-07-04T12:18:55Z","olblak","2021-07","Create CODE_OF_CONDUCT.md"
+"updatecli","updatecli",246,"https://github.com/updatecli/updatecli/pull/246","MERGED","2021-07-03T19:56:01Z","2021-07-07T09:02:47Z","olblak","2021-07","Add username/password..."

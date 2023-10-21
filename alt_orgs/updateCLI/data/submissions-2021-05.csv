@@ -1,0 +1,8 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","website",64,"https://github.com/updatecli/website/pull/64","MERGED","2021-05-04T19:13:25Z","2021-05-05T09:01:10Z","olblak","2021-05","Add missing documentation"
+"updatecli","updatecli",229,"https://github.com/updatecli/updatecli/pull/229","MERGED","2021-05-04T08:54:53Z","2021-05-04T09:09:17Z","olblak","2021-05","Update helm chart test"
+"updatecli","updatecli",228,"https://github.com/updatecli/updatecli/pull/228","MERGED","2021-05-02T19:21:05Z","2021-05-03T07:10:52Z","olblak","2021-05","Allow '-' in git branch name"
+"updatecli","website",57,"https://github.com/updatecli/website/pull/57","MERGED","2021-05-02T18:48:18Z","2021-05-05T09:04:21Z","olblak","2021-05","Document git push --force..."
+"updatecli","website",56,"https://github.com/updatecli/website/pull/56","MERGED","2021-05-01T09:41:30Z","2021-05-02T16:00:40Z","dduportal","2021-05","Add documentation for the..."
+"updatecli","website",55,"https://github.com/updatecli/website/pull/55","MERGED","2021-05-01T07:48:42Z","2021-05-02T16:02:14Z","dduportal","2021-05","fix: add bundle vendor path..."
+"updatecli","updatecli",227,"https://github.com/updatecli/updatecli/pull/227","MERGED","2021-05-01T05:53:07Z","2021-05-05T08:51:30Z","olblak","2021-05","Add git conventional commit"

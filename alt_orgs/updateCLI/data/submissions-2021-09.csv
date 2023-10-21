@@ -1,0 +1,5 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli-action",22,"https://github.com/updatecli/updatecli-action/pull/22","MERGED","2021-09-29T13:43:03Z","2021-10-01T06:00:28Z","dduportal","2021-09","feat: allow customization in..."
+"updatecli","updatecli",275,"https://github.com/updatecli/updatecli/pull/275","MERGED","2021-09-17T08:58:11Z","2021-09-17T10:15:13Z","mpailloncy","2021-09","Fixes links to..."
+"updatecli","updatecli",271,"https://github.com/updatecli/updatecli/pull/271","MERGED","2021-09-13T07:14:34Z","2021-09-13T07:29:07Z","olblak","2021-09","Fix golang version automated..."
+"updatecli","updatecli",270,"https://github.com/updatecli/updatecli/pull/270","MERGED","2021-09-12T18:21:58Z","2021-09-13T07:06:34Z","olblak","2021-09","Automate Golang and..."

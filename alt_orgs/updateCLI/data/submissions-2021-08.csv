@@ -1,0 +1,7 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",269,"https://github.com/updatecli/updatecli/pull/269","MERGED","2021-08-31T11:19:38Z","2021-08-31T12:14:03Z","dduportal","2021-08","bugfix: correct error report..."
+"updatecli","website",119,"https://github.com/updatecli/website/pull/119","MERGED","2021-08-30T19:14:52Z","2021-08-31T11:21:12Z","dduportal","2021-08","feat: add resource shell"
+"updatecli","updatecli",265,"https://github.com/updatecli/updatecli/pull/265","MERGED","2021-08-22T19:13:54Z","2021-10-01T17:13:15Z","olblak","2021-08","Add a new resource to..."
+"updatecli","updatecli",264,"https://github.com/updatecli/updatecli/pull/264","MERGED","2021-08-19T18:06:35Z","2021-08-30T14:04:41Z","dduportal","2021-08","feat: Add a new resource of..."
+"updatecli","updatecli",259,"https://github.com/updatecli/updatecli/pull/259","MERGED","2021-08-02T11:47:18Z","2021-08-05T19:27:41Z","olblak","2021-08","Various tidy up"
+"updatecli","website",109,"https://github.com/updatecli/website/pull/109","MERGED","2021-08-02T11:43:22Z","2021-08-04T19:32:27Z","olblak","2021-08","Add guide section"

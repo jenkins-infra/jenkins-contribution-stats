@@ -1,0 +1,2 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",54,"https://github.com/updatecli/updatecli/pull/54","MERGED","2020-06-29T22:13:59Z","2020-07-01T08:11:36Z","jetersen","2020-06","make title and message pretty"

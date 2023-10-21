@@ -1,0 +1,5 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",134,"https://github.com/updatecli/updatecli/pull/134","MERGED","2020-12-11T11:02:46Z","2020-12-11T11:53:06Z","olblak","2020-12","Git function didn't return..."
+"updatecli","updatecli",133,"https://github.com/updatecli/updatecli/pull/133","MERGED","2020-12-11T09:54:02Z","2020-12-11T10:26:22Z","olblak","2020-12","Update config examples"
+"updatecli","updatecli",132,"https://github.com/updatecli/updatecli/pull/132","MERGED","2020-12-10T20:17:46Z","2020-12-11T09:12:18Z","olblak","2020-12","Only push one git branch at a..."
+"updatecli","updatecli",130,"https://github.com/updatecli/updatecli/pull/130","MERGED","2020-12-01T22:19:31Z","2020-12-01T22:30:22Z","olblak","2020-12","[yaml] Use the correct..."

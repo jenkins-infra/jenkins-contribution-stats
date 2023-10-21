@@ -1,0 +1,12 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",109,"https://github.com/updatecli/updatecli/pull/109","MERGED","2020-10-29T21:04:33Z","2020-11-02T18:28:56Z","olblak","2020-10","Only clone git repository..."
+"updatecli","updatecli",107,"https://github.com/updatecli/updatecli/pull/107","MERGED","2020-10-26T09:24:26Z","2020-10-27T12:36:59Z","jetersen","2020-10","use latest download link in..."
+"updatecli","updatecli",106,"https://github.com/updatecli/updatecli/pull/106","MERGED","2020-10-24T13:41:53Z","2020-10-29T19:32:59Z","olblak","2020-10","Don't clean git repository..."
+"updatecli","updatecli",104,"https://github.com/updatecli/updatecli/pull/104","MERGED","2020-10-22T15:56:01Z","2020-10-23T04:18:10Z","olblak","2020-10","Add yaml condition doc"
+"updatecli","updatecli",102,"https://github.com/updatecli/updatecli/pull/102","MERGED","2020-10-20T13:36:30Z","2020-10-20T13:51:26Z","olblak","2020-10","Add missing values.yaml for..."
+"updatecli","updatecli",101,"https://github.com/updatecli/updatecli/pull/101","MERGED","2020-10-20T12:19:09Z","2020-10-20T12:37:50Z","olblak","2020-10","Switch doc to asciidoctor and..."
+"updatecli","updatecli",100,"https://github.com/updatecli/updatecli/pull/100","MERGED","2020-10-20T11:06:43Z","2020-10-20T12:19:21Z","olblak","2020-10","Fix commit message with..."
+"updatecli","updatecli",99,"https://github.com/updatecli/updatecli/pull/99","MERGED","2020-10-20T10:16:48Z","2020-10-20T12:05:03Z","olblak","2020-10","Correctly set version when..."
+"updatecli","updatecli",97,"https://github.com/updatecli/updatecli/pull/97","MERGED","2020-10-19T12:55:11Z","2020-10-20T10:10:44Z","olblak","2020-10","Accept special character in..."
+"updatecli","updatecli",94,"https://github.com/updatecli/updatecli/pull/94","MERGED","2020-10-09T16:29:48Z","2020-10-19T13:10:07Z","olblak","2020-10","Add basic unit test to detect..."
+"updatecli","updatecli",90,"https://github.com/updatecli/updatecli/pull/90","MERGED","2020-10-07T09:36:38Z","2020-10-07T12:58:42Z","olblak","2020-10","Move documentation into a..."

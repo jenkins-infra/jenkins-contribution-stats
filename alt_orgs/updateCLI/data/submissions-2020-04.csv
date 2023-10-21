@@ -1,0 +1,5 @@
+org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
+"updatecli","updatecli",41,"https://github.com/updatecli/updatecli/pull/41","MERGED","2020-04-28T20:34:28Z","2020-04-28T20:38:08Z","olblak","2020-04","Add default CODEOWNERS"
+"updatecli","updatecli",39,"https://github.com/updatecli/updatecli/pull/39","MERGED","2020-04-28T15:23:18Z","2020-04-28T20:32:41Z","olblak","2020-04","Add missing template commits"
+"updatecli","updatecli",38,"https://github.com/updatecli/updatecli/pull/38","MERGED","2020-04-27T13:53:56Z","2020-04-27T18:16:52Z","olblak","2020-04","Add configuration option..."
+"updatecli","updatecli",37,"https://github.com/updatecli/updatecli/pull/37","MERGED","2020-04-24T08:28:54Z","2020-04-24T08:29:35Z","olblak","2020-04","Add example link to README"
