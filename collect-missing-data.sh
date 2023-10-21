@@ -62,11 +62,11 @@ do
         echo "Creating $csv_filename"
     fi
 
-    # For Debug
-    if [[ "$i" == '3' ]]; then
-        echo "STOP !!!!"
-        break
-    fi
+    # # For Debug
+    # if [[ "$i" == '3' ]]; then
+    #     echo "STOP !!!!"
+    #     break
+    # fi
 
     ((i++))
 done
