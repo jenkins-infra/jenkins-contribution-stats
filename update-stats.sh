@@ -2,16 +2,11 @@
 
 set -e
 
-# to process another org than Jenkins define the "target_org" variable
-# export target_org="toto"
-
-# pro tip: define it at console level and not in this file
-# export target_org="toto"
+# if no org is specified, the jenkins org is processed
+target_org="$1"
 
 ./collect-missing-data.sh "$target_org"
-exit
-
-./consolidate-data.sh submissions
-./consolidate-data.sh comments
-./submission-submitter-report.sh
-./comment-commenter-report.sh
+./consolidate-data.sh submissions "$target_org"
+./consolidate-data.sh comments "$target_org"
+./submission-submitter-report.sh "$target_org"
+./comment-commenter-report.sh "$target_org"

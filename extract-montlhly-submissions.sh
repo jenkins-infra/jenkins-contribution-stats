@@ -15,6 +15,9 @@ set -e
 # Constants
 ###############
 
+# uncomment if a debug trace is requested
+debug="--debug"
+
 
 
 ###############
@@ -26,28 +29,46 @@ set -e
 getContributions(){
     local year="$1"  
     local month_decimal="$2"
+    local org_to_process="$3"
+
+
+    if [[ "$org_to_process" == "jenkins" ]];
+    then
+        org_data_dir="data"
+    else
+        org_data_dir="alt_orgs/${org_to_process}/data"
+    fi
+
+    # create the data directory if it doesn't exist
+    [ -d "$org_data_dir" ] || mkdir -p "$org_data_dir"
 
 
 
-    csv_filename="data/submissions-${year}-${month_decimal}.csv"
-
+    csv_filename="${org_data_dir}/submissions-${year}-${month_decimal}.csv"
     local searched_month="${year}-${month_decimal}"
+
     # Jenkins-stats is a tool that will retrieve the required data from GitHub
-    jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" --debug
-    jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" --debug
+        if [[ "$org_to_process" == "jenkins" ]];
+    then
+        jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" "$debug"
+        jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" "$debug"
+    else
+        jenkins-stats get submitters "$org_to_process" "${searched_month}" -a -o "${csv_filename}" "$debug"
+    fi
+
 
     # Create the pivot table for the month we downloaded
-    summaryContributors="data/pr_per_submitter-${year}-${month_decimal}.csv"
+    summaryContributors="${org_data_dir}/pr_per_submitter-${year}-${month_decimal}.csv"
     echo "user,PR" > "$summaryContributors" 
     #see https://medium.com/clarityai-engineering/back-to-basics-how-to-analyze-files-with-gnu-commands-fe9f41665eb3
     awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$csv_filename" | datamash -t, --sort --headers groupby 8 count 1 | tail -n +2 | sort  -t ',' -nr --key=2 >> "$summaryContributors"
 
     # retrieve the commenters for that month
-    commenters_csv_filename="data/comments-${year}-${month_decimal}.csv"
-    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" --debug
+    commenters_csv_filename="${org_data_dir}/comments-${year}-${month_decimal}.csv"
+    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" "$debug"
 
     # Create the pivot table for the month we downloaded
-    summaryCommenters="data/comments_per_commenter-${year}-${month_decimal}.csv"
+    summaryCommenters="${org_data_dir}/comments_per_commenter-${year}-${month_decimal}.csv"
     echo "user,PR" > "${summaryCommenters}"
     #see https://medium.com/clarityai-engineering/back-to-basics-how-to-analyze-files-with-gnu-commands-fe9f41665eb3
     awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$commenters_csv_filename" | datamash -t, --sort --headers groupby 2 count 1 | tail -n +2 | sort  -t ',' -nr --key=2 >> "$summaryCommenters"
@@ -130,4 +151,18 @@ case "$month_to_process" in
         ;;
 esac
 
-getContributions "$year_to_process" "$numerical_month"
+
+# Check if we have to deal with another organisation then Jenkins
+# if requested, its name is passed as a paramter. (undefined means "jenkins")
+
+org_to_process="$3"
+
+# Has the org parameter been given?
+if [ -z "$org_to_process" ];
+then
+    echo "Processing the Jenkins org (no alternate org specified)"
+    org_to_process="jenkins"
+fi
+
+
+getContributions "$year_to_process" "$numerical_month" "$org_to_process"

@@ -63,7 +63,7 @@ do
     fi
 
     # For Debug
-    if [[ "$i" == '4' ]]; then
+    if [[ "$i" == '3' ]]; then
         echo "STOP !!!!"
         break
     fi
