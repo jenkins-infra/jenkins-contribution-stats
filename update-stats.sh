@@ -2,6 +2,8 @@
 
 set -e
 
+if [ -z ${GITHUB_TOKEN+x} ]; then echo "Error: the GitHub Personal Access token (\$GITHUB_TOKEN) is not defined. Aborting..."; exit; fi
+
 # if no org is specified, the jenkins org is processed
 target_org="$1"
 
