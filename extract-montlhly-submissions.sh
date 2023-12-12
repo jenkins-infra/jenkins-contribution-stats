@@ -16,7 +16,7 @@ set -e
 ###############
 
 # uncomment if a debug trace is requested
-debug="--debug"
+# debug="--debug"
 
 
 
