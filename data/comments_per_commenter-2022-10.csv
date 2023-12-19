@@ -1,12 +1,12 @@
 user,PR
 "timja",239
-"jglick",213
+"jglick",222
 "NotMyFault",199
 "MarkEWaite",192
 "basil",184
 "kmartens27",183
 "lemeurherve",178
-"dduportal",160
+"dduportal",161
 "daniel-beck",82
 "alecharp",82
 "yaroslavafenkin",67
@@ -16,7 +16,6 @@ user,PR
 "Wadeck",55
 "uhafner",53
 "jtnord",53
-"github-actions",51
 "halkeye",47
 "b-fisher-cb",42
 "Pldi23",40
@@ -26,7 +25,6 @@ user,PR
 "dheerajodha",36
 "olamy",31
 "zbynek",28
-"codecov",28
 "Jagrutiti",28
 "jmMeessen",21
 "jgreffe",20
@@ -39,13 +37,13 @@ user,PR
 "AppVeyorBot",18
 "smerle33",17
 "scurvydoggo",17
+"Artmorse",17
 "slide",15
 "car-roll",15
 "Dohbedoh",15
 "scherler",14
 "oleg-nenashev",13
 "jhonDoe15",13
-"Artmorse",13
 "rsandell",11
 "kaltepeter",11
 "iqbalrohail",11
@@ -58,13 +56,13 @@ user,PR
 "raul-arabaolaza",9
 "ispasov",9
 "hervelemeur",9
-"codeclimate",9
 "ankurkumarz",9
 "stuartrowe",8
 "sarah-witt",8
 "drodriguezhdez",8
 "tanujdevops",7
 "nfalco79",7
+"jetersen",7
 "dneduva-cisco",7
 "bphinz",7
 "aneveux",7
@@ -72,7 +70,6 @@ user,PR
 "akram",7
 "rkivisto",6
 "ltamaster",6
-"jetersen",6
 "guylabs",6
 "ckreisl",6
 "Xav83",6
@@ -85,7 +82,6 @@ user,PR
 "i-dipanshu",5
 "dennisgu1",5
 "DaGeRe",5
-"sonarcloud",4
 "rishi-104276",4
 "rahuldimri",4
 "meiswjn",4
@@ -145,11 +141,11 @@ user,PR
 "imonteroperez",2
 "gtudan",2
 "gmasil",2
-"github-code-scanning",2
 "fo-code",2
 "facewindu",2
 "eduard-tita",2
 "duyluonganh",2
+"dee-kryvenko",2
 "cyrille-leclerc",2
 "coreydaley",2
 "codecov-commenter",2
@@ -169,8 +165,8 @@ user,PR
 "tyanai",1
 "tomcart90",1
 "thombergs",1
+"steveames",1
 "sorin-florea",1
-"socket-security",1
 "skaempfe",1
 "siddoinghisjob",1
 "sdossoak9",1
@@ -191,6 +187,7 @@ user,PR
 "nitincyberark",1
 "nissimshitrit",1
 "needleshaped",1
+"mlynnyk",1
 "mikedld",1
 "mbaitelman",1
 "lppedd",1
@@ -214,7 +211,6 @@ user,PR
 "diogopcx",1
 "denis-arruda",1
 "deleted_user",1
-"dee-kryvenko",1
 "dave-juicelabs",1
 "das-peter",1
 "cyberark-bizdev",1

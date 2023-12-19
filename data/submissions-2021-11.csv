@@ -328,7 +328,7 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","upload-build-to-sofy-plugin",2,"https://github.com/jenkinsci/upload-build-to-sofy-plugin/pull/2","MERGED","2021-11-19T13:03:53Z","2021-11-19T13:14:47Z","SOFYDEVELOPER","2021-11","Patch 2"
 "jenkinsci","upload-build-to-sofy-plugin",1,"https://github.com/jenkinsci/upload-build-to-sofy-plugin/pull/1","MERGED","2021-11-19T12:19:55Z","2021-11-19T12:30:32Z","SOFYDEVELOPER","2021-11","Update README.md"
 "jenkinsci","xldeploy-plugin",85,"https://github.com/jenkinsci/xldeploy-plugin/pull/85","MERGED","2021-11-19T10:16:26Z","2022-01-13T05:07:57Z","isaacsatish","2021-11","ENG-7913:Added Rollback..."
-"jenkinsci","scm-filter-branch-pr-plugin",8,"https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/8","OPEN","2021-11-19T07:02:07Z","","ThejashwiniSwamy","2021-11","Feature/add scm filters for..."
+"jenkinsci","scm-filter-branch-pr-plugin",8,"https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/8","CLOSED","2021-11-19T07:02:07Z","","ThejashwiniSwamy","2021-11","Feature/add scm filters for..."
 "jenkinsci","helm-charts",503,"https://github.com/jenkinsci/helm-charts/pull/503","MERGED","2021-11-18T21:27:52Z","2021-11-23T19:19:50Z","avidspartan1","2021-11","Fix mounting of https..."
 "jenkinsci","dependency-check-plugin",42,"https://github.com/jenkinsci/dependency-check-plugin/pull/42","CLOSED","2021-11-18T20:32:41Z","","whittlec","2021-11","Ignore files that are..."
 "jenkinsci","datadog-plugin",257,"https://github.com/jenkinsci/datadog-plugin/pull/257","MERGED","2021-11-18T20:24:47Z","2021-11-26T07:56:15Z","sarah-witt","2021-11","Remove all unused imports"
