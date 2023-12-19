@@ -6,24 +6,23 @@ user,PR
 "daniel-beck",182
 "uhafner",167
 "jetersen",98
-"dwnusbaum",91
+"dwnusbaum",92
 "fqueiruga",86
 "olamy",80
 "jeffret-b",80
 "slide",79
 "sladyn98",72
-"varyvol",65
+"varyvol",61
+"res0nance",60
 "rantoniuk",60
-"res0nance",59
 "bitwiseman",58
 "olblak",56
 "FlorianVeaux",54
 "jvz",50
 "tomaszsek",48
-"codecov",47
 "sealights-devops",46
 "sarah-witt",39
-"markyjackson-taulia",36
+"markjacksonfishing",36
 "alecharp",34
 "halkeye",32
 "MRamonLeon",29
@@ -38,7 +37,7 @@ user,PR
 "zbynek",21
 "baymac",21
 "pjanouse",20
-"basil",20
+"basil",19
 "RoniSegal",19
 "thomasgl-orange",18
 "darxriggs",18
@@ -50,7 +49,6 @@ user,PR
 "car-roll",16
 "Wadeck",16
 "vsilverman",15
-"codeclimate",15
 "chb0github",15
 "zhaoying818",14
 "nebuk4d",14
@@ -67,7 +65,6 @@ user,PR
 "asimell",12
 "allyourbotsarebelongtous",12
 "webratz",11
-"PierreBtz",11
 "khneal",10
 "ispasov",10
 "gzussa",10
@@ -98,6 +95,7 @@ user,PR
 "mandragorn",7
 "jsoref",7
 "damianszczepanik",7
+"PierreBtz",7
 "Allancgx",7
 "topikachu",6
 "nikhil-dabhade",6
@@ -106,7 +104,6 @@ user,PR
 "liuweiGL",6
 "lanwen",6
 "ggallen",6
-"sonarcloud",5
 "r2-lf",5
 "piyush94",5
 "nmuesch",5
@@ -138,11 +135,10 @@ user,PR
 "bracketttc",4
 "bguerin",4
 "anxolerd",4
-"aheritier",4
+"alexanderrtaylor",4
 "XavierRaynaud",4
 "TobiX",4
 "Reuuke",4
-"Dohbedoh",4
 "vetal2409",3
 "tanmoyguha-hcl",3
 "subahm",3
@@ -165,7 +161,6 @@ user,PR
 "jansohn",3
 "janfaracik",3
 "gsanchezu",3
-"github-actions",3
 "francoisferrand",3
 "dennisgu1",3
 "dblock",3
@@ -190,7 +185,6 @@ user,PR
 "tempora-mutantur",2
 "tavin",2
 "sue445",2
-"stale",2
 "shawnallen85",2
 "romenrg",2
 "rayom81",2
@@ -228,7 +222,6 @@ user,PR
 "hemp",2
 "gozer2222",2
 "francoiscampbell",2
-"duemir",2
 "dskrvk",2
 "colathurv",2
 "cizezsy",2
@@ -241,6 +234,7 @@ user,PR
 "anshckr",2
 "albertoal",2
 "alb-i986",2
+"aheritier",2
 "aaronjwhiteside",2
 "UltimateGeek",2
 "Prabhu088",2
@@ -250,6 +244,7 @@ user,PR
 "I3urny",2
 "Hokwang",2
 "GMaxera",2
+"Dohbedoh",2
 "ChristianCiach",2
 "BenjaminCCross",2
 "BearSpry",2
@@ -327,6 +322,7 @@ user,PR
 "ericcitaire",1
 "eduard-tita",1
 "eaglei15",1
+"duemir",1
 "dorg-jenkins",1
 "dimaka-wix",1
 "deleted_user",1
@@ -338,7 +334,6 @@ user,PR
 "bschaefer99",1
 "brianjmurrell",1
 "brenuart",1
-"blackduck-copilot",1
 "bdellegrazie",1
 "baffles",1
 "anoyo-lin",1
@@ -358,6 +353,7 @@ user,PR
 "MOldenbourg",1
 "Kolky",1
 "JoaoPPCastelo",1
+"HrFlorianHoffmann",1
 "Helen1987",1
 "Greybird",1
 "Flowdalic",1

@@ -5,7 +5,6 @@ user,PR
 "oleg-nenashev",102
 "daniel-beck",71
 "bitwiseman",63
-"codecov",45
 "jtnord",43
 "basil",42
 "AppVeyorBot",42
@@ -13,7 +12,6 @@ user,PR
 "pjdarton",39
 "kuisathaverat",39
 "uhafner",35
-"infra-ci-jenkins-io",34
 "jeffret-b",31
 "dkjellin",30
 "rsandell",29
@@ -29,7 +27,6 @@ user,PR
 "jetersen",21
 "garethjevans",21
 "Tattoo",20
-"codeclimate",19
 "jakub-bochenski",18
 "rantoniuk",17
 "halkeye",16
@@ -69,7 +66,7 @@ user,PR
 "alejdg",7
 "KalleOlaviNiemitalo",7
 "yJunS",6
-"markyjackson-taulia",6
+"markjacksonfishing",6
 "lcmrvk",6
 "asimell",6
 "ofosos",5
@@ -92,7 +89,6 @@ user,PR
 "waveywaves",3
 "tomaszsek",3
 "szprutamich",3
-"stale",3
 "schottsfired",3
 "repolevedavaj",3
 "phreakadelle",3
@@ -228,7 +224,6 @@ user,PR
 "imoutsatsos",1
 "harrysingh",1
 "gorkat",1
-"github-actions",1
 "fraz3alpha",1
 "flozzone",1
 "eplodn",1

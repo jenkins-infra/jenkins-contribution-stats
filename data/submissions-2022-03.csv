@@ -102,7 +102,7 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","jenkins",6413,"https://github.com/jenkinsci/jenkins/pull/6413","MERGED","2022-03-28T13:56:46Z","2022-03-31T17:26:34Z","alecharp","2022-03","Adds PR labels definitions..."
 "jenkinsci","datadog-plugin",282,"https://github.com/jenkinsci/datadog-plugin/pull/282","MERGED","2022-03-28T13:53:33Z","2022-03-28T14:18:01Z","drodriguezhdez","2022-03","Prepare CHANGELOG 3.5.1"
 "jenkinsci","jenkins",6412,"https://github.com/jenkinsci/jenkins/pull/6412","CLOSED","2022-03-28T13:36:58Z","","jpranayk","2022-03","Update Jenkinsfile"
-"jenkinsci","ecutest-plugin",407,"https://github.com/jenkinsci/ecutest-plugin/pull/407","MERGED","2022-03-28T13:35:56Z","2022-03-31T10:48:04Z","cwellmtt","2022-03","Ensure ECU-TEST 2022.1..."
+"jenkinsci","ecutest-plugin",407,"https://github.com/jenkinsci/ecutest-plugin/pull/407","MERGED","2022-03-28T13:35:56Z","2022-03-31T10:48:04Z","","2022-03","Ensure ECU-TEST 2022.1..."
 "jenkinsci","nexus-platform-plugin",196,"https://github.com/jenkinsci/nexus-platform-plugin/pull/196","MERGED","2022-03-28T13:18:43Z","2022-03-28T13:48:36Z","eduard-tita","2022-03","Fix IllegalAccess errors..."
 "jenkinsci","hpe-application-automation-tools-plugin",490,"https://github.com/jenkinsci/hpe-application-automation-tools-plugin/pull/490","MERGED","2022-03-28T13:09:43Z","2022-03-30T07:45:59Z","jay-hershkowitz","2022-03","Update README.md with MBT..."
 "jenkinsci","jenkins",6411,"https://github.com/jenkinsci/jenkins/pull/6411","MERGED","2022-03-28T11:00:01Z","2022-04-01T12:54:36Z","NotMyFault","2022-03","Miscellaneous modernization..."

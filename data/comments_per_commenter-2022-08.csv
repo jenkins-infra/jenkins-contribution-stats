@@ -1,10 +1,10 @@
 user,PR
 "basil",313
-"jglick",222
+"jglick",223
 "timja",206
 "NotMyFault",163
+"daniel-beck",160
 "MarkEWaite",160
-"daniel-beck",159
 "dduportal",94
 "jtnord",88
 "lemeurherve",66
@@ -20,7 +20,6 @@ user,PR
 "cari-mason",31
 "asimell",31
 "dwnusbaum",29
-"codecov",28
 "frankie139506",27
 "Pldi23",27
 "zbynek",23
@@ -32,7 +31,6 @@ user,PR
 "AppVeyorBot",18
 "vihaanthora",17
 "rsandell",17
-"codeclimate",15
 "thombergs",14
 "smerle33",14
 "mat1e",14
@@ -40,7 +38,6 @@ user,PR
 "cyrille-leclerc",12
 "b-fisher-cb",12
 "martinda",11
-"github-actions",11
 "darxriggs",11
 "AndriiChuzhynov",11
 "janfaracik",10
@@ -55,7 +52,9 @@ user,PR
 "car-roll",9
 "ikedam",8
 "Vlatombe",8
+"Mai-Lapyst",8
 "DuMaM",8
+"justusbunsi",7
 "Stericson",7
 "KalleOlaviNiemitalo",7
 "scherler",6
@@ -67,7 +66,6 @@ user,PR
 "benebsiny",6
 "StefanSpieker",6
 "Riliane",6
-"Mai-Lapyst",6
 "Langer0416",6
 "JLLeitschuh",6
 "AnishaGharat",6
@@ -107,7 +105,6 @@ user,PR
 "mtughan",3
 "moshavnik",3
 "mhenschke-atl",3
-"lgtm-com",3
 "jgreffe",3
 "iqbalrohail",3
 "hectorhuol",3
@@ -173,6 +170,7 @@ user,PR
 "tarjei",1
 "tarioch",1
 "taa-autorola-com",1
+"stevenh",1
 "slandelle",1
 "shamil",1
 "sghill",1
@@ -190,7 +188,6 @@ user,PR
 "miniOrangeDev",1
 "maduma",1
 "liunancun",1
-"linux-foundation-easycla",1
 "link89",1
 "kripajoym",1
 "krichter722",1

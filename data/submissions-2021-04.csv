@@ -578,7 +578,7 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","forticnp-cicd-plugin",9,"https://github.com/jenkinsci/forticnp-cicd-plugin/pull/9","MERGED","2021-04-01T19:26:46Z","2021-04-01T19:41:51Z","forticontainer","2021-04","Break build with exception"
 "jenkinsci","leanix-microservice-intelligence-plugin",3,"https://github.com/jenkinsci/leanix-microservice-intelligence-plugin/pull/3","MERGED","2021-04-01T18:21:09Z","2021-04-01T18:23:47Z","fposchner-cc","2021-04","Cid 57 pipeline input and g..."
 "jenkinsci","google-oauth-plugin",120,"https://github.com/jenkinsci/google-oauth-plugin/pull/120","MERGED","2021-04-01T17:00:44Z","2021-04-23T17:20:55Z","jtnord","2021-04","Pom and dep cleanup"
-"jenkinsci","warnings-ng-plugin",866,"https://github.com/jenkinsci/warnings-ng-plugin/pull/866","OPEN","2021-04-01T16:58:54Z","","fredg02","2021-04","'Number of static analysis..."
+"jenkinsci","warnings-ng-plugin",866,"https://github.com/jenkinsci/warnings-ng-plugin/pull/866","CLOSED","2021-04-01T16:58:54Z","","fredg02","2021-04","'Number of static analysis..."
 "jenkinsci","conventional-commits-plugin",3,"https://github.com/jenkinsci/conventional-commits-plugin/pull/3","MERGED","2021-04-01T15:56:54Z","2021-04-06T10:45:29Z","garethjevans","2021-04","chore: set pom version to..."
 "jenkinsci","conventional-commits-plugin",1,"https://github.com/jenkinsci/conventional-commits-plugin/pull/1","MERGED","2021-04-01T15:51:46Z","2021-04-06T10:59:39Z","garethjevans","2021-04","chore: add labeler config..."
 "jenkinsci","uipath-automation-package-plugin",50,"https://github.com/jenkinsci/uipath-automation-package-plugin/pull/50","MERGED","2021-04-01T15:16:56Z","2021-04-02T11:11:37Z","AlexandruMaxim","2021-04","fix doc"

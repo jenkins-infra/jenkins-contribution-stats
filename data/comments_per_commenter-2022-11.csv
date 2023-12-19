@@ -1,5 +1,5 @@
 user,PR
-"jglick",269
+"jglick",270
 "basil",217
 "MarkEWaite",200
 "timja",166
@@ -11,20 +11,16 @@ user,PR
 "kmartens27",92
 "gounthar",68
 "dwnusbaum",60
-"mPokornyETM",54
+"mPokornyETM",55
 "b-fisher-cb",48
 "meiswjn",39
 "halkeye",38
 "c00ler",32
 "AppVeyorBot",32
-"codecov",30
 "jtnord",28
 "jimklimov",27
 "alecharp",27
-"codeclimate",26
-"github-code-scanning",25
 "jmMeessen",24
-"github-actions",24
 "olamy",23
 "krisstern",23
 "felipecrs",21
@@ -143,7 +139,6 @@ user,PR
 "CzapBran",2
 "Alceatraz",2
 "zholub",1
-"welcome",1
 "vjuranek",1
 "vaibhavjain2",1
 "tfink-cc",1
@@ -170,6 +165,7 @@ user,PR
 "mrdailey99",1
 "mr-zepol",1
 "moraxy",1
+"mawinter69",1
 "mambu",1
 "mamayadi",1
 "lifeofguenter",1
@@ -199,7 +195,6 @@ user,PR
 "dconneely",1
 "darinpope",1
 "curveenk",1
-"comment-ops-bot",1
 "cohencil",1
 "c0d3m0nky",1
 "bitle",1

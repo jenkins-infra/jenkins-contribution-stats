@@ -337,7 +337,7 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","role-strategy-plugin",165,"https://github.com/jenkinsci/role-strategy-plugin/pull/165","CLOSED","2021-12-21T04:40:00Z","","Conrad-T-Pino","2021-12","Remove..."
 "jenkinsci","jenkins",6092,"https://github.com/jenkinsci/jenkins/pull/6092","MERGED","2021-12-21T01:39:24Z","2022-04-16T20:22:39Z","basil","2021-12","Announce forthcoming..."
 "jenkinsci","extras-executable-war",36,"https://github.com/jenkinsci/extras-executable-war/pull/36","MERGED","2021-12-21T01:11:40Z","2022-04-17T15:10:11Z","basil","2021-12","Announce forthcoming..."
-"jenkinsci","scp-plugin",20,"https://github.com/jenkinsci/scp-plugin/pull/20","OPEN","2021-12-21T00:43:01Z","","Elbandi","2021-12","Start using JSch from a..."
+"jenkinsci","scp-plugin",20,"https://github.com/jenkinsci/scp-plugin/pull/20","CLOSED","2021-12-21T00:43:01Z","","Elbandi","2021-12","Start using JSch from a..."
 "jenkinsci","jenkins",6091,"https://github.com/jenkinsci/jenkins/pull/6091","MERGED","2021-12-21T00:06:45Z","2021-12-23T19:19:51Z","basil","2021-12","Display JUnit test results as..."
 "jenkinsci","keeper-secrets-manager-plugin",2,"https://github.com/jenkinsci/keeper-secrets-manager-plugin/pull/2","MERGED","2021-12-20T23:11:52Z","2022-01-13T16:04:58Z","jsupun","2021-12","Remove text causing false..."
 "jenkinsci","gitlab-plugin",1205,"https://github.com/jenkinsci/gitlab-plugin/pull/1205","MERGED","2021-12-20T23:01:24Z","2021-12-20T23:32:00Z","basil","2021-12","Use `jackson2-api` plugin"

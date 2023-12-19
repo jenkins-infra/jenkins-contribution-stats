@@ -1,8 +1,8 @@
 user,PR
-"jglick",353
+"jglick",355
 "timja",352
 "basil",275
-"MarkEWaite",191
+"MarkEWaite",193
 "daniel-beck",148
 "dduportal",132
 "NotMyFault",86
@@ -27,9 +27,9 @@ user,PR
 "gounthar",15
 "akosyakov",14
 "yrumax",13
-"ttodua",10
+"ttodua",12
+"Hrushi20",11
 "fengxx",10
-"codecov",10
 "Dohbedoh",10
 "offa",9
 "nhojpatrick",9
@@ -38,7 +38,6 @@ user,PR
 "ikedam",9
 "cyrille-leclerc",9
 "Wadeck",9
-"Hrushi20",9
 "AppVeyorBot",9
 "xocasdashdash",8
 "judovana",8
@@ -52,8 +51,8 @@ user,PR
 "KalleOlaviNiemitalo",7
 "rsandell",6
 "rishabhBudhouliya",6
+"parvit",6
 "mulawamichal",6
-"infra-ci-jenkins-io",6
 "halkeye",6
 "gmcdonald",6
 "frankie139506",6
@@ -62,7 +61,6 @@ user,PR
 "twistedpair",5
 "sghill",5
 "phreakadelle",5
-"parvit",5
 "kuisathaverat",5
 "justusbunsi",5
 "jonathannewman",5
@@ -76,9 +74,7 @@ user,PR
 "poasungoh",4
 "oleg-nenashev",4
 "jakub-bochenski",4
-"github-actions",4
 "dtbaum",4
-"codeclimate",4
 "b-fisher-cb",4
 "PereBueno",4
 "Langer0416",4
@@ -132,6 +128,7 @@ user,PR
 "duemir",2
 "dnwe",2
 "dblock",2
+"dalvizu",2
 "criztovyl",2
 "cpoenisch",2
 "ckulla",2
@@ -154,7 +151,6 @@ user,PR
 "teekennedy",1
 "taylorbasso",1
 "stmlange",1
-"stale",1
 "soprano8086",1
 "songhanlin",1
 "sheetalj2205",1
@@ -180,13 +176,12 @@ user,PR
 "mathieucoavoux",1
 "matejsp",1
 "martinnemec3",1
-"markyjackson-taulia",1
+"markjacksonfishing",1
 "marcjay",1
 "luke-engle",1
 "ludesdeveloper",1
 "lprimak",1
 "loganmzz",1
-"linux-foundation-easycla",1
 "kwin",1
 "kumadee",1
 "jzhupup",1

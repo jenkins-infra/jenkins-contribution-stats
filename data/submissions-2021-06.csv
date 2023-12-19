@@ -24,7 +24,7 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","junit-attachments-plugin",27,"https://github.com/jenkinsci/junit-attachments-plugin/pull/27","MERGED","2021-06-30T07:19:30Z","2021-08-27T18:01:23Z","Vlatombe","2021-06","Update plugin environment"
 "jenkinsci","plugin-installation-manager-tool",342,"https://github.com/jenkinsci/plugin-installation-manager-tool/pull/342","MERGED","2021-06-30T07:11:45Z","2021-07-01T08:38:07Z","kwin","2021-06","Fallback from mirrors to..."
 "jenkinsci","build-failure-analyzer-plugin",144,"https://github.com/jenkinsci/build-failure-analyzer-plugin/pull/144","MERGED","2021-06-30T03:22:35Z","2022-02-04T16:29:48Z","rajeev-ranjan7","2021-06","[JENKINS-66014] Adding..."
-"jenkinsci","github-branch-source-plugin",437,"https://github.com/jenkinsci/github-branch-source-plugin/pull/437","OPEN","2021-06-30T00:28:40Z","","bitwiseman","2021-06","Switch from MD5 to SHA-256..."
+"jenkinsci","github-branch-source-plugin",437,"https://github.com/jenkinsci/github-branch-source-plugin/pull/437","CLOSED","2021-06-30T00:28:40Z","","bitwiseman","2021-06","Switch from MD5 to SHA-256..."
 "jenkinsci","dotnet-sdk-plugin",53,"https://github.com/jenkinsci/dotnet-sdk-plugin/pull/53","MERGED","2021-06-29T21:15:20Z","2021-06-29T21:15:27Z","Zastai","2021-06","Fix..."
 "jenkinsci","dotnet-sdk-plugin",52,"https://github.com/jenkinsci/dotnet-sdk-plugin/pull/52","MERGED","2021-06-29T21:13:42Z","2021-06-29T21:13:52Z","Zastai","2021-06","Delete the IntelliJ .iml file"
 "jenkinsci","dotnet-sdk-plugin",51,"https://github.com/jenkinsci/dotnet-sdk-plugin/pull/51","MERGED","2021-06-29T21:13:10Z","2021-06-29T21:13:21Z","Zastai","2021-06","Fix a typo in the..."

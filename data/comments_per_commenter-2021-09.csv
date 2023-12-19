@@ -10,7 +10,6 @@ user,PR
 "oleg-nenashev",52
 "AppVeyorBot",47
 "halkeye",38
-"codeclimate",32
 "alecharp",28
 "Wadeck",25
 "twasyl",24
@@ -50,6 +49,7 @@ user,PR
 "damianszczepanik",7
 "bguerin",7
 "vapdrs",6
+"mPokornyETM",6
 "johnathafelix",6
 "arunmastermind",6
 "Stericson",6
@@ -62,6 +62,7 @@ user,PR
 "nfalco79",5
 "mig42",5
 "lvogt",5
+"kinow",5
 "fqueiruga",5
 "das7pad",5
 "amuniz",5
@@ -71,8 +72,6 @@ user,PR
 "rsandell",4
 "rimitchell",4
 "mcamposv",4
-"mPokornyETM",4
-"kinow",4
 "jimklimov",4
 "jan-molak",4
 "ianwilliams1",4
@@ -80,7 +79,6 @@ user,PR
 "eoc-ross",4
 "dorin7bogdan",4
 "dominykas",4
-"codecov",4
 "callum-p",4
 "Farix1337",4
 "username-is-too-long",3
@@ -102,7 +100,6 @@ user,PR
 "imuqtadir",3
 "ikedam",3
 "hoolie",3
-"github-actions",3
 "didiez",3
 "dcacenabes",3
 "cyrille-leclerc",3

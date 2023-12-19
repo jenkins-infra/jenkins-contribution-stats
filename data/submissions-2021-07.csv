@@ -233,7 +233,7 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","jenkins",5628,"https://github.com/jenkinsci/jenkins/pull/5628","MERGED","2021-07-20T07:42:24Z","2021-07-27T19:00:27Z","amuniz","2021-07","[JENKINS-66177] Ability to..."
 "jenkinsci","aio-tests-plugin",2,"https://github.com/jenkinsci/aio-tests-plugin/pull/2","MERGED","2021-07-20T07:27:26Z","2021-07-20T07:34:29Z","niharikavy","2021-07","[Release 1.2.1]: Making..."
 "jenkinsci","soapui-pro-functional-testing-plugin",25,"https://github.com/jenkinsci/soapui-pro-functional-testing-plugin/pull/25","MERGED","2021-07-20T06:15:40Z","2021-07-20T08:25:42Z","AlexanderYeremeyev","2021-07","RIA-17066 fix jenkins slave..."
-"jenkinsci","scm-filter-branch-pr-plugin",7,"https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/7","OPEN","2021-07-20T03:53:46Z","","macnev2013","2021-07","feature for filtering branch..."
+"jenkinsci","scm-filter-branch-pr-plugin",7,"https://github.com/jenkinsci/scm-filter-branch-pr-plugin/pull/7","CLOSED","2021-07-20T03:53:46Z","","macnev2013","2021-07","feature for filtering branch..."
 "jenkinsci","nodelabelparameter-plugin",41,"https://github.com/jenkinsci/nodelabelparameter-plugin/pull/41","MERGED","2021-07-20T01:54:00Z","2021-07-20T02:57:37Z","MarkEWaite","2021-07","Update screenshots to match..."
 "jenkinsci","sauce-ondemand-plugin",87,"https://github.com/jenkinsci/sauce-ondemand-plugin/pull/87","MERGED","2021-07-19T21:58:55Z","2021-07-20T17:34:20Z","alexh-sauce","2021-07","Update ci-sauce to 1.153 for..."
 "jenkinsci","tekton-client-plugin",212,"https://github.com/jenkinsci/tekton-client-plugin/pull/212","MERGED","2021-07-19T21:10:47Z","2021-08-05T20:57:09Z","garethjevans","2021-07","chore: add in javadoc and..."
