@@ -1,21 +1,16 @@
 # contains the list of users that are not counted in the stats
-# from scanning submission_overview.csv
+# from scanning submission_overview.csv and comments_overview.csv
 
-#ACM-Unit
-#APM-Jenkins-Plugin-ML
 AppVeyorBot
-#IBA-mainframe-dev
-#Sigma-Erebus # ??
 TOPWIN
-#TPXP
-#Unpublished
 codacy-badger
 gitter-badger
-#ITMSJenkins
 jenkins-x-bot
 jenkins-x-bot-test
 jenkinsadmin
 sghill-rewrite  # Automated Refactoring by @sghill
 snyk-bot
+
+
 
 
