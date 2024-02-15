@@ -727,7 +727,6 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","insightappsec-plugin",21,"https://github.com/jenkinsci/insightappsec-plugin/pull/21","MERGED","2021-11-08T14:44:26Z","2021-11-08T14:47:54Z","ckearney-r7","2021-11","Update integration hub with..."
 "jenkinsci","jenkins",5900,"https://github.com/jenkinsci/jenkins/pull/5900","MERGED","2021-11-08T14:24:09Z","2021-11-09T08:07:18Z","daniel-beck","2021-11","[JENKINS-67063] Revert..."
 "jenkinsci","uipath-automation-package-plugin",86,"https://github.com/jenkinsci/uipath-automation-package-plugin/pull/86","MERGED","2021-11-08T14:13:36Z","2021-11-08T16:22:20Z","ganeshborle","2021-11","Release/v2.8"
-"jenkinsci","tekton-client-plugin",229,"https://github.com/jenkinsci/tekton-client-plugin/pull/229","MERGED","2021-11-08T13:47:36Z","2021-11-09T10:10:37Z","jenkins-x-bot","2021-11","chore(deps): upgrade..."
 "jenkinsci","git-plugin",1171,"https://github.com/jenkinsci/git-plugin/pull/1171","MERGED","2021-11-08T12:03:16Z","2021-11-08T16:48:18Z","timja","2021-11","Use standard Jenkins buttons..."
 "jenkinsci","plugin-pom",453,"https://github.com/jenkinsci/plugin-pom/pull/453","MERGED","2021-11-08T11:51:59Z","2021-11-08T12:08:48Z","jtnord","2021-11","Do not reuse surefire..."
 "jenkinsci","infra-cla",94,"https://github.com/jenkinsci/infra-cla/pull/94","MERGED","2021-11-08T09:34:56Z","2021-12-16T18:27:24Z","Kevin-CB","2021-11","Add ICLA for Kevin Guerroudj"

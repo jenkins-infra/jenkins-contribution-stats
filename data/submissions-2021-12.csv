@@ -602,7 +602,6 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","copyartifact-plugin",143,"https://github.com/jenkinsci/copyartifact-plugin/pull/143","MERGED","2021-12-10T21:22:18Z","2021-12-19T07:23:56Z","basil","2021-12","Compatibility with..."
 "jenkinsci","jenkins-test-harness",358,"https://github.com/jenkinsci/jenkins-test-harness/pull/358","CLOSED","2021-12-10T17:29:45Z","","basil","2021-12","Support `assertGC` on all..."
 "jenkinsci","jenkins",6045,"https://github.com/jenkinsci/jenkins/pull/6045","CLOSED","2021-12-10T16:18:59Z","","basil","2021-12","Show color during CI build"
-"jenkinsci","tekton-client-plugin",234,"https://github.com/jenkinsci/tekton-client-plugin/pull/234","MERGED","2021-12-10T15:37:33Z","2022-01-15T10:40:53Z","jenkins-x-bot","2021-12","chore(deps): upgrade..."
 "jenkinsci","workflow-basic-steps-plugin",160,"https://github.com/jenkinsci/workflow-basic-steps-plugin/pull/160","MERGED","2021-12-10T15:07:40Z","2022-01-06T21:42:13Z","kohtala","2021-12","Document pwd(tmp:true) is for..."
 "jenkinsci","analysis-model",737,"https://github.com/jenkinsci/analysis-model/pull/737","MERGED","2021-12-10T14:31:49Z","2021-12-10T14:54:38Z","uhafner","2021-12","Bump codingstyle from 2.11.0..."
 "jenkinsci","jenkins",6044,"https://github.com/jenkinsci/jenkins/pull/6044","MERGED","2021-12-10T14:29:42Z","2021-12-11T13:53:09Z","jglick","2021-12","`RingBufferLogHandler.getView`..."

@@ -129,7 +129,6 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","maven-snapshot-check-plugin",23,"https://github.com/jenkinsci/maven-snapshot-check-plugin/pull/23","MERGED","2022-09-27T04:02:57Z","2022-09-27T04:03:05Z","donhui","2022-09","bugfix: fix getPomFiles()"
 "jenkinsci","autify-plugin",21,"https://github.com/jenkinsci/autify-plugin/pull/21","MERGED","2022-09-27T02:50:00Z","2022-09-27T03:05:47Z","riywo","2022-09","Implement integration tests..."
 "jenkinsci","html5-notifier-plugin",11,"https://github.com/jenkinsci/html5-notifier-plugin/pull/11","OPEN","2022-09-27T01:38:22Z","","halkeye","2022-09","Switch to sse"
-"jenkinsci","idea-stapler-plugin",109,"https://github.com/jenkinsci/idea-stapler-plugin/pull/109","MERGED","2022-09-27T01:21:24Z","2022-09-27T02:24:21Z","gitter-badger","2022-09","Add Build Status and Gitter..."
 "jenkinsci","jenkins",7164,"https://github.com/jenkinsci/jenkins/pull/7164","MERGED","2022-09-26T23:37:03Z","2022-09-26T23:37:14Z","basil","2022-09","Revert 'Bump junit from..."
 "jenkinsci","plugin-pom",614,"https://github.com/jenkinsci/plugin-pom/pull/614","MERGED","2022-09-26T21:36:15Z","2022-10-10T20:45:31Z","NotMyFault","2022-09","Remove node.version and..."
 "jenkinsci","jenkins",7163,"https://github.com/jenkinsci/jenkins/pull/7163","MERGED","2022-09-26T21:25:13Z","2022-09-27T16:38:48Z","basil","2022-09","De-flake..."

@@ -884,7 +884,6 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","docker-inbound-agent",306,"https://github.com/jenkinsci/docker-inbound-agent/pull/306","MERGED","2022-11-20T16:44:21Z","2022-11-20T18:02:38Z","dduportal","2022-11","chore(updatecli) adapt..."
 "jenkinsci","docker-agent",327,"https://github.com/jenkinsci/docker-agent/pull/327","MERGED","2022-11-20T14:51:57Z","2022-11-20T15:20:19Z","dduportal","2022-11","chore(updatecli) adapt..."
 "jenkinsci","jobcacher-plugin",108,"https://github.com/jenkinsci/jobcacher-plugin/pull/108","MERGED","2022-11-20T14:24:13Z","2022-11-23T19:38:33Z","darxriggs","2022-11","Improve resource files"
-"jenkinsci","lockable-resources-plugin",402,"https://github.com/jenkinsci/lockable-resources-plugin/pull/402","MERGED","2022-11-20T12:14:59Z","2022-11-21T23:13:15Z","gitter-badger","2022-11","Add a Gitter chat badge"
 "jenkinsci","http-request-plugin",124,"https://github.com/jenkinsci/http-request-plugin/pull/124","OPEN","2022-11-20T11:54:54Z","","g-host-one","2022-11","Add the option to turn off..."
 "jenkinsci","thin-backup-plugin",52,"https://github.com/jenkinsci/thin-backup-plugin/pull/52","MERGED","2022-11-20T11:42:26Z","2022-11-26T12:47:01Z","StefanSpieker","2022-11","Localizing Plugin to German..."
 "jenkinsci","msbuild-plugin",86,"https://github.com/jenkinsci/msbuild-plugin/pull/86","MERGED","2022-11-20T10:58:17Z","2022-11-20T13:15:51Z","Jagrutiti","2022-11","Require Jenkins 2.332.4 or..."

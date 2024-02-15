@@ -98,7 +98,6 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","fortify-on-demand-uploader-plugin",128,"https://github.com/jenkinsci/fortify-on-demand-uploader-plugin/pull/128","MERGED","2022-02-24T00:38:28Z","2022-02-24T00:44:13Z","c0d3m0nky","2022-02","Release v7.0.1"
 "jenkinsci","jenkins",6307,"https://github.com/jenkinsci/jenkins/pull/6307","MERGED","2022-02-23T23:44:18Z","2022-03-22T07:46:49Z","janfaracik","2022-02","Replace Tango icons with..."
 "jenkinsci","nexus-platform-plugin",185,"https://github.com/jenkinsci/nexus-platform-plugin/pull/185","CLOSED","2022-02-23T22:29:06Z","","sonatype-ci","2022-02","Bump innersource dependencies"
-"jenkinsci","tekton-client-plugin",242,"https://github.com/jenkinsci/tekton-client-plugin/pull/242","OPEN","2022-02-23T21:59:03Z","","jenkins-x-bot","2022-02","chore(deps): upgrade..."
 "jenkinsci","build-history-metrics-plugin",18,"https://github.com/jenkinsci/build-history-metrics-plugin/pull/18","MERGED","2022-02-23T21:48:35Z","2022-02-23T21:49:26Z","mcgin","2022-02","update maven cd action..."
 "jenkinsci","build-history-metrics-plugin",12,"https://github.com/jenkinsci/build-history-metrics-plugin/pull/12","MERGED","2022-02-23T21:20:38Z","2022-02-23T21:21:17Z","mcgin","2022-02","Automate dependency checks"
 "jenkinsci","compuware-ispw-operations-plugin",89,"https://github.com/jenkinsci/compuware-ispw-operations-plugin/pull/89","MERGED","2022-02-23T21:19:22Z","2022-02-23T21:19:31Z","zhouqr2000","2022-02","build jenkins with ispw cli..."

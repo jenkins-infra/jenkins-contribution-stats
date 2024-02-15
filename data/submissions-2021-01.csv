@@ -498,7 +498,6 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","kubernetes-operator",489,"https://github.com/jenkinsci/kubernetes-operator/pull/489","CLOSED","2021-01-05T11:31:46Z","","tomaszsek","2021-01","Bump version to v0.5.0"
 "jenkinsci","tekton-client-plugin",54,"https://github.com/jenkinsci/tekton-client-plugin/pull/54","MERGED","2021-01-05T11:27:39Z","2021-01-17T07:31:38Z","garethjevans","2021-01","chore(deps): bump..."
 "jenkinsci","git-forensics-plugin",209,"https://github.com/jenkinsci/git-forensics-plugin/pull/209","MERGED","2021-01-05T10:45:43Z","2021-01-06T21:44:37Z","uhafner","2021-01","[JENKINS-64545] Fix NPE "
-"jenkinsci","windows-cloud-plugin",1,"https://github.com/jenkinsci/windows-cloud-plugin/pull/1","MERGED","2021-01-05T10:43:43Z","2021-01-05T10:55:01Z","gitter-badger","2021-01","Add a Gitter chat badge to..."
 "jenkinsci","insightappsec-plugin",14,"https://github.com/jenkinsci/insightappsec-plugin/pull/14","MERGED","2021-01-05T10:40:24Z","2021-01-08T09:54:35Z","ckearney-r7","2021-01","DF-4045: Make sure..."
 "jenkinsci","google-oauth-plugin",100,"https://github.com/jenkinsci/google-oauth-plugin/pull/100","MERGED","2021-01-05T10:35:33Z","2021-01-15T17:26:31Z","alecharp","2021-01","Update Jenkinsfile"
 "jenkinsci","credentials-plugin",168,"https://github.com/jenkinsci/credentials-plugin/pull/168","MERGED","2021-01-05T09:01:41Z","2021-01-05T14:10:16Z","batmat","2021-01","Enable Dependabot"
