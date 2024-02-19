@@ -48,8 +48,9 @@ getContributions(){
     local searched_month="${year}-${month_decimal}"
 
     # Jenkins-stats is a tool that will retrieve the required data from GitHub
-        if [[ "$org_to_process" == "jenkins" ]];
+    if [[ "$org_to_process" == "jenkins" ]];
     then
+        #FIXME: add exclusion file
         jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" "$debug"
         jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" "$debug"
     else
@@ -65,6 +66,7 @@ getContributions(){
 
     # retrieve the commenters for that month
     commenters_csv_filename="${org_data_dir}/comments-${year}-${month_decimal}.csv"
+    #FIXME: add exclusion file
     jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" "$debug"
 
     # Create the pivot table for the month we downloaded

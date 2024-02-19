@@ -27,3 +27,47 @@ Following scripts are available:
 ## pre-requisite
 
 #FIXME: add information about jenkins-top-submitters
+
+## Data and process flow
+
+```mermaid
+flowchart TD
+	start1(("`Start
+	(others)
+	 `"))
+
+	start2(("`Start
+	(jenkins)
+	 `"))
+
+    extract_end((Extract end))
+
+	A[[update-benchmark-stats.sh]]
+	B[[update-stats.sh]]
+    C[[collect-missing-data.sh]]
+    D[[consolidate-data.sh submissions]]
+    E[[consolidate-data.sh comments]]
+    F[[submission-submitter-report.sh]]
+    G[[comment-commenter-report.sh]]
+    extracData[[extract-montlhly-submissions.sh]]
+    get_submitters{{"jenkins-stats get submitters {org}"}}
+
+    submission_month[(submission.csv)]
+    monththlyPivot_submit[(pr_per_submitter.csv)]
+    comments_month[(comments.csv)]
+    monththlyPivot_comment[(comments_per_commenter.csv)]
+    
+    monthlypivot_subm{{pivot monthly data}}
+    monthlypivot_comment{{pivot monthly data}}
+
+    get_commenters{{"jenkins-stats get commenters"}}
+    
+
+	start1 --> A -- loops through orgs --> B
+	start2 --> B
+    B --> C -- monthly data missing ? --> extracData  --> get_submitters
+    get_submitters -.-> submission_month --> monthlypivot_subm -.-> monththlyPivot_submit --> extract_end --> C
+    submission_month --> get_commenters -.-> comments_month --> monthlypivot_comment -.-> monththlyPivot_comment --> extract_end
+    get_submitters
+    B --> D --> E --> F --> G
+```
