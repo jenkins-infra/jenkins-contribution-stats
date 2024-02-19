@@ -61,6 +61,8 @@ flowchart TD
     extracData[[extract-montlhly-submissions.sh]]
     get_submitters{{"jenkins-stats get submitters {org}"}}
     get_commenters{{"jenkins-stats get commenters"}}
+    top_extract{{jenkins-top-submitters extract}}
+    top_compare{{jenkins-top-submitters compare}}
 
     %% data files
     submission_month[(submission_YYMM.csv)]
@@ -70,6 +72,8 @@ flowchart TD
     _commenter.csv`")]
     global_submissions[(submissions.csv)]
     global_submissionsOverview[(submissions_overview.csv)]
+    top_submission[(top_submissions.csv)]
+    top_submission_evol[(top_submissions_evolution.csv)]
 
     global_comments[(comments.csv)]
     global_commentsOverview[(comments_overview.csv)]
@@ -87,7 +91,10 @@ flowchart TD
     B --> C -- monthly data missing ? --> extracData  --> get_submitters
     get_submitters -.-> submission_month --> monthlypivot_subm -.-> monththlyPivot_submit --> extract_end --> C
     submission_month --> get_commenters -.-> comments_month --> monthlypivot_comment -.-> monththlyPivot_comment --> extract_end
-    B --> D -.-> global_submissions --> subm_overview_pivot -.-> global_submissionsOverview
+    B --> D -.-> global_submissions
+    global_submissions --> subm_overview_pivot -.-> global_submissionsOverview
+    global_submissions --> top_extract --> top_submission
+    global_submissions --> top_compare --> top_submission_evol
     B --> E -.-> global_comments --> comment_overview_pivot -.-> global_commentsOverview
     B --> F 
     B --> G
