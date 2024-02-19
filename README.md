@@ -27,3 +27,76 @@ Following scripts are available:
 ## pre-requisite
 
 #FIXME: add information about jenkins-top-submitters
+
+## Data and process flow
+
+![data & process flowchart](flowchart.svg)
+<details>
+  <summary>diagram source</summary>
+  This details block is collapsed by default when viewed in GitHub. This hides the mermaid graph definition, while the rendered image
+  linked above is shown. The details tag has to follow the image tag. (newlines allowed)
+
+
+```mermaid
+flowchart TD
+	start1(("`Start
+	(others)
+	 `"))
+
+    start2(("`Start
+    (jenkins)
+     `"))
+
+    extract_end((End))
+
+    %% Processes
+
+	A[[update-benchmark-stats.sh]]
+	B[[update-stats.sh]]
+    C[[collect-missing-data.sh]]
+    D[[consolidate-data.sh submissions]]
+    E[[consolidate-data.sh comments]]
+    F[[submission-submitter-report.sh]]
+    G[[comment-commenter-report.sh]]
+    extracData[[extract-montlhly-submissions.sh]]
+    get_submitters{{"jenkins-stats get submitters {org}"}}
+    get_commenters{{"jenkins-stats get commenters"}}
+    top_extract{{jenkins-top-submitters extract}}
+    top_compare{{jenkins-top-submitters compare}}
+
+    %% data files
+    submission_month[(submission_YYMM.csv)]
+    monththlyPivot_submit[(pr_per_submitter.csv)]
+    comments_month[(comments_YYMM.csv)]
+    monththlyPivot_comment[("`comments_per_
+    _commenter.csv`")]
+    global_submissions[(submissions.csv)]
+    global_submissionsOverview[(submissions_overview.csv)]
+    top_submission[(top_submissions.csv)]
+    top_submission_evol[(top_submissions_evolution.csv)]
+
+    global_comments[(comments.csv)]
+    global_commentsOverview[(comments_overview.csv)]
+
+    %% pivot processes
+    monthlypivot_subm{{pivot monthly data}}
+    monthlypivot_comment{{pivot monthly data}}
+    subm_overview_pivot{{pivot}}
+    comment_overview_pivot{{pivot}}
+
+    
+
+	start1 --> A -- loops through orgs --> B
+	start2 --> B
+    B --> C -- monthly data missing ? --> extracData  --> get_submitters
+    get_submitters -.-> submission_month --> monthlypivot_subm -.-> monththlyPivot_submit --> extract_end --> C
+    submission_month --> get_commenters -.-> comments_month --> monthlypivot_comment -.-> monththlyPivot_comment --> extract_end
+    B --> D -.-> global_submissions
+    global_submissions --> subm_overview_pivot -.-> global_submissionsOverview
+    global_submissions --> top_extract --> top_submission
+    global_submissions --> top_compare --> top_submission_evol
+    B --> E -.-> global_comments --> comment_overview_pivot -.-> global_commentsOverview
+    B --> F 
+    B --> G
+```
+</details>

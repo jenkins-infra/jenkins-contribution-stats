@@ -75,7 +75,6 @@ org,repository,number,url,state,created_at,merged_at,user.login,month_year,title
 "jenkinsci","github-branch-source-plugin",296,"https://github.com/jenkinsci/github-branch-source-plugin/pull/296","MERGED","2020-04-14T02:37:04Z","2020-04-24T17:42:27Z","jglick","2020-04","2.164.x"
 "jenkinsci","docker-workflow-plugin",214,"https://github.com/jenkinsci/docker-workflow-plugin/pull/214","CLOSED","2020-04-14T02:34:49Z","","jglick","2020-04","2.164.x"
 "jenkinsci","view-job-filters-plugin",19,"https://github.com/jenkinsci/view-job-filters-plugin/pull/19","MERGED","2020-04-14T02:32:46Z","2020-05-27T21:54:25Z","jglick","2020-04","2.164.x"
-"jenkinsci","jenkins",4652,"https://github.com/jenkinsci/jenkins/pull/4652","CLOSED","2020-04-14T02:31:25Z","","snyk-bot","2020-04","[Snyk] Security upgrade..."
 "jenkinsci","workflow-basic-steps-plugin",111,"https://github.com/jenkinsci/workflow-basic-steps-plugin/pull/111","MERGED","2020-04-14T02:29:43Z","2020-04-14T19:43:30Z","jglick","2020-04","2.164.x"
 "jenkinsci","workflow-api-plugin",122,"https://github.com/jenkinsci/workflow-api-plugin/pull/122","MERGED","2020-04-14T02:27:08Z","2020-04-14T19:43:59Z","jglick","2020-04","2.164.x"
 "jenkinsci","git-plugin",874,"https://github.com/jenkinsci/git-plugin/pull/874","MERGED","2020-04-14T02:24:41Z","2020-04-14T13:47:49Z","MarkEWaite","2020-04","Use BOM 2.190.x"
