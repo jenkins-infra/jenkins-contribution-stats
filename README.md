@@ -32,13 +32,9 @@ Following scripts are available:
 
 ```mermaid
 flowchart TD;
-	start1(("`Start
-	(others)
-	 `"));
+    start1((Others));
 
-	start2(("`Start
-	(jenkins)
-	 `"));
+	start2((jenkins));
 
     extract_end((Extract end));
 
