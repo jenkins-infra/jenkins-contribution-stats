@@ -42,8 +42,8 @@ flowchart TD;
 
     extract_end((Extract end));
 
-	A[[update-benchmark-stats.sh]];
-	B[[update-stats.sh]];
+    A[[update-benchmark-stats.sh]];
+    B[[update-stats.sh]];
     C[[collect-missing-data.sh]];
     D[[consolidate-data.sh submissions]];
     E[[consolidate-data.sh comments]];
@@ -62,9 +62,8 @@ flowchart TD;
 
     get_commenters{{"jenkins-stats get commenters"}};
     
-
-	start1 --> A -- loops through orgs --> B;
-	start2 --> B;
+    start1 --> A -- loops through orgs --> B;
+    start2 --> B;
     B --> C -- monthly data missing ? --> extracData  --> get_submitters;
     get_submitters -.-> submission_month --> monthlypivot_subm -.-> monththlyPivot_submit --> extract_end --> C;
     submission_month --> get_commenters -.-> comments_month --> monthlypivot_comment -.-> monththlyPivot_comment --> extract_end;
