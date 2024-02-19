@@ -30,7 +30,7 @@ Following scripts are available:
 
 ## Data and process flow
 
-![rendered image description](flowchart.svg)
+![data & process flowchart](flowchart.svg)
 <details>
   <summary>diagram source</summary>
   This details block is collapsed by default when viewed in GitHub. This hides the mermaid graph definition, while the rendered image
