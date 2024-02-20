@@ -24,6 +24,8 @@ Following scripts are available:
 
 - `update-stats.sh` is the script that performs the necessary update operation in sequence
 
+## Produced datafiles
+
 ## pre-requisite
 
 #FIXME: add information about jenkins-top-submitters
