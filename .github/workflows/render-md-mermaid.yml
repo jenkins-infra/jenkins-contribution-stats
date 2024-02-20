@@ -1,4 +1,4 @@
-# .github/workflows/render-md-mermaid.yml
+# Automatically renders mermaid graph blocks embedded in markdown files
 
 name: render-md-mermaid
 
