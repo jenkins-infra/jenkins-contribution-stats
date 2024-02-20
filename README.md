@@ -26,6 +26,23 @@ Following scripts are available:
 
 ## Produced datafiles
 
+| File name | Comment | produced by |
+| ---------------------------- | ------------------------------------ | --------------------------------- |
+| `data/submission_YYYYMM.csv` | List of PRs created in a given month | `extract-montlhly-submissions.sh` |
+| `data/comments_YYYYMM.csv`   | List of comments created in a given month | `extract-montlhly-submissions.sh` |
+
+    monththlyPivot_submit[(pr_per_submitter.csv)]
+    comments_month[(comments_YYMM.csv)]
+    monththlyPivot_comment[("`comments_per_
+    _commenter.csv`")]
+    global_submissions[(submissions.csv)]
+    global_submissionsOverview[(submissions_overview.csv)]
+    top_submission[(top_submissions.csv)]
+    top_submission_evol[(top_submissions_evolution.csv)]
+
+    global_comments[(comments.csv)]
+    global_commentsOverview[(comments_overview.csv)]
+
 ## pre-requisite
 
 #FIXME: add information about jenkins-top-submitters
