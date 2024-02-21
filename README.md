@@ -82,8 +82,8 @@ flowchart TD
     extracData[[extract-montlhly-submissions.sh]]
     get_submitters{{"jenkins-stats get submitters {org}"}}
     get_commenters{{"jenkins-stats get commenters"}}
-    top_extract{{jenkins-top-submitters extract}}
-    top_compare{{jenkins-top-submitters compare}}
+    top_extract{{jenkins-top-submitters </br> extract}}
+    top_compare{{jenkins-top-submitters </br>compare}}
 
     %% data files
     submission_month[(submission_YYMM.csv)]
