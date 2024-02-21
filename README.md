@@ -49,6 +49,8 @@ Following scripts are available:
 
 ## Data and process flow
 
+Not to self: to generate the mermaid graphic by hand `docker run -i -t --rm -v "$PWD:/data"  jmmeessen/render-md-mermaid:v2`
+
 ![data & process flowchart](flowchart.svg)
 <details>
   <summary>diagram source</summary>
