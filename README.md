@@ -25,25 +25,32 @@ Following scripts are available:
 ## Produced datafiles
 
 | File name | Comment | produced by |
-| ------------------------------------ | ------------------------------------ | --------------------------------- |
-| `data/submission_YYYYMM.csv`         | List of PRs created in a given month | `extract-montlhly-submissions.sh` |
-| `data/comments_YYYYMM.csv`           | List of comments created in a given month | `extract-montlhly-submissions.sh` |
-| `data/pr_per_submitter-YYYY-MM.csv`  | Number of PRs submitted by a user </br> for a given month | `extract-montlhly-submissions.sh` |
+| -------------------------------------------- | ------------------------------------------------ | -------------------------------- |
+| `data/submissions-YYYY-MM.csv`               | List of PRs created in a given month             | `extract-monthly-submissions.sh` |
+| `data/pr_per_submitter-YYYY-MM.csv`          | Nbr of PRs submitted by a user for a given month | `extract-monthly-submissions.sh` |
+| `data/comments_YYYY-MM.csv`                  | List of comments created in a given month        | `extract-monthly-submissions.sh` |
+| `data/comments_per__commenter-YYYY-MM.csv`   | Nbr of comments made by a user for a given month | `extract-monthly-submissions.sh` |
+| `consolidated_data/submissions.csv`          | All extracted submissions (since Jan 2020)       | `consolidate-data.sh submissions` |
+| `consolidated_data/submissions_overview.csv` | Global submissions pivot table (user/month -> nbr prs)   | `consolidate-data.sh submissions` |
+| `consolidated_data/top_submissions.csv`      | Top submitters                                           | `consolidate-data.sh submissions` |
+| `consolidated_data/top_submissions_evolution.csv` | New or churned top submitters                       | `consolidate-data.sh submissions` |
+| `consolidated_data/comments.csv`             | All extracted comments (since Jan 2020)                  | `consolidate-data.sh comments` |
+| `consolidated_data/submissions_overview.csv` | Global comments pivot table (user/month -> nbr comments) | `consolidate-data.sh comments` |
+| `consolidated_data/top_submissions.csv`      | Top commenters                                           | `consolidate-data.sh comments` |
+| `consolidated_data/top_submissions_evolution.csv` | New or churned top commenters                       | `consolidate-data.sh comments` |
 
-    comments_month[(comments_YYMM.csv)]
-    monththlyPivot_comment[("`comments_per_
-    _commenter.csv`")]
-    global_submissions[(submissions.csv)]
-    global_submissionsOverview[(submissions_overview.csv)]
-    top_submission[(top_submissions.csv)]
-    top_submission_evol[(top_submissions_evolution.csv)]
-
-    global_comments[(comments.csv)]
-    global_commentsOverview[(comments_overview.csv)]
 
 ## pre-requisite
 
-#FIXME: add information about jenkins-top-submitters
+Prerequisites are checked with `check-prerequisite.sh`. 
+This is the list of executables that have to be installed in order for the automation to work.
+
+- `gh` : the Github command line utility
+- `jq` : Json query tool
+- `datamash` : data manipulation tool (CSV pivots)
+- `jenkins-top-submitters` : extracts the to submitters or commenters from the global pivot tables
+- `jenkins-stats` : various extraction and jenkins data handling tools
+- `gdate` : Linux compliant date manipulation tool for Mac OS
 
 ## Data and process flow
 
@@ -87,8 +94,7 @@ flowchart TD
     submission_month[(submission_YYMM.csv)]
     monththlyPivot_submit[(pr_per_submitter.csv)]
     comments_month[(comments_YYMM.csv)]
-    monththlyPivot_comment[("`comments_per_
-    _commenter.csv`")]
+    monththlyPivot_comment[(comments_per_</br>_commenter.csv)]
     global_submissions[(submissions.csv)]
     global_submissionsOverview[(submissions_overview.csv)]
     top_submission[(top_submissions.csv)]
@@ -97,6 +103,12 @@ flowchart TD
     global_comments[(comments.csv)]
     global_commentsOverview[(comments_overview.csv)]
 
+    % legend
+    legend_app[[Application </br>or script]]
+    legend_sub{{sub routine}}
+    legend_data[(data file)]
+    legend_app --> legend_sub -.-> legend_data
+
     %% pivot processes
     monthlypivot_subm{{pivot monthly data}}
     monthlypivot_comment{{pivot monthly data}}
@@ -104,7 +116,7 @@ flowchart TD
     comment_overview_pivot{{pivot}}
 
     
-
+    % flow
 	start1 --> A -- loops through orgs --> B
 	start2 --> B
     B --> C -- monthly data missing ? --> extracData  --> get_submitters
