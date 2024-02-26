@@ -103,7 +103,7 @@ flowchart TD
     global_comments[(comments.csv)]
     global_commentsOverview[(comments_overview.csv)]
 
-    % legend
+    %% legend
     legend_app[[Application </br>or script]]
     legend_sub{{sub routine}}
     legend_data[(data file)]
