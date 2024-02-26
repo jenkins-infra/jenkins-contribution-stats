@@ -11,8 +11,6 @@ This is a strict interpretation of "contribution". Other statistics (lile those 
 
 All the above operations can be performed with `update-stats.sh`
 
-## available consolidated data
-
 ## Script list
 
 Following scripts are available:
@@ -27,11 +25,11 @@ Following scripts are available:
 ## Produced datafiles
 
 | File name | Comment | produced by |
-| ---------------------------- | ------------------------------------ | --------------------------------- |
-| `data/submission_YYYYMM.csv` | List of PRs created in a given month | `extract-montlhly-submissions.sh` |
-| `data/comments_YYYYMM.csv`   | List of comments created in a given month | `extract-montlhly-submissions.sh` |
+| ------------------------------------ | ------------------------------------ | --------------------------------- |
+| `data/submission_YYYYMM.csv`         | List of PRs created in a given month | `extract-montlhly-submissions.sh` |
+| `data/comments_YYYYMM.csv`           | List of comments created in a given month | `extract-montlhly-submissions.sh` |
+| `data/pr_per_submitter-YYYY-MM.csv`  | Number of PRs submitted by a user </br> for a given month | `extract-montlhly-submissions.sh` |
 
-    monththlyPivot_submit[(pr_per_submitter.csv)]
     comments_month[(comments_YYMM.csv)]
     monththlyPivot_comment[("`comments_per_
     _commenter.csv`")]
