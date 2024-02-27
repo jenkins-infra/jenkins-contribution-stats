@@ -35,8 +35,10 @@ getContributions(){
     if [[ "$org_to_process" == "jenkins" ]];
     then
         org_data_dir="data"
+        exclusion="-x=jenkins-excluded-users.txt"
     else
         org_data_dir="alt_orgs/${org_to_process}/data"
+        exclusion=""
     fi
 
     # create the data directory if it doesn't exist
@@ -47,12 +49,12 @@ getContributions(){
     csv_filename="${org_data_dir}/submissions-${year}-${month_decimal}.csv"
     local searched_month="${year}-${month_decimal}"
 
+
     # Jenkins-stats is a tool that will retrieve the required data from GitHub
     if [[ "$org_to_process" == "jenkins" ]];
     then
-        #FIXME: add exclusion file
-        jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" "$debug"
-        jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" "$debug"
+        jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
+        jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
     else
         jenkins-stats get submitters "$org_to_process" "${searched_month}" -a -o "${csv_filename}" "$debug"
     fi
@@ -66,8 +68,7 @@ getContributions(){
 
     # retrieve the commenters for that month
     commenters_csv_filename="${org_data_dir}/comments-${year}-${month_decimal}.csv"
-    #FIXME: add exclusion file
-    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" "$debug"
+    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" "$debug" "$exclusion"
 
     # Create the pivot table for the month we downloaded
     summaryCommenters="${org_data_dir}/comments_per_commenter-${year}-${month_decimal}.csv"
