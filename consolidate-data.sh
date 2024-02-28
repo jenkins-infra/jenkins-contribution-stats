@@ -102,8 +102,8 @@ awk -F'"' -v OFS='"' '{for (i=2; i<=NF; i+=2) {gsub(",", "", $i)}}; $0' "$consol
 tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$overview_file"
 
 
-#Generate the latest top-35 submitters with the generated data
+#Generate the latest top-35 submitters over a year with the generated data
 echo " "
 echo "Computing top ${consolidation_type}"
-jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".csv
-jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.csv -c=3
+jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".csv --month=latest --period=12 --topSize=35
+jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.csv --compare=3 --month=latest --period=12 --topSize=35
