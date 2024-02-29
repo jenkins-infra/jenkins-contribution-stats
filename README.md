@@ -32,12 +32,12 @@ Following scripts are available:
 | `data/comments_per__commenter-YYYY-MM.csv`   | Nbr of comments made by a user for a given month | `extract-monthly-submissions.sh` |
 | `consolidated_data/submissions.csv`          | All extracted submissions (since Jan 2020)       | `consolidate-data.sh submissions` |
 | `consolidated_data/submissions_overview.csv` | Global submissions pivot table (user/month -> nbr prs)   | `consolidate-data.sh submissions` |
-| `consolidated_data/top_submissions.csv`      | Top submitters                                           | `consolidate-data.sh submissions` |
-| `consolidated_data/top_submissions_evolution.csv` | New or churned top submitters                       | `consolidate-data.sh submissions` |
+| `consolidated_data/top_submissions.csv`      | 35 top submitters over the last 12 month                 | `consolidate-data.sh submissions` |
+| `consolidated_data/top_submissions_evolution.csv` | New or churned top submitters (compared to 3 months before) | `consolidate-data.sh submissions` |
 | `consolidated_data/comments.csv`             | All extracted comments (since Jan 2020)                  | `consolidate-data.sh comments` |
 | `consolidated_data/submissions_overview.csv` | Global comments pivot table (user/month -> nbr comments) | `consolidate-data.sh comments` |
-| `consolidated_data/top_submissions.csv`      | Top commenters                                           | `consolidate-data.sh comments` |
-| `consolidated_data/top_submissions_evolution.csv` | New or churned top commenters                       | `consolidate-data.sh comments` |
+| `consolidated_data/top_submissions.csv`      | 35 Top commenters over the last 12 months                | `consolidate-data.sh comments` |
+| `consolidated_data/top_submissions_evolution.csv` | New or churned top commenters (compared to 3 months before) | `consolidate-data.sh comments` |
 
 
 ## pre-requisite
