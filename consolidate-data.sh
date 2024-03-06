@@ -12,11 +12,14 @@ then
     echo "      TYPE is the consolidation type requested (\"submissions\" or \"comments\")"
     exit 1
 fi
+top_type="unknown"
 uppercased_consolidation_type=$(echo "$consolidation_type" | awk '{print toupper($0)}')
 case "$uppercased_consolidation_type" in
     SUBMISSIONS) 
+        top_type="submitters"
         ;;
     COMMENTS) 
+        top_type="commenters"
         ;;
     *) echo "Unsupported consolidation type ($consolidation_type). Should be either : \"submissions\" or \"comments\"."
         exit 1
@@ -105,5 +108,5 @@ tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$
 #Generate the latest top-35 submitters over a year with the generated data
 echo " "
 echo "Computing top ${consolidation_type}"
-jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".csv --month=latest --period=12 --topSize=35
-jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.csv --compare=3 --month=latest --period=12 --topSize=35
+jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".md --month=latest --period=12 --topSize=35 --type="$top_type"
+jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.md --compare=3 --month=latest --period=12 --topSize=35 --type="$top_type"
