@@ -85,5 +85,5 @@ do
     #     echo "STOP !!!!"
     #     break
     # fi
-    ((i++))
-done
+    i=$((i+1))
+ done
