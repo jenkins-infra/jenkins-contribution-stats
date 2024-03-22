@@ -50,7 +50,7 @@ This is the list of executables that have to be installed in order for the autom
 - `datamash` : data manipulation tool (CSV pivots)
 - `jenkins-top-submitters` : extracts the to submitters or commenters from the global pivot tables
 - `jenkins-stats` : various extraction and jenkins data handling tools
-- `gdate` : Linux compliant date manipulation tool for Mac OS
+- `gdate` : GNU date manipulation tool for Mac OS (part of `coreutils`, installable with brew)
 
 ## Data and process flow
 
