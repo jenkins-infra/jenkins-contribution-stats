@@ -68,7 +68,7 @@ do
     #     break
     # fi
 
-    ((i++))
+    i=$((i+1))
 done
 
 
