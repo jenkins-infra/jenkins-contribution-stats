@@ -33,10 +33,17 @@ then
     exit 1
 fi
 
-# FIXME: This is Mac only. Make this portable for linux/Mac (Windows is excluded)
-if ! command -v "gdate" >/dev/null 2>&1
-then
-    echo "ERROR: command line 'gdate' required but not found. Exiting."
-    exit 1
+# The scripts require the GNU date. A special executable needs to be installed 
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    if ! command -v "gdate" >/dev/null 2>&1
+    then
+        echo "ERROR: command line 'gdate' required but not found."
+        echo "You should be able to install it with \"brew install coreutils\""
+        echo ""
+        echo "exiting...."
+        exit 1
+    fi
 fi
+
+
 

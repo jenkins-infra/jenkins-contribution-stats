@@ -36,6 +36,14 @@ today_year=$(date '+%Y')
 today_month=$(date '+%m')
 current_year_month="${today_month} ${today_year}"
 
+# Make sure that we are using GNU Date on MacOS
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    gnu_date="gdate"
+else
+    gnu_date="date"
+fi
+
+
 output_dir="$org_data_consolidation_dir"
 report_filename="${output_dir}/summary_counts.csv"
 echo "month,submissions,submitters" > "$report_filename"
@@ -44,8 +52,8 @@ echo "month,submissions,submitters" > "$report_filename"
 i=0
 while :
 do
-    to_process_year=$(gdate -d "${oldest_year}/${oldest_month}/1 + ${i} month" "+%Y")
-    to_process_month=$(gdate -d "${oldest_year}/${oldest_month}/1 + ${i} month" "+%m")
+    to_process_year=$(${gnu_date} -d "${oldest_year}/${oldest_month}/1 + ${i} month" "+%Y")
+    to_process_month=$(${gnu_date} -d "${oldest_year}/${oldest_month}/1 + ${i} month" "+%m")
 
     full_to_process_date="${to_process_month} ${to_process_year}"
 
@@ -82,5 +90,5 @@ do
     #     break
     # fi
     
-     i=$((i+1))
+    i=$((i+1))
 done
