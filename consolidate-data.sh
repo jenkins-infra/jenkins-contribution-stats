@@ -2,7 +2,6 @@
 
 set -e
 
-
 # The target version of the jenkins-top-submitters tool that we want to have installed.
 target_version=1.2.6
 
