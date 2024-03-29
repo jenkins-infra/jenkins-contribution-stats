@@ -1,0 +1,64 @@
+---
+name: Bumps the Golang docker images versions
+
+scms:
+  default:
+    kind: github
+    spec:
+      user: "{{ .github.user }}"
+      email: "{{ .github.email }}"
+      owner: "{{ .github.owner }}"
+      repository: "{{ .github.repository }}"
+      token: "{{ requiredEnv .github.token }}"
+      username: "{{ .github.username }}"
+      branch: "{{ .github.branch }}"
+
+sources:
+  jenkins-top-submittersLatestVersion:
+    kind: githubrelease
+    name: "Get the latest jenkins-top-submitters version"
+    spec:
+      owner: "jmMeessen"
+      repository: "jenkins-top-submitters"
+      token: "{{ requiredEnv .github.token }}"
+      username: "{{ .github.username }}"
+      versionfilter:
+        kind: semver
+        pattern: "v1"
+    transformers:
+      - findsubmatch:
+          pattern: >-
+            v(.*)(\.\d+)
+          captureindex: 1
+
+conditions:
+  test-jenkins-top-submitters-var:
+    name: "Does the consolidate-data.sh have a variable named target_version?"
+    kind: file
+    disablesourceinput: true
+    spec:
+      file: consolidate-data.sh
+      matchpattern: >-
+        .*target_version=.*
+
+targets:
+  updateHelloWorldTutorialGolangPipeline:
+    name: "Update the value of the golang docker image for pipelines in the 'Hello World!' tutorial"
+    kind: file
+    sourceid: jenkins-top-submittersLatestVersion
+    spec:
+      file: consolidate-data.sh
+      matchpattern: >-
+        (.*target_version=)(.*)
+      replacepattern: >-
+        ${1}{{ source "jenkins-top-submittersLatestVersion" }}
+    scmid: default
+
+actions:
+  default:
+    kind: github/pullrequest
+    scmid: default
+    title: '[Consolidate Data script] Bump jenkins-top-submitters version to {{ source "jenkins-top-submittersLatestVersion" }}'
+    spec:
+      labels:
+        - dependencies

@@ -2,6 +2,15 @@
 
 set -e
 
+target_version=1.2.6
+installed_version=$(jenkins-top-submitters version | awk '{print $NF}')
+
+if [[ $(echo -e "$target_version\n$installed_version" | sort -V | head -n 1) != "$target_version" ]]; then
+    echo -e "\e[1;31mError: installed version ($installed_version) is less than target version ($target_version).\e[0m"
+    echo -e "Please update the jenkins-top-submitters tool thanks to the following command:"
+    echo -e "\e[1;34mbrew\e[0m upgrade jenkins-top-submitters"
+    exit 1
+fi
 
 consolidation_type="$1"
 # Has the parameter been given?
@@ -109,4 +118,4 @@ tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$
 echo " "
 echo "Computing top ${consolidation_type}"
 jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".md --month=latest --period=12 --topSize=35 --type="$top_type"
-jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.md --compare=3 --month=latest --period=12 --topSize=35 --type="$top_type"
+jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.md --compare=3 --month=latest --period=12 --topSize=35 --type="$top_type" --history

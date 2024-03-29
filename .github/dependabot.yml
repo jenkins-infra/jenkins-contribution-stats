@@ -18,38 +18,3 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 10
-  - package-ecosystem: docker
-    directory: "./dockerfiles/maven"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
-  - package-ecosystem: docker
-    directory: "./dockerfiles/multi"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
-  - package-ecosystem: docker
-    directory: "./dockerfiles/node"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
-  - package-ecosystem: docker
-    directory: "./dockerfiles/python"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
-  - package-ecosystem: docker
-    directory: "./dockerfiles/sidekick"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
-  - package-ecosystem: docker
-    directory: "./dockerfiles/android"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
-  - package-ecosystem: docker
-    directory: "./dockerfiles/golang"
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
