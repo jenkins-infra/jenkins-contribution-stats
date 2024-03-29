@@ -84,7 +84,7 @@ flowchart TD
     E[[consolidate-data.sh comments]]
     F[[submission-submitter-report.sh]]
     G[[comment-commenter-report.sh]]
-    extracData[[extract-montlhly-submissions.sh]]
+    extracData[[extract-monthly-submissions.sh]]
     get_submitters{{"jenkins-stats get submitters {org}"}}
     get_commenters{{"jenkins-stats get commenters"}}
     top_extract{{jenkins-top-submitters </br> extract}}
