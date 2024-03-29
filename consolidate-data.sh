@@ -3,7 +3,7 @@
 set -e
 
 # The target version of the jenkins-top-submitters tool that we want to have installed.
-target_version=1.2.6
+target_version=1.2.7
 
 # Fetch the currently installed version of the jenkins-top-submitters tool.
 # The 'awk' command is used to extract the version number from the output of the 'jenkins-top-submitters version' command.
