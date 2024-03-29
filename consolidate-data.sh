@@ -3,7 +3,7 @@
 set -e
 
 # The target version of the jenkins-top-submitters tool that we want to have installed.
-target_version=1.2.6
+target_version=1.2.7
 
 # Fetch the currently installed version of the jenkins-top-submitters tool.
 # The 'awk' command is used to extract the version number from the output of the 'jenkins-top-submitters version' command.
@@ -129,4 +129,4 @@ tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$
 echo " "
 echo "Computing top ${consolidation_type}"
 jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".md --month=latest --period=12 --topSize=35 --type="$top_type"
-jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.md --compare=3 --month=latest --period=12 --topSize=35 --type="$top_type"
+jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.md --compare=3 --month=latest --period=12 --topSize=35 --type="$top_type" --history
