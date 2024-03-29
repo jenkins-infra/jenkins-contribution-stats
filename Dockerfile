@@ -54,4 +54,4 @@ USER root
 RUN ln -s $(which date) /bin/gdate && \
     brew tap jmMeessen/tap && \
     brew install jenkins-stats && \
-    brew install jmmeessen/tap/jenkins-top-submitters
+    brew install jenkins-top-submitters
