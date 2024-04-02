@@ -47,11 +47,11 @@ top_installed_version=$(jenkins-top-submitters version | awk '{print $NF}')
 # If the smallest version is not the target version, it means the installed version is less than the target version.
 if [[ $(echo -e "$top_target_version\n$top_installed_version" | sort -V | head -n 1) != "$top_target_version" ]]; then
     # If the installed version is less than the target version, print an error message in red and bold.
-    echo -e "\e[1;31mError: installed version ($top_installed_version) is less than target version ($top_target_version).\e[0m"
+    echo -e "Error: installed version ($top_installed_version) is less than target version ($top_target_version)."
     # Suggest the user to update the jenkins-top-submitters tool using the 'brew upgrade' command.
     echo -e "Please update the jenkins-top-submitters tool thanks to the following command:"
     # Print the 'brew upgrade' command in blue and bold.
-    echo -e "\e[1;34mbrew\e[0m upgrade jenkins-top-submitters"
+    echo -e "   brew upgrade jenkins-top-submitters"
     # Exit the script with a status of 1 to indicate an error.
     exit 1
 fi
@@ -77,11 +77,11 @@ stats_installed_version=$(jenkins-stats version | awk '{print $NF}')
 # If the smallest version is not the target version, it means the installed version is less than the target version.
 if [[ $(echo -e "$stats_target_version\n$stats_installed_version" | sort -V | head -n 1) != "$stats_target_version" ]]; then
     # If the installed version is less than the target version, print an error message in red and bold.
-    echo -e "\e[1;31mError: installed version ($stats_installed_version) is less than target version ($stats_target_version).\e[0m"
+    echo -e "Error: installed version ($stats_installed_version) is less than target version ($stats_target_version)."
     # Suggest the user to update the jenkins-stats tool using the 'brew upgrade' command.
     echo -e "Please update the jenkins-stats tool thanks to the following command:"
     # Print the 'brew upgrade' command in blue and bold.
-    echo -e "\e[1;34mbrew\e[0m upgrade jenkins-stats"
+    echo -e "   brew upgrade jenkins-stats"
     # Exit the script with a status of 1 to indicate an error.
     exit 1
 fi
