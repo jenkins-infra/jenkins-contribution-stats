@@ -2,26 +2,8 @@
 
 set -e
 
-# The target version of the jenkins-stats tool that we want to have installed.
-target_version=0.2.14
-
-# Fetch the currently installed version of the jenkins-stats tool.
-# The 'awk' command is used to extract the version number from the output of the 'jenkins-stats version' command.
-installed_version=$(jenkins-stats version | awk '{print $NF}')
-
-# Compare the installed version with the target version.
-# The 'sort -V' command is used to sort the version numbers in version sort order, and 'head -n 1' is used to get the smallest version.
-# If the smallest version is not the target version, it means the installed version is less than the target version.
-if [[ $(echo -e "$target_version\n$installed_version" | sort -V | head -n 1) != "$target_version" ]]; then
-    # If the installed version is less than the target version, print an error message in red and bold.
-    echo -e "\e[1;31mError: installed version ($installed_version) is less than target version ($target_version).\e[0m"
-    # Suggest the user to update the jenkins-stats tool using the 'brew upgrade' command.
-    echo -e "Please update the jenkins-stats tool thanks to the following command:"
-    # Print the 'brew upgrade' command in blue and bold.
-    echo -e "\e[1;34mbrew\e[0m upgrade jenkins-stats"
-    # Exit the script with a status of 1 to indicate an error.
-    exit 1
-fi
+# check wether required tools are available
+./check-prerequisites.sh
 
 # Constants
 oldest_year=2020
