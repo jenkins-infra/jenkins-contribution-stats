@@ -32,7 +32,7 @@ sources:
           captureindex: 1
   jenkinsStatsLatestVersion:
     kind: githubrelease
-    name: "Get the latest jenkins-top-submitters version"
+    name: "Get the latest jenkins-stats version"
     spec:
       owner: "jmMeessen"
       repository: "jenkins-stats"
