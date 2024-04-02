@@ -56,6 +56,7 @@ getContributions(){
     then
         jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
         jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
+        jenkins-stats get submitters jenkins-docs "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
     else
         jenkins-stats get submitters "$org_to_process" "${searched_month}" -a -o "${csv_filename}" "$debug"
     fi
