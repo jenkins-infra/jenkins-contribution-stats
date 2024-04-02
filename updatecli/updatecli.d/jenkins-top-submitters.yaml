@@ -87,7 +87,7 @@ targets:
       matchpattern: >-
         (.*stats_target_version=)(.*)
       replacepattern: >-
-        ${1}{{ source "jenkinsTopSubmittersLatestVersion" }}
+        ${1}{{ source "jenkinsStatsLatestVersion" }}
     scmid: default
 
 actions:
