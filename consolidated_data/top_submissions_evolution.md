@@ -1,49 +1,49 @@
 # Top Submitters (Compare)
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2023-11".
+over the 12 months before "2023-12".
 Table shows new and "churned" submitters compared 
 to the situation 3 months before.
 
 
 | Submitter                | Total_PRs | Status  |
 | ------------------------ | --------: | ------- |
-| basil                    |      1203 |         |
-| MarkEWaite               |      1117 |         |
-| lemeurherve              |       886 |         |
-| NotMyFault               |       879 |         |
-| dduportal                |       840 |         |
-| jonesbusy                |       440 |         |
-| jglick                   |       381 |         |
-| smerle33                 |       361 |         |
-| timja                    |       250 |         |
-| uhafner                  |       239 |         |
-| gounthar                 |       206 |         |
-| mawinter69               |       200 |         |
-| daniel-beck              |       163 |         |
-| jtnord                   |       134 |         |
-| kmartens27               |       109 |         |
-| janfaracik               |       107 |         |
-| alecharp                 |        94 |         |
-| Vlatombe                 |        93 |         |
-| krisstern                |        86 |         |
-| olamy                    |        62 |         |
+| MarkEWaite               |      1118 |         |
+| basil                    |      1116 |         |
+| NotMyFault               |       836 |         |
+| lemeurherve              |       821 |         |
+| dduportal                |       809 |         |
+| jonesbusy                |       438 |         |
+| smerle33                 |       366 |         |
+| jglick                   |       355 |         |
+| gounthar                 |       214 |         |
+| uhafner                  |       213 |         |
+| mawinter69               |       205 |         |
+| timja                    |       190 |         |
+| daniel-beck              |       171 |         |
+| jtnord                   |       109 |         |
+| Vlatombe                 |       103 |         |
+| kmartens27               |        99 |         |
+| alecharp                 |        96 |         |
+| janfaracik               |        90 |         |
+| krisstern                |        85 |         |
+| olamy                    |        64 |         |
 | rahulsom                 |        59 |         |
-| damianszczepanik         |        55 |         |
-| zbynek                   |        55 |         |
-| StefanSpieker            |        47 |         |
-| dwnusbaum                |        47 |         |
-| mPokornyETM              |        47 |         |
-| Dohbedoh                 |        45 |         |
-| car-roll                 |        43 |         |
-| vishalhcl-5960           |        41 |         |
+| zbynek                   |        54 |         |
+| damianszczepanik         |        50 |         |
+| dwnusbaum                |        48 |         |
+| vishalhcl-5960           |        45 |         |
+| StefanSpieker            |        45 |         |
+| mPokornyETM              |        44 |         |
+| car-roll                 |        42 |         |
+| Dohbedoh                 |        41 |         |
 | ARUS2023                 |        41 |         |
-| brokenpip3               |        36 |         |
-| yaroslavafenkin          |        34 |         |
-| strangelookingnerd       |        33 | new     |
-| nikita-tkachenko-datadog |        31 | new     |
-| cyrille-leclerc          |        30 | new     |
+| nikita-tkachenko-datadog |        37 | new     |
+| yaroslavafenkin          |        37 |         |
+| viceice                  |        37 | new     |
+| brokenpip3               |        35 |         |
+| Waschndolos              |        31 | new     |
 | froque                   |           | churned |
 | jmMeessen                |           | churned |
-| halkeye                  |           | churned |
+| cyrille-leclerc          |           | churned |
 | Jagrutiti                |           | churned |
