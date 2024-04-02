@@ -94,7 +94,7 @@ actions:
   default:
     kind: github/pullrequest
     scmid: default
-    title: '[Consolidate Data script] Bump jenkins-top-submitters version to {{ source "jenkinsTopSubmittersLatestVersion" }}'
+    title: '[Check-prerequisites script] Bump minimal tool version'
     spec:
       labels:
         - dependencies
