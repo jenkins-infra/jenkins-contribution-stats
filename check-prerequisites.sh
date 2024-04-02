@@ -66,7 +66,7 @@ fi
 
 ## TODO: (code duplication) This could be refactored and moved to a bash sub routine
 # The target version of the jenkins-stats tool that we want to have installed.
-stats_target_version=0.2.14
+stats_target_version=0.2.15
 
 # Fetch the currently installed version of the jenkins-stats tool.
 # The 'awk' command is used to extract the version number from the output of the 'jenkins-stats version' command.
