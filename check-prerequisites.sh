@@ -36,7 +36,7 @@ fi
 
 ## TODO: (code duplication) This could be refactored and moved to a bash sub routine
 # The target version of the jenkins-top-submitters tool that we want to have installed.
-top_target_version=1.2.7
+top_target_version=1.2.8
 
 # Fetch the currently installed version of the jenkins-top-submitters tool.
 # The 'awk' command is used to extract the version number from the output of the 'jenkins-top-submitters version' command.
