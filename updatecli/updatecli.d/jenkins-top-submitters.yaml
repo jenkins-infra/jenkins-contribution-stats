@@ -30,35 +30,71 @@ sources:
           pattern: >-
             v(.*\.\d+\.\d+)
           captureindex: 1
+  jenkinsStatsLatestVersion:
+    kind: githubrelease
+    name: "Get the latest jenkins-stats version"
+    spec:
+      owner: "jmMeessen"
+      repository: "jenkins-stats"
+      token: "{{ requiredEnv .github.token }}"
+      username: "{{ .github.username }}"
+      versionfilter:
+        kind: semver
+        pattern: "v0"
+    transformers:
+      - findsubmatch:
+          pattern: >-
+            v(.*\.\d+\.\d+)
+          captureindex: 1
 
 conditions:
   test-jenkins-top-submitters-var:
-    name: "Does the consolidate-data.sh have a variable named target_version?"
+    name: "Does the check-prerequisites.sh have a variable named top_target_version?"
     disablesourceinput: true
     kind: file
     spec:
-      file: consolidate-data.sh
+      file: check-prerequisites.sh
       matchpattern: >-
-        .*target_version=.*
+        .*top_target_version=.*
+  test-jenkins-stats-var:
+    name: "Does the check-prerequisites.sh have a variable named stats_target_version?"
+    disablesourceinput: true
+    kind: file
+    spec:
+      file: check-prerequisites.sh
+      matchpattern: >-
+        .*stats_target_version=.*
+
 
 targets:
   update-jenkins-top-submitters-var:
-    name: "Update the value of the golang docker image for pipelines in the 'Hello World!' tutorial"
+    name: "Update the value of the target_version variable in check-prerequisites.sh"
     kind: file
     sourceid: jenkinsTopSubmittersLatestVersion
     spec:
-      file: consolidate-data.sh
+      file: check-prerequisites.sh
       matchpattern: >-
-        (.*target_version=)(.*)
+        (.*top_target_version=)(.*)
       replacepattern: >-
         ${1}{{ source "jenkinsTopSubmittersLatestVersion" }}
+    scmid: default
+  update-jenkins-stats-var:
+    name: "Update the value of the stats_target_version variable in check-prerequisites.sh"
+    kind: file
+    sourceid: jenkinsStatsLatestVersion
+    spec:
+      file: check-prerequisites.sh
+      matchpattern: >-
+        (.*stats_target_version=)(.*)
+      replacepattern: >-
+        ${1}{{ source "jenkinsStatsLatestVersion" }}
     scmid: default
 
 actions:
   default:
     kind: github/pullrequest
     scmid: default
-    title: '[Consolidate Data script] Bump jenkins-top-submitters version to {{ source "jenkinsTopSubmittersLatestVersion" }}'
+    title: '[Check-prerequisites script] Bump minimal tool version'
     spec:
       labels:
         - dependencies

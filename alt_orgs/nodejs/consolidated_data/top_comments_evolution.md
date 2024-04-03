@@ -1,48 +1,49 @@
 # Top Commenters (Compare)
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2023-12".
+over the 12 months before "2024-01".
 Table shows new and "churned" commenters compared 
 to the situation 3 months before.
 
 
 | Commenter         | Comments | status  |
 | ----------------- | -------: | ------- |
-| nodejs-github-bot |     9527 |         |
-| ovflowd           |     3021 |         |
-| aduh95            |     2024 |         |
-| anonrig           |     1411 |         |
-| GeoffreyBooth     |     1217 |         |
-| mcollina          |     1149 |         |
-| targos            |      878 |         |
-| joyeecheung       |      868 |         |
-| github-actions    |      828 |         |
-| mhdawson          |      810 |         |
-| MoLow             |      808 |         |
-| AugustinMauroy    |      694 |         |
-| ronag             |      689 |         |
-| Uzlopak           |      628 |         |
-| KhafraDev         |      585 |         |
-| ljharb            |      574 |         |
-| richardlau        |      564 |         |
-| tniessen          |      562 |         |
-| RafaelGSS         |      557 |         |
-| rluvaton          |      536 |         |
-| bmuenzenmeyer     |      521 |         |
-| vercel            |      520 |         |
-| benjamingr        |      497 |         |
-| JakobJingleheimer |      480 |         |
-| codecov-commenter |      439 |         |
-| lpinca            |      423 |         |
-| cjihrig           |      396 |         |
-| Trott             |      366 |         |
-| metcoder95        |      315 | new     |
-| marco-ippolito    |      291 |         |
-| atlowChemi        |      279 | new     |
-| ShogunPanda       |      278 |         |
-| legendecas        |      266 |         |
-| debadree25        |      257 |         |
-| UlisesGascon      |      255 | new     |
+| nodejs-github-bot |     8955 |         |
+| ovflowd           |     2668 |         |
+| aduh95            |     2062 |         |
+| anonrig           |     1364 |         |
+| GeoffreyBooth     |     1290 |         |
+| mcollina          |     1252 |         |
+| joyeecheung       |      926 |         |
+| targos            |      852 |         |
+| mhdawson          |      774 |         |
+| github-actions    |      767 |         |
+| Uzlopak           |      738 |         |
+| AugustinMauroy    |      723 |         |
+| MoLow             |      710 |         |
+| ronag             |      698 |         |
+| KhafraDev         |      601 |         |
+| bmuenzenmeyer     |      581 |         |
+| RafaelGSS         |      554 |         |
+| richardlau        |      541 |         |
+| rluvaton          |      539 |         |
+| ljharb            |      515 |         |
+| tniessen          |      490 |         |
+| vercel            |      485 |         |
+| codecov-commenter |      467 |         |
+| benjamingr        |      463 |         |
+| JakobJingleheimer |      458 |         |
+| lpinca            |      419 |         |
+| cjihrig           |      372 |         |
+| metcoder95        |      330 | new     |
+| atlowChemi        |      300 | new     |
+| marco-ippolito    |      293 |         |
+| H4ad              |      286 | new     |
+| Trott             |      285 |         |
+| ShogunPanda       |      280 |         |
+| tsctx             |      275 | new     |
+| legendecas        |      258 |         |
+| debadree25        |          | churned |
 | RaisinTen         |          | churned |
 | jasnell           |          | churned |
-| bnoordhuis        |          | churned |
+| UlisesGascon      |          | churned |
