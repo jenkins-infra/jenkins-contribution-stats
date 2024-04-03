@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Render images for every Mermaid diagram in all Markdown files (*.md) in the repo
         uses: jmmeessen/jmm-render-md-mermaid@V0
