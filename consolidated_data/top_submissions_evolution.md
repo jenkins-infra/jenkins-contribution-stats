@@ -1,7 +1,7 @@
 # Top Submitters (Compare)
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2023-12".
+over the 12 months before "2024-03".
 Table shows new and "churned" submitters compared 
 to the situation 3 months before.
 

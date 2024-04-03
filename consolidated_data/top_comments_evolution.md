@@ -1,7 +1,7 @@
 # Top Commenters (Compare)
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2024-01".
+over the 12 months before "2024-04".
 Table shows new and "churned" commenters compared 
 to the situation 3 months before.
 
