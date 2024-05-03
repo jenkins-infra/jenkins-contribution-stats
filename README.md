@@ -117,7 +117,7 @@ flowchart TD
 
     
     %% flow
-	start1 --> A -- loops through orgs --> B
+	start1 --> A -- loops through orgZ --> B
 	start2 --> B
     B --> C -- monthly data missing ? --> extracData  --> get_submitters
     get_submitters -.-> submission_month --> monthlypivot_subm -.-> monththlyPivot_submit --> extract_end --> C
