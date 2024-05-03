@@ -15,7 +15,6 @@ target_org="$1"
 
 if [ -z "$target_org" ];
 then
-    echo "Processing the Jenkins org (no alternate org specified)"
     target_org="jenkins"
 fi
 
