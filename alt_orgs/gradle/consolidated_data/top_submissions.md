@@ -1,43 +1,44 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2024-03".
+over the 12 months before "2024-04".
 
 
 | Submitter        | Total_PRs |
 | ---------------- | --------: |
-| bot-githubaction |       235 |
-| bot-gradle       |       187 |
-| blindpirate      |       182 |
-| tresat           |       164 |
-| jvandort         |       149 |
-| eskatos          |       134 |
-| asodja           |       128 |
-| alllex           |       123 |
-| bigdaz           |       119 |
-| ljacomet         |       113 |
-| wolfs            |        89 |
-| bamboo           |        88 |
-| big-guy          |        85 |
-| abstratt         |        77 |
-| hegyibalint      |        77 |
-| reinsch82        |        75 |
-| ribafish         |        65 |
-| lptr             |        64 |
-| ov7a             |        64 |
-| runningcode      |        64 |
-| jprinet          |        64 |
-| mlopatkin        |        59 |
-| lkasso           |        58 |
-| erichaagdev      |        56 |
-| jbartok          |        55 |
-| donat            |        55 |
+| bot-githubaction |       226 |
+| blindpirate      |       207 |
+| bot-gradle       |       184 |
+| tresat           |       181 |
+| bigdaz           |       152 |
+| jvandort         |       141 |
+| alllex           |       131 |
+| asodja           |       125 |
+| ljacomet         |       105 |
+| eskatos          |        97 |
+| wolfs            |        92 |
+| abstratt         |        79 |
+| big-guy          |        79 |
+| bamboo           |        79 |
+| lptr             |        74 |
+| ribafish         |        74 |
+| reinsch82        |        74 |
+| hegyibalint      |        73 |
+| runningcode      |        70 |
+| jprinet          |        69 |
+| pshevche         |        68 |
+| mlopatkin        |        63 |
+| ov7a             |        63 |
+| lkasso           |        60 |
 | octylFractal     |        54 |
-| tylerbertrand    |        52 |
-| pshevche         |        47 |
-| cdsap            |        46 |
-| 6hundreds        |        41 |
-| clayburn         |        36 |
-| adammurdoch      |        34 |
-| ghale            |        31 |
-| welandaz         |        30 |
+| jbartok          |        53 |
+| donat            |        51 |
+| erichaagdev      |        48 |
+| tylerbertrand    |        43 |
+| cdsap            |        43 |
+| clayburn         |        40 |
+| adammurdoch      |        39 |
+| 6hundreds        |        39 |
+| welandaz         |        36 |
+| alextu           |        32 |
+| ghale            |        32 |

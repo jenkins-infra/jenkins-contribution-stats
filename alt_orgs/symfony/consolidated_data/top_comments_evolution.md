@@ -1,48 +1,49 @@
 # Top Commenters (Compare)
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2024-01".
+over the 12 months before "2024-05".
 Table shows new and "churned" commenters compared 
 to the situation 3 months before.
 
 
 | Commenter         | Comments | status  |
 | ----------------- | -------: | ------- |
-| nicolas-grekas    |     3171 |         |
-| OskarStark        |     1480 |         |
-| weaverryan        |     1381 |         |
-| stof              |     1121 |         |
-| fabpot            |     1051 |         |
-| javiereguiluz     |      993 |         |
-| smnandre          |      838 |         |
-| derrabus          |      643 |         |
-| carsonbot         |      616 |         |
-| xabbuh            |      525 |         |
-| alexandre-daubois |      514 |         |
-| kbond             |      414 |         |
-| GromNaN           |      299 |         |
-| chalasr           |      241 |         |
-| lyrixx            |      229 |         |
-| wouterj           |      216 |         |
-| 94noni            |      203 |         |
+| nicolas-grekas    |     3085 |         |
+| OskarStark        |     1563 |         |
+| weaverryan        |     1255 |         |
+| fabpot            |     1046 |         |
+| smnandre          |     1016 |         |
+| javiereguiluz     |     1003 |         |
+| stof              |      991 |         |
+| derrabus          |      686 |         |
+| carsonbot         |      612 |         |
+| xabbuh            |      602 |         |
+| alexandre-daubois |      555 |         |
+| kbond             |      512 |         |
+| GromNaN           |      318 |         |
+| lyrixx            |      235 |         |
+| chalasr           |      220 |         |
+| wouterj           |      220 |         |
+| 94noni            |      188 |         |
+| WebMamba          |      185 |         |
 | Nyholm            |      176 |         |
-| HypeMC            |      167 |         |
-| github-actions    |      163 |         |
-| mtarld            |      161 |         |
-| WebMamba          |      152 |         |
-| HeahDude          |      145 |         |
-| dunglas           |      144 |         |
-| yceruto           |      135 |         |
-| ro0NL             |      128 |         |
-| norkunas          |      103 |         |
-| alamirault        |       98 |         |
-| VincentLanglet    |       92 |         |
-| MatTheCat         |       89 |         |
-| fancyweb          |       89 |         |
-| Spomky            |       77 |         |
-| jrushlow          |       76 | new     |
-| Jean-Beru         |       73 | new     |
-| squrious          |       69 | new     |
-| jmsche            |          | churned |
-| ruudk             |          | churned |
+| HypeMC            |      168 |         |
+| mtarld            |      164 |         |
+| yceruto           |      160 |         |
+| HeahDude          |      144 |         |
+| dunglas           |      135 |         |
+| github-actions    |      134 |         |
+| ro0NL             |      130 |         |
+| norkunas          |      108 |         |
+| alamirault        |       96 |         |
+| jrushlow          |       88 | new     |
+| fancyweb          |       82 |         |
+| VincentLanglet    |       81 |         |
+| MatTheCat         |       74 |         |
+| squrious          |       72 | new     |
+| Kocal             |       72 | new     |
+| Jean-Beru         |       72 | new     |
+| Spomky            |          | churned |
 | welcoMattic       |          | churned |
+| jmsche            |          | churned |
+| Neirda24          |          | churned |

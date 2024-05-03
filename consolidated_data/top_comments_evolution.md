@@ -1,47 +1,49 @@
 # Top Commenters (Compare)
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2024-04".
+over the 12 months before "2024-05".
 Table shows new and "churned" commenters compared 
 to the situation 3 months before.
 
 
 | Commenter                | Comments | status  |
 | ------------------------ | -------: | ------- |
-| MarkEWaite               |     1836 |         |
-| dduportal                |     1836 |         |
-| basil                    |     1570 |         |
-| jglick                   |     1388 |         |
-| lemeurherve              |     1352 |         |
-| timja                    |     1293 |         |
-| NotMyFault               |     1008 |         |
-| kmartens27               |      757 |         |
-| jtnord                   |      663 |         |
-| alecharp                 |      551 |         |
-| daniel-beck              |      541 |         |
-| gounthar                 |      482 |         |
-| krisstern                |      456 |         |
-| dwnusbaum                |      373 |         |
-| aneveux                  |      327 |         |
-| mawinter69               |      316 |         |
-| uhafner                  |      310 |         |
-| smerle33                 |      288 |         |
-| Vlatombe                 |      257 |         |
-| olamy                    |      256 |         |
-| jonesbusy                |      240 |         |
-| Jagrutiti                |      212 |         |
-| kinow                    |      178 |         |
-| judovana                 |      164 |         |
-| zbynek                   |      134 |         |
-| car-roll                 |      131 |         |
+| MarkEWaite               |     1825 |         |
+| dduportal                |     1673 |         |
+| lemeurherve              |     1349 |         |
+| basil                    |     1340 |         |
+| jglick                   |     1257 |         |
+| timja                    |     1152 |         |
+| NotMyFault               |      911 |         |
+| kmartens27               |      753 |         |
+| jtnord                   |      630 |         |
+| daniel-beck              |      568 |         |
+| alecharp                 |      504 |         |
+| gounthar                 |      456 |         |
+| dwnusbaum                |      383 |         |
+| krisstern                |      343 |         |
+| mawinter69               |      339 |         |
+| aneveux                  |      328 |         |
+| uhafner                  |      327 |         |
+| smerle33                 |      292 |         |
+| olamy                    |      262 |         |
+| jonesbusy                |      242 |         |
+| Vlatombe                 |      236 |         |
+| judovana                 |      182 |         |
+| kinow                    |      180 |         |
+| Jagrutiti                |      179 |         |
+| zbynek                   |      135 |         |
 | damianszczepanik         |      127 |         |
 | bguerin                  |      124 |         |
+| car-roll                 |      122 |         |
 | pdk27                    |      120 |         |
+| janfaracik               |      119 |         |
 | LizGaudet                |      113 |         |
-| janfaracik               |      105 |         |
-| yaroslavafenkin          |      103 |         |
-| KalleOlaviNiemitalo      |       99 | new     |
-| nikita-tkachenko-datadog |       98 | new     |
-| rsandell                 |       93 |         |
+| nikita-tkachenko-datadog |      101 | new     |
+| KalleOlaviNiemitalo      |       94 | new     |
+| sridamul                 |       93 | new     |
+| drodriguezhdez           |       92 | new     |
 | halkeye                  |          | churned |
 | sghill                   |          | churned |
+| yaroslavafenkin          |          | churned |
+| rsandell                 |          | churned |

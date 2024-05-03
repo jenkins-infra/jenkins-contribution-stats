@@ -1,49 +1,49 @@
 # Top Commenters (Compare)
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2024-01".
+over the 12 months before "2024-05".
 Table shows new and "churned" commenters compared 
 to the situation 3 months before.
 
 
 | Commenter      | Comments | status  |
 | -------------- | -------: | ------- |
-| bot-gradle     |     4203 |         |
-| tresat         |     1368 |         |
-| jvandort       |     1107 |         |
-| lkasso         |      754 |         |
-| wolfs          |      603 |         |
-| gitstream-cm   |      601 |         |
-| bamboo         |      579 |         |
-| asodja         |      577 |         |
-| lptr           |      564 |         |
-| blindpirate    |      520 |         |
-| alllex         |      490 |         |
-| big-guy        |      488 |         |
-| eskatos        |      412 |         |
-| donat          |      385 |         |
-| ljacomet       |      342 |         |
-| hegyibalint    |      330 |         |
-| runningcode    |      311 |         |
-| abstratt       |      300 |         |
-| mlopatkin      |      284 |         |
-| ov7a           |      267 |         |
-| octylFractal   |      215 |         |
-| ghale          |      211 |         |
-| bigdaz         |      202 |         |
-| reinsch82      |      182 |         |
-| jbartok        |      175 |         |
-| 6hundreds      |      162 |         |
-| adammurdoch    |      154 |         |
-| cobexer        |      138 |         |
-| pshevche       |      130 | new     |
-| jprinet        |      119 |         |
-| erichaagdev    |      118 |         |
-| h0tk3y         |      101 |         |
-| github-actions |       67 | new     |
-| akshayabd      |       62 | new     |
-| marcphilipp    |       59 | new     |
+| bot-gradle     |     4080 |         |
+| tresat         |     1427 |         |
+| jvandort       |     1088 |         |
+| lkasso         |      690 |         |
+| bamboo         |      638 |         |
+| asodja         |      610 |         |
+| gitstream-cm   |      558 |         |
+| lptr           |      541 |         |
+| alllex         |      508 |         |
+| blindpirate    |      506 |         |
+| big-guy        |      499 |         |
+| wolfs          |      476 |         |
+| eskatos        |      400 |         |
+| donat          |      389 |         |
+| mlopatkin      |      344 |         |
+| abstratt       |      331 |         |
+| ljacomet       |      319 |         |
+| hegyibalint    |      309 |         |
+| runningcode    |      293 |         |
+| ov7a           |      292 |         |
+| ghale          |      229 |         |
+| bigdaz         |      223 |         |
+| reinsch82      |      216 |         |
+| octylFractal   |      209 |         |
+| 6hundreds      |      161 |         |
+| adammurdoch    |      157 |         |
+| cobexer        |      157 |         |
+| pshevche       |      152 | new     |
+| jbartok        |      145 |         |
+| jprinet        |      127 |         |
+| erichaagdev    |      117 |         |
+| h0tk3y         |      116 |         |
+| welandaz       |       69 | new     |
+| alextu         |       67 | new     |
+| github-actions |       60 | new     |
 | etiennestuder  |          | churned |
 | tylerbertrand  |          | churned |
-| hythloda       |          | churned |
-| FrauBoes       |          | churned |
+| JLLeitschuh    |          | churned |
+| jthurne        |          | churned |
