@@ -12,3 +12,13 @@ target_org="$1"
 ./consolidate-data.sh comments "$target_org"
 ./submission-submitter-report.sh "$target_org"
 ./comment-commenter-report.sh "$target_org"
+
+if [ -z "$target_org" ];
+then
+    echo "Processing the Jenkins org (no alternate org specified)"
+    target_org="jenkins"
+fi
+
+echo ""
+echo "🍻 - Processing of $target_org successfuly ended"
+echo ""
