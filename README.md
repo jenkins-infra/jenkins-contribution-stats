@@ -122,11 +122,11 @@ flowchart TD
     B --> C -- monthly data missing ? --> extracData  --> get_submitters
     get_submitters -.-> submission_month --> monthlypivot_subm -.-> monththlyPivot_submit --> extract_end --> C
     submission_month --> get_commenters -.-> comments_month --> monthlypivot_comment -.-> monththlyPivot_comment --> extract_end
-    B --> D -.-> global_submissions
+    B --> D --> global_submissions
     global_submissions --> subm_overview_pivot -.-> global_submissionsOverview
     global_submissions --> top_extract --> top_submission
     global_submissions --> top_compare --> top_submission_evol
-    B --> E -.-> global_comments --> comment_overview_pivot -.-> global_commentsOverview
+    B --> E --> global_comments --> comment_overview_pivot -.-> global_commentsOverview
     B --> F 
     B --> G
 ```
