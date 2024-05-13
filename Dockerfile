@@ -1,7 +1,7 @@
 # This Dockerfile is used to build an image for a Go application.
 
 # We start from the golang:1.22.1-bookworm base image.
-FROM golang:1.22.2-bookworm
+FROM golang:1.22.3-bookworm
 
 # We declare an ARG for the GitHub token, which will be used for authentication.
 ARG GITHUB_TOKEN
