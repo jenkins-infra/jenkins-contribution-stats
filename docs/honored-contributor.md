@@ -34,7 +34,31 @@ RUN_DATE, MONTH, GH_HANDLE, GH_HANDLE_URL, NBR_PR, REPOSITORIES
 
 The file name will be "https://github.com/jmMeessen/jenkins-submitter-stats/tree/main/consolidated_data/honored_contributor.csv". A prototype file will be made available asap to allow concurrent work on the UI. Note that the org and repository will change as it will be moved to the JenkinsCi org.
 
+## Technical Specification
+
+Seen that the extracted data files contain only part of the required information, a dedicated processing option will have to be created. 
+It will be implemented as a new command of the `jenkins-stats` application.
+
+- command: `honored`
+- options
+   - `--data_dir`: directory where the consolidated files are stored. We will be looking for `pr_per_submitter-YYYY-MM.csv`
+   - `--output`: where the resulting file will be written (default: `[data_dir]/honored_contributor.csv`)
+   - `--month` : month to use to pick the honored user from.
+
+- Workflow:
+   - get the month to use as reference
+      - use `--month` parameter
+      - if no month is specified, compute it => month before the current one
+   - compute the correct input filename (`pr_per_submitter-YYYY-MM.csv`)
+   - fail if the file does not exist else open the file
+   - validate that it has the correct format (CSV and column names)
+   - load the file in memory
+   - pick a data line randomly
+   - make a GitHub query to retrieve the contributors information (URL, avatar)
+   - for the given user, retrieve all the PRs of that user in the given month
+   - pick the required data and assemble it so that it can be outputed
+   - output the file
+
 ## Notes
-- The process will be built using bash and data files already extracted for the Jenkins Submitter Stats. Should some key features or information not be available using this strategy, a specific GOlang extractor or a new option to jenkins-stats will be written.
 - This specification proposal is for discussion and subject to change based on feasibility. The objective is to deliver quickly a proof of concept of the full feature.
 - It can and will be enhanced in later phases once the initial version is running.
