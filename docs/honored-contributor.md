@@ -22,6 +22,7 @@ This document specifies this data and extraction process.
    - the month examined
    - the GitHub handle of the contributor
    - the URL of the GitHub user's page
+   - the GitHub user's avatar   
    - the number of PRs submitted in the last month
    - the list of repositories where the PR's were submitted to
 
@@ -39,25 +40,42 @@ The file name will be "https://github.com/jmMeessen/jenkins-submitter-stats/tree
 Seen that the extracted data files contain only part of the required information, a dedicated processing option will have to be created. 
 It will be implemented as a new command of the `jenkins-stats` application.
 
+### New CLI command
+
 - command: `honored`
 - options
    - `--data_dir`: directory where the consolidated files are stored. We will be looking for `pr_per_submitter-YYYY-MM.csv`
    - `--output`: where the resulting file will be written (default: `[data_dir]/honored_contributor.csv`)
    - `--month` : month to use to pick the honored user from.
 
-- Workflow:
-   - get the month to use as reference
-      - use `--month` parameter
-      - if no month is specified, compute it => month before the current one
-   - compute the correct input filename (`pr_per_submitter-YYYY-MM.csv`)
-   - fail if the file does not exist else open the file
-   - validate that it has the correct format (CSV and column names)
-   - load the file in memory
-   - pick a data line randomly
-   - make a GitHub query to retrieve the contributors information (URL, avatar)
-   - for the given user, retrieve all the PRs of that user in the given month
-   - pick the required data and assemble it so that it can be outputed
-   - output the file
+### Workflow
+
+- get the month to use as reference
+   - use `--month` parameter
+   - if no month is specified, compute it => month before the current one
+- compute the correct input filename (`pr_per_submitter-YYYY-MM.csv`)
+- fail if the file does not exist else open the file
+- validate that it has the correct format (CSV and column names)
+- load the file in memory
+- pick a data line randomly
+- make a GitHub query to retrieve the contributors information (URL, avatar)
+- for the given user, retrieve all the PRs of that user in the given month
+- pick the required data and assemble it so that it can be outputed
+- output the file
+
+### Data
+
+| field | meaning | provenance |
+|-------|---------|------------|
+| RUN_DATE | current date/time| computed |
+| MONTH | source month (`YYYY-MM`) | from the parameters |
+| GH_HANDLE | GitHub User's name | as read from file |
+| GH_HANDLE_URL | URL to the user's page | retrieved via a GH call |
+| GH_HANDLE_AVATAR | URL to the user's avatar | retrieved via a GH call |
+| NBR_PR | number of PRs in source month| as read from file |
+| REPOSITORIES | Space delimited list of repos where PRs were submitted | retrieved via a GH call  |
+
+### GitHub call
 
 ## Notes
 - This specification proposal is for discussion and subject to change based on feasibility. The objective is to deliver quickly a proof of concept of the full feature.
