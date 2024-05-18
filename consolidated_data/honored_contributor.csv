@@ -1,2 +1,2 @@
-RUN_DATE, MONTH, GH_HANDLE, GH_HANDLE_URL, NBR_PR, REPOSITORIES
-2024-05-15T13:02:24, 2024-04, olamy, https://github.com/olamy, 14, "jenkinsci/myproject jenkinsci/mysecondprj" 
+RUN_DATE, MONTH, GH_HANDLE, GH_HANDLE_URL, GH_HANDLE_AVATAR, NBR_PR, REPOSITORIES
+2024-05-15T13:02:24, 2024-04, olamy, https://github.com/olamy, https://avatars.githubusercontent.com/u/19728?v=4,  14, "jenkinsci/myproject jenkinsci/mysecondprj" 
