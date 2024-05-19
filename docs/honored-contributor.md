@@ -77,6 +77,92 @@ It will be implemented as a new command of the `jenkins-stats` application.
 
 ### GitHub call
 
+This GitHub V4 query can be validated at https://docs.github.com/en/graphql/overview/explorer. 
+It validates that multiple orgs can be searched.
+
+```Typescript
+{
+  search(query: "org:jenkinsci org:jenkins-infra is:pr author:dduportal created:2024-04-01..2024-04-30", type: ISSUE, first: 100) {
+    issueCount
+    edges {
+      node {
+        ... on PullRequest {
+          author {
+            login
+            avatarUrl
+            url
+          }
+          url
+          title
+          createdAt
+          repository {
+            name
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+The resulting json. 
+Note that to avoid multiple API calls, the author's details are returned for every pull request.
+
+This particular query has 1 PR in `jenkinsci` and 27 PR in `jenkins-infra`
+
+```json
+{
+  "data": {
+    "search": {
+      "issueCount": 28,
+      "edges": [
+        {
+          "node": {
+            "author": {
+              "login": "dduportal",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1522731?u=5153c23fbf9260c8c1d183fb5388b7308bd8faae&v=4",
+              "url": "https://github.com/dduportal"
+            },
+            "url": "https://github.com/jenkins-infra/kubernetes-management/pull/5171",
+            "title": "chore(updatecli) fix JDK tool manifests",
+            "createdAt": "2024-04-24T18:40:53Z",
+            "repository": {
+              "name": "kubernetes-management"
+            }
+          }
+        },
+        {
+          "node": {
+            "author": {
+              "login": "dduportal",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1522731?u=5153c23fbf9260c8c1d183fb5388b7308bd8faae&v=4",
+              "url": "https://github.com/dduportal"
+            },
+            "url": "https://github.com/jenkins-infra/update-center2/pull/776",
+            "title": "chore(publish.sh) set up `httpd` fallback redirection to mirrors [new UC]",
+            "createdAt": "2024-04-24T17:20:07Z",
+            "repository": {
+              "name": "update-center2"
+            }
+          }
+        },
+        {
+          "node": {
+            "author": {
+              "login": "dduportal",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1522731?u=5153c23fbf9260c8c1d183fb5388b7308bd8faae&v=4",
+              "url": "https://github.com/dduportal"
+            },
+            "url": "https://github.com/jenkins-infra/docker-inbound-agents/pull/155",
+            "title": "chore(updatecli) fix JDK and agent manifests to ensure new versions are tracked",
+            "createdAt": "2024-04-24T15:33:54Z",
+            "repository": {
+              "name": "docker-inbound-agents"
+            }
+          }
+        },
+```
+
 ## Notes
 - This specification proposal is for discussion and subject to change based on feasibility. The objective is to deliver quickly a proof of concept of the full feature.
 - It can and will be enhanced in later phases once the initial version is running.
