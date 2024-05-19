@@ -105,7 +105,7 @@ It validates that multiple orgs can be searched.
 }
 ```
 
-The resulting json. 
+Begin of the resulting json. 
 Note that to avoid multiple API calls, the author's details are returned for every pull request.
 
 This particular query has 1 PR in `jenkinsci` and 27 PR in `jenkins-infra`
