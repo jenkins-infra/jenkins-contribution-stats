@@ -33,7 +33,7 @@ RUN_DATE, MONTH, GH_HANDLE, GH_HANDLE_URL, GH_HANDLE_AVATAR, NBR_PR, REPOSITORIE
 2024-05-15T13:02:24, 2024-04, olamy, https://github.com/olamy, https://avatars.githubusercontent.com/u/19728?v=4,  14, "jenkinsci/myproject jenkinsci/mysecondprj" 
 ```
 
-The file name will be "https://github.com/jmMeessen/jenkins-submitter-stats/tree/main/consolidated_data/honored_contributor.csv". A prototype file will be made available asap to allow concurrent work on the UI. Note that the org and repository will change as it will be moved to the JenkinsCi org.
+The file name will be "https://github.com/jmMeessen/jenkins-submitter-stats/tree/main/data/honored_contributor.csv". A prototype file will be made available asap to allow concurrent work on the UI. Note that the org and repository will change as it will be moved to the JenkinsCi org.
 
 ## Technical Specification
 
@@ -42,7 +42,7 @@ It will be implemented as a new command of the `jenkins-stats` application.
 
 ### New CLI command
 
-- command: `honored`
+- command: `honor`
 - required parameter: `YYYY-MM` (month to use to pick the honored user from.)
 - options
    - `--data_dir`: directory where the consolidated files are stored. We will be looking for `pr_per_submitter-YYYY-MM.csv`
@@ -161,6 +161,8 @@ This particular query has 1 PR in `jenkinsci` and 27 PR in `jenkins-infra`
             }
           }
         },
+
+        [...]
 ```
 
 ## Notes
