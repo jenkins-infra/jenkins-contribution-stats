@@ -43,16 +43,16 @@ It will be implemented as a new command of the `jenkins-stats` application.
 ### New CLI command
 
 - command: `honored`
+- required parameter: `YYYY-MM` (month to use to pick the honored user from.)
 - options
    - `--data_dir`: directory where the consolidated files are stored. We will be looking for `pr_per_submitter-YYYY-MM.csv`
    - `--output`: where the resulting file will be written (default: `[data_dir]/honored_contributor.csv`)
-   - `--month` : month to use to pick the honored user from.
+
 
 ### Workflow
 
-- get the month to use as reference
-   - use `--month` parameter
-   - if no month is specified, compute it => month before the current one
+- check the required month parameter
+- check existence of the data directory
 - compute the correct input filename (`pr_per_submitter-YYYY-MM.csv`)
 - fail if the file does not exist else open the file
 - validate that it has the correct format (CSV and column names)
