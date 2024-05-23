@@ -29,8 +29,8 @@ This document specifies this data and extraction process.
 The proposed format would be:
 
 ```
-RUN_DATE, MONTH, GH_HANDLE, GH_HANDLE_URL, GH_HANDLE_AVATAR, NBR_PR, REPOSITORIES
-2024-05-15T13:02:24, 2024-04, olamy, https://github.com/olamy, https://avatars.githubusercontent.com/u/19728?v=4,  14, "jenkinsci/myproject jenkinsci/mysecondprj" 
+"RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
+"2024-05-15T13:02:24", "2024-04", "olamy", "Olivier Lamy", "@CloudBees, "https://github.com/olamy", "https://avatars.githubusercontent.com/u/19728?v=4", "14", "jenkinsci/myproject jenkinsci/mysecondprj" 
 ```
 
 The file name will be "https://github.com/jmMeessen/jenkins-submitter-stats/tree/main/data/honored_contributor.csv". A prototype file will be made available asap to allow concurrent work on the UI. Note that the org and repository will change as it will be moved to the JenkinsCi org.
@@ -70,6 +70,8 @@ It will be implemented as a new command of the `jenkins-stats` application.
 | RUN_DATE | current date/time| computed |
 | MONTH | source month (`YYYY-MM`) | from the parameters |
 | GH_HANDLE | GitHub User's name | as read from file |
+| FULL_NAME | User's full name (if available) | retrieved via a GH call |
+| COMPANY | User's company affiliation (if available) | retrieved via a GH call |
 | GH_HANDLE_URL | URL to the user's page | retrieved via a GH call |
 | GH_HANDLE_AVATAR | URL to the user's avatar | retrieved via a GH call |
 | NBR_PR | number of PRs in source month| as read from file |
