@@ -33,6 +33,13 @@ echo "Picking the submitter to honor in ${month_to_process}"
 # perform the query and generates the data file data/honored_contributor.csv
 jenkins-stats honor "$month_to_process" --data_dir=data/ -v
 
+# This command is used to add the current working directory to the list of directories
+# that Git considers to be safe. This is useful in situations where the ownership of the
+# directory might be dubious, such as when running inside a Docker container with a different
+# user than the one who owns the directory on the host machine. By adding the directory to
+# the safe list, Git will not complain about the ownership of the directory.
+git config --global --add safe.directory "$PWD"
+
 # Add all changes to the staging area
 git add .
 
