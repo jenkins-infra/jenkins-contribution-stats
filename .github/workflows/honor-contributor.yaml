@@ -51,6 +51,8 @@ jobs:
           -e GITHUB_ENV=$GITHUB_ENV_PATH \
           -v ${{ github.workspace }}:/workspace \
           my-docker-image bash -c "cd /workspace && ./generateHonoredContribDataFile.sh"
+        HONORED_CONTRIBUTOR=$(cat $GITHUB_ENV_PATH | cut -d'=' -f2)
+        echo "HONORED_CONTRIBUTOR=$HONORED_CONTRIBUTOR" >> $GITHUB_ENV
       shell: bash
 
     # The fifth step is to commit and push the changes made by the generateHonoredContribDataFile.sh script.

@@ -63,6 +63,8 @@ fi
 
 # Print a message indicating that the honored contributor is being added.
 echo "Adding $honored_contributor as the honored contributor."
-echo "GitHub ENV file is: $GITHUB_ENV"
+
+#echo "GitHub ENV file is: $GITHUB_ENV"
+
 # Set the honored_contributor as an output variable using an environment file.
 echo "HONORED_CONTRIBUTOR=$honored_contributor" >> $GITHUB_ENV
