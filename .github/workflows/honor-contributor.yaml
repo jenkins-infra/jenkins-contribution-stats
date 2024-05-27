@@ -30,4 +30,4 @@ jobs:
     # The third step is to run a shell script named 'generateHonoredContribDataFile.sh' in the Docker container.
     # The script is run with a GitHub token passed as an environment variable.
     - name: Run generateHonoredContribDataFile.sh
-      run: docker run --rm -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} my-docker-image ls *sh
+      run: docker run --rm -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} my-docker-image cd / && ls *sh
