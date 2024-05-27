@@ -47,6 +47,7 @@ jobs:
           -e GIT_COMMITTER_EMAIL="${{ github.actor }}@users.noreply.github.com" \
           -e GIT_AUTHOR_NAME="${{ github.actor }}" \
           -e GIT_AUTHOR_EMAIL="${{ github.actor }}@users.noreply.github.com" \
+          -e GITHUB_ENV=$GITHUB_ENV_PATH \
           -v ${{ github.workspace }}:/workspace \
           my-docker-image bash -c "cd /workspace && ./generateHonoredContribDataFile.sh"
       shell: bash
