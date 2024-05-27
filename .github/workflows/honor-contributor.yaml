@@ -3,7 +3,10 @@
 name: Honor Contributor  # Name of the workflow
 
 # Defines when the workflow will run
-on:
+on:  # The workflow will run when code is pushed to the 'docker' branch
+  push:
+    branches:
+      - git-push-by-ga
   # The workflow is scheduled to run on a cron schedule.
   # The cron syntax is in UTC.
   # The current schedule is '35 7 * * *', which means the workflow will run at 7:35 AM UTC every day.
@@ -32,14 +35,12 @@ jobs:
     - name: Build Docker image
       run: docker build -t my-docker-image .
 
-    # The fourth step is to run a shell script named 'generateHonoredContribDataFile.sh' in the Docker container.
-    # The script is run with a GitHub token passed as an environment variable.
-    # The Docker container is run with the GitHub workspace mounted as a volume.
-    # This allows the script to interact with the Git repository.
+    # The fourth step is to run the generateHonoredContribDataFile.sh script inside a Docker container.
+    # The script is run with several environment variables set, including the GitHub token and the GitHub actor's name and email.
+    # The GitHub workspace is mounted as a volume inside the Docker container.
     - name: Run generateHonoredContribDataFile.sh
+      id: generate
       run: |
-        # The Docker container is run with the GitHub workspace mounted as a volume.
-        # This allows the script to interact with the Git repository.
         docker run --rm \
           -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
           -e GIT_COMMITTER_NAME="${{ github.actor }}" \
@@ -48,3 +49,16 @@ jobs:
           -e GIT_AUTHOR_EMAIL="${{ github.actor }}@users.noreply.github.com" \
           -v ${{ github.workspace }}:/workspace \
           my-docker-image bash -c "cd /workspace && ./generateHonoredContribDataFile.sh"
+      shell: bash
+
+    # The fifth step is to commit and push the changes made by the generateHonoredContribDataFile.sh script.
+    # The commit message includes the name of the honored contributor, which is output by the generateHonoredContribDataFile.sh script.
+    # The changes are committed and pushed to the 'docker' branch.
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Adding ${{ steps.generate.outputs.honored_contributor }} as the honored contributor."
+        branch: docker
+        file_pattern: data/honored_contributor.csv
+        commit_user_name: GitHub Actions
+        commit_user_email: actions@github.com
