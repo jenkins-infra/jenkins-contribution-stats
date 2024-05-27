@@ -3,10 +3,7 @@
 name: Honor Contributor  # Name of the workflow
 
 # Defines when the workflow will run
-on:  # The workflow will run when code is pushed to the 'docker' branch
-  push:
-    branches:
-      - git-push-by-ga  # The workflow will run when code is pushed to the 'git-push-by-ga' branch
+on:  
   # The workflow is scheduled to run on a cron schedule.
   # The cron syntax is in UTC.
   # The current schedule is '35 7 * * *', which means the workflow will run at 7:35 AM UTC every day.
