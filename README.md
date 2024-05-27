@@ -84,7 +84,7 @@ flowchart TD
     E[[consolidate-data.sh comments]]
     F[[submission-submitter-report.sh]]
     G[[comment-commenter-report.sh]]
-    extracData[[extract-montlhly-submissions.sh]]
+    extracData[[extract-monthly-submissions.sh]]
     get_submitters{{"jenkins-stats get submitters {org}"}}
     get_commenters{{"jenkins-stats get commenters"}}
     top_extract{{jenkins-top-submitters </br> extract}}
@@ -117,16 +117,16 @@ flowchart TD
 
     
     %% flow
-	start1 --> A -- loops through orgs --> B
+	start1 --> A -- loops through org --> B
 	start2 --> B
     B --> C -- monthly data missing ? --> extracData  --> get_submitters
     get_submitters -.-> submission_month --> monthlypivot_subm -.-> monththlyPivot_submit --> extract_end --> C
     submission_month --> get_commenters -.-> comments_month --> monthlypivot_comment -.-> monththlyPivot_comment --> extract_end
-    B --> D -.-> global_submissions
+    B --> D --> global_submissions
     global_submissions --> subm_overview_pivot -.-> global_submissionsOverview
     global_submissions --> top_extract --> top_submission
     global_submissions --> top_compare --> top_submission_evol
-    B --> E -.-> global_comments --> comment_overview_pivot -.-> global_commentsOverview
+    B --> E --> global_comments --> comment_overview_pivot -.-> global_commentsOverview
     B --> F 
     B --> G
 ```

@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2024-03".
+over the 12 months before "2024-05".
 
 
 | Commenter         | Total_Comments |
 | ----------------- | -------------: |
-| nicolas-grekas    |           3388 |
-| OskarStark        |           1586 |
-| weaverryan        |           1501 |
-| stof              |           1144 |
-| fabpot            |           1102 |
-| javiereguiluz     |            931 |
-| smnandre          |            668 |
-| carsonbot         |            624 |
-| derrabus          |            542 |
-| xabbuh            |            498 |
-| alexandre-daubois |            482 |
-| kbond             |            412 |
-| GromNaN           |            283 |
-| chalasr           |            247 |
-| wouterj           |            226 |
-| lyrixx            |            209 |
-| 94noni            |            200 |
-| github-actions    |            179 |
-| WebMamba          |            176 |
+| nicolas-grekas    |           3085 |
+| OskarStark        |           1563 |
+| weaverryan        |           1255 |
+| fabpot            |           1046 |
+| smnandre          |           1016 |
+| javiereguiluz     |           1003 |
+| stof              |            991 |
+| derrabus          |            686 |
+| carsonbot         |            612 |
+| xabbuh            |            602 |
+| alexandre-daubois |            555 |
+| kbond             |            512 |
+| GromNaN           |            318 |
+| lyrixx            |            235 |
+| chalasr           |            220 |
+| wouterj           |            220 |
+| 94noni            |            188 |
+| WebMamba          |            185 |
 | Nyholm            |            176 |
 | HypeMC            |            168 |
-| dunglas           |            165 |
 | mtarld            |            164 |
-| ro0NL             |            145 |
-| HeahDude          |            145 |
-| yceruto           |            122 |
-| norkunas          |            116 |
-| alamirault        |            110 |
-| fancyweb          |             95 |
-| VincentLanglet    |             86 |
-| MatTheCat         |             85 |
-| Spomky            |             83 |
+| yceruto           |            160 |
+| HeahDude          |            144 |
+| dunglas           |            135 |
+| github-actions    |            134 |
+| ro0NL             |            130 |
+| norkunas          |            108 |
+| alamirault        |             96 |
+| jrushlow          |             88 |
+| fancyweb          |             82 |
+| VincentLanglet    |             81 |
+| MatTheCat         |             74 |
+| squrious          |             72 |
+| Kocal             |             72 |
 | Jean-Beru         |             72 |
-| jmsche            |             72 |
-| Neirda24          |             68 |

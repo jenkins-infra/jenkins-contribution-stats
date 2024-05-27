@@ -2,6 +2,9 @@
 
 set -e
 
+# check wether required tools are available
+./check-prerequisites.sh
+
 # Constants
 oldest_year=2020
 oldest_month=01
