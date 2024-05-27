@@ -8,6 +8,10 @@ ARG GITHUB_TOKEN
 # We set an environment variable with the GitHub token.
 ENV GITHUB_TOKEN=$GITHUB_TOKEN
 
+# We declare ARGs for the user ID and group ID.
+ARG USER_ID
+ARG GROUP_ID
+
 # We update the package lists for upgrades for packages that need upgrading, as well as new packages that have just come to the repositories.
 # We install datamash, git, sudo, and GitHub CLI.
 # We also check if wget is installed, if not, we install it.
@@ -66,3 +70,10 @@ RUN ln -s $(which date) /bin/gdate && \
     brew tap jmMeessen/tap && \
     brew install jenkins-stats && \
     brew install jenkins-top-submitters
+
+# Create a new user with the user ID and group ID.
+# Switch to the new user.
+RUN groupadd -g $GROUP_ID runner && \
+    useradd -l -u $USER_ID -g runner runner && \
+    install -d -m 0755 -o runner -g runner /home/runner
+USER runner

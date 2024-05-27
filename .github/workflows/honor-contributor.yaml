@@ -33,7 +33,7 @@ jobs:
 
     # The third step is to build a Docker image using the Dockerfile in the current repository.
     - name: Build Docker image
-      run: docker build -t stats .
+      run: docker build --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) -t stats .
 
     # The fourth step is to run the generateHonoredContribDataFile.sh script inside a Docker container.
     # The script is run with several environment variables set, including the GitHub token and the GitHub actor's name and email.
