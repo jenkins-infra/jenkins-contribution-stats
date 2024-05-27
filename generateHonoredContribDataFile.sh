@@ -68,4 +68,4 @@ echo "Adding $honored_contributor as the honored contributor."
 
 # Set the honored_contributor as an output variable using an environment file.
 echo "HONORED_CONTRIBUTOR=$honored_contributor" >> $GITHUB_ENV
-cat $GITHUB_ENV_PATH | cut -d'=' -f2
+cat $GITHUB_ENV | cut -d'=' -f2
