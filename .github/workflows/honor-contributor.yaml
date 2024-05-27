@@ -41,12 +41,14 @@ jobs:
     # The Docker container is run with the GitHub workspace mounted as a volume.
     # This allows the script to interact with the Git repository.
     - name: Run generateHonoredContribDataFile.sh
-  run: |
-    docker run --rm \
-      -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
-      -e GIT_COMMITTER_NAME="${{ github.actor }}" \
-      -e GIT_COMMITTER_EMAIL="${{ github.actor }}@users.noreply.github.com" \
-      -e GIT_AUTHOR_NAME="${{ github.actor }}" \
-      -e GIT_AUTHOR_EMAIL="${{ github.actor }}@users.noreply.github.com" \
-      -v ${{ github.workspace }}:/workspace \
-      my-docker-image bash -c "cd /workspace && ./generateHonoredContribDataFile.sh"
+      run: |
+        # The Docker container is run with the GitHub workspace mounted as a volume.
+        # This allows the script to interact with the Git repository.
+        docker run --rm \
+          -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
+          -e GIT_COMMITTER_NAME="${{ github.actor }}" \
+          -e GIT_COMMITTER_EMAIL="${{ github.actor }}@users.noreply.github.com" \
+          -e GIT_AUTHOR_NAME="${{ github.actor }}" \
+          -e GIT_AUTHOR_EMAIL="${{ github.actor }}@users.noreply.github.com" \
+          -v ${{ github.workspace }}:/workspace \
+          my-docker-image bash -c "cd /workspace && ./generateHonoredContribDataFile.sh"
