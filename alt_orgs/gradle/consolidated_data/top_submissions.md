@@ -1,43 +1,44 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2024-02".
+over the 12 months before "2024-04".
 
 
 | Submitter        | Total_PRs |
 | ---------------- | --------: |
-| bot-githubaction |       234 |
-| bot-gradle       |       212 |
-| tresat           |       173 |
-| eskatos          |       168 |
-| blindpirate      |       160 |
-| jvandort         |       144 |
-| bigdaz           |       123 |
-| asodja           |       119 |
-| ljacomet         |       117 |
-| alllex           |       109 |
-| bamboo           |        96 |
-| wolfs            |        96 |
-| erichaagdev      |        88 |
-| big-guy          |        86 |
-| hegyibalint      |        85 |
-| reinsch82        |        83 |
-| abstratt         |        83 |
-| mlopatkin        |        76 |
-| ov7a             |        69 |
-| jprinet          |        65 |
-| lptr             |        59 |
-| runningcode      |        59 |
-| tylerbertrand    |        56 |
-| jbartok          |        54 |
-| lkasso           |        54 |
-| donat            |        53 |
-| octylFractal     |        49 |
-| cdsap            |        48 |
-| 6hundreds        |        47 |
-| clayburn         |        43 |
-| ribafish         |        39 |
+| bot-githubaction |       226 |
+| blindpirate      |       207 |
+| bot-gradle       |       184 |
+| tresat           |       181 |
+| bigdaz           |       152 |
+| jvandort         |       141 |
+| alllex           |       131 |
+| asodja           |       125 |
+| ljacomet         |       105 |
+| eskatos          |        97 |
+| wolfs            |        92 |
+| abstratt         |        79 |
+| big-guy          |        79 |
+| bamboo           |        79 |
+| lptr             |        74 |
+| ribafish         |        74 |
+| reinsch82        |        74 |
+| hegyibalint      |        73 |
+| runningcode      |        70 |
+| jprinet          |        69 |
+| pshevche         |        68 |
+| mlopatkin        |        63 |
+| ov7a             |        63 |
+| lkasso           |        60 |
+| octylFractal     |        54 |
+| jbartok          |        53 |
+| donat            |        51 |
+| erichaagdev      |        48 |
+| tylerbertrand    |        43 |
+| cdsap            |        43 |
+| clayburn         |        40 |
 | adammurdoch      |        39 |
-| ghale            |        38 |
-| etiennestuder    |        30 |
-| welandaz         |        30 |
+| 6hundreds        |        39 |
+| welandaz         |        36 |
+| alextu           |        32 |
+| ghale            |        32 |

@@ -65,7 +65,7 @@ do
     then
         echo "Data file \"$csv_filename\" already exist. Skipping....."
     else
-        ./extract-montlhly-submissions.sh "$to_process_year" "$to_process_month" "$org_to_process"
+        ./extract-monthly-submissions.sh "$to_process_year" "$to_process_month" "$org_to_process"
         echo "Creating $csv_filename"
     fi
 

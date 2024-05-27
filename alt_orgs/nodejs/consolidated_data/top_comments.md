@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2024-03".
+over the 12 months before "2024-05".
 
 
 | Commenter         | Total_Comments |
 | ----------------- | -------------: |
-| nodejs-github-bot |           9527 |
-| ovflowd           |           3021 |
-| aduh95            |           2024 |
-| anonrig           |           1411 |
-| GeoffreyBooth     |           1217 |
-| mcollina          |           1149 |
-| targos            |            878 |
-| joyeecheung       |            868 |
-| github-actions    |            828 |
-| mhdawson          |            810 |
-| MoLow             |            808 |
-| AugustinMauroy    |            694 |
-| ronag             |            689 |
-| Uzlopak           |            628 |
-| KhafraDev         |            585 |
-| ljharb            |            574 |
-| richardlau        |            564 |
-| tniessen          |            562 |
-| RafaelGSS         |            557 |
-| rluvaton          |            536 |
-| bmuenzenmeyer     |            521 |
-| vercel            |            520 |
-| benjamingr        |            497 |
-| JakobJingleheimer |            480 |
-| codecov-commenter |            439 |
-| lpinca            |            423 |
-| cjihrig           |            396 |
-| Trott             |            366 |
-| metcoder95        |            315 |
-| marco-ippolito    |            291 |
-| atlowChemi        |            279 |
-| ShogunPanda       |            278 |
-| legendecas        |            266 |
-| debadree25        |            257 |
-| UlisesGascon      |            255 |
+| nodejs-github-bot |           9042 |
+| ovflowd           |           2455 |
+| aduh95            |           1991 |
+| anonrig           |           1363 |
+| mcollina          |           1326 |
+| GeoffreyBooth     |           1286 |
+| joyeecheung       |            965 |
+| targos            |            865 |
+| Uzlopak           |            821 |
+| mhdawson          |            761 |
+| ronag             |            753 |
+| github-actions    |            720 |
+| KhafraDev         |            658 |
+| AugustinMauroy    |            629 |
+| MoLow             |            623 |
+| bmuenzenmeyer     |            601 |
+| rluvaton          |            574 |
+| RafaelGSS         |            563 |
+| richardlau        |            548 |
+| codecov-commenter |            530 |
+| benjamingr        |            495 |
+| tniessen          |            438 |
+| lpinca            |            422 |
+| JakobJingleheimer |            421 |
+| ljharb            |            420 |
+| vercel            |            402 |
+| metcoder95        |            368 |
+| tsctx             |            324 |
+| cjihrig           |            300 |
+| atlowChemi        |            299 |
+| ShogunPanda       |            292 |
+| H4ad              |            279 |
+| RedYetiDev        |            278 |
+| lemire            |            262 |
+| marco-ippolito    |            257 |
