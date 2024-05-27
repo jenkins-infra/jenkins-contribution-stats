@@ -43,9 +43,16 @@ git config --global --add safe.directory "$PWD"
 # Add all changes to the staging area
 git add .
 
-# Read the fourth field from the honored_contributor.csv file
+# Read the third field (GitHub handle) from the honored_contributor.csv file
+github_handle=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f3)
+
+# Read the fourth field (name) from the honored_contributor.csv file
 honored_contributor=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f4)
 
+# If the name is empty, use the GitHub handle
+if [ -z "$honored_contributor" ]; then
+    honored_contributor=$github_handle
+fi
 # Commit the changes with a message that includes the honored contributor's name
 echo "Adding $honored_contributor as the honored contributor."
 git commit -m "Latest changes made by jenkins-stats for $honored_contributor"
