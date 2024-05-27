@@ -53,12 +53,12 @@ jobs:
 
     # The fifth step is to commit and push the changes made by the generateHonoredContribDataFile.sh script.
     # The commit message includes the name of the honored contributor, which is output by the generateHonoredContribDataFile.sh script.
-    # The changes are committed and pushed to the 'docker' branch.
+    # The changes are committed and pushed to the current branch that triggered the workflow.
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Adding ${{ steps.generate.outputs.honored_contributor }} as the honored contributor."
-        branch: docker
+        branch: ${{ github.ref_name }}
         file_pattern: data/honored_contributor.csv
         commit_user_name: GitHub Actions
         commit_user_email: actions@github.com
