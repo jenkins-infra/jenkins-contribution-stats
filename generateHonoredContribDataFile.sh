@@ -37,7 +37,9 @@ jenkins-stats honor "$month_to_process" --data_dir=data/ -v
 git add .
 
 # Commit the changes with a message
+echo "Committing the changes to the local repository"
 git commit -m "Latest changes made by jenkins-stats"
 
 # Push the changes to the remote repository
-gh repo push
+echo "Pushing the changes to the remote repository"
+git push origin docker

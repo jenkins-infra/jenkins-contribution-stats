@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-05-27T05-59-15Z", "2024-04", "anniechellah", "", "", "https://github.com/anniechellah", "https://avatars.githubusercontent.com/u/14976369?u=f04f51925f509c295c696611fee89eaec950c311&v=4", "1", "jenkins-docs/simple-java-maven-app"
+"2024-05-27T06-01-53Z", "2024-04", "fabiodcasilva", "Fábio Silva", "", "https://github.com/fabiodcasilva", "https://avatars.githubusercontent.com/u/19952803?u=f015a57f2556e59e03788b39951ab61d3b9b1679&v=4", "3", "jenkins-infra/repository-permissions-updater jenkinsci/build-user-vars-plugin"
