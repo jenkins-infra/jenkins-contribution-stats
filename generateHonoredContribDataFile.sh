@@ -32,3 +32,12 @@ echo "Picking the submitter to honor in ${month_to_process}"
 
 # perform the query and generates the data file data/honored_contributor.csv
 jenkins-stats honor "$month_to_process" --data_dir=data/ -v
+
+# Add all changes to the staging area
+git add .
+
+# Commit the changes with a message
+git commit -m "Latest changes made by jenkins-stats"
+
+# Push the changes to the remote repository
+gh repo push

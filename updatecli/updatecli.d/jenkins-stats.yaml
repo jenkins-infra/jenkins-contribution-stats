@@ -1,0 +1,64 @@
+---
+name: Bumps the jenkins-stats version
+
+scms:
+  default:
+    kind: github
+    spec:
+      user: "{{ .github.user }}"
+      email: "{{ .github.email }}"
+      owner: "{{ .github.owner }}"
+      repository: "{{ .github.repository }}"
+      token: "{{ requiredEnv .github.token }}"
+      username: "{{ .github.username }}"
+      branch: "{{ .github.branch }}"
+
+sources:
+  jenkinsStatsLatestVersion:
+    kind: githubrelease
+    name: "Get the latest jenkins-stats version"
+    spec:
+      owner: "jmMeessen"
+      repository: "jenkins-stats"
+      token: "{{ requiredEnv .github.token }}"
+      username: "{{ .github.username }}"
+      versionfilter:
+        kind: semver
+        pattern: "v0"
+    transformers:
+      - findsubmatch:
+          pattern: >-
+            v(.*\.\d+\.\d+)
+          captureindex: 1
+
+conditions:
+  test-jenkins-stats-var:
+    name: "Does the extract-monthly-submissions.sh have a variable named target_version?"
+    disablesourceinput: true
+    kind: file
+    spec:
+      file: check-prerequisites.sh
+      matchpattern: >-
+        .*stats_target_version=.*
+
+targets:
+  update-jenkins-stats-var:
+    name: "Update the value of the target_version variable in extract-monthly-submissions.sh"
+    kind: file
+    sourceid: jenkinsStatsLatestVersion
+    spec:
+      file: check-prerequisites.sh
+      matchpattern: >-
+        (.*stats_target_version=)(.*)
+      replacepattern: >-
+        ${1}{{ source "jenkinsStatsLatestVersion" }}
+    scmid: default
+
+actions:
+  default:
+    kind: github/pullrequest
+    scmid: default
+    title: '[Extract Monthly Submission and Remove Data scripts] Bump jenkins-stats version to {{ source "jenkinsStatsLatestVersion" }}'
+    spec:
+      labels:
+        - dependencies
