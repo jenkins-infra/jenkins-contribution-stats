@@ -43,9 +43,12 @@ git config --global --add safe.directory "$PWD"
 # Add all changes to the staging area
 git add .
 
-# Commit the changes with a message
-echo "Committing the changes to the local repository"
-git commit -m "Latest changes made by jenkins-stats"
+# Read the fourth field from the honored_contributor.csv file
+honored_contributor=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f4)
+
+# Commit the changes with a message that includes the honored contributor's name
+echo "Adding $honored_contributor as the honored contributor."
+git commit -m "Latest changes made by jenkins-stats for $honored_contributor"
 
 # Push the changes to the remote repository
 echo "Pushing the changes to the remote repository"

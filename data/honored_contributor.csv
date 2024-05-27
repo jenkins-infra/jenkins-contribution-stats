@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-05-27T07-31-04Z", "2024-04", "jtnord", "James Nord", "CloudBees", "https://github.com/jtnord", "https://avatars.githubusercontent.com/u/494726?u=4691356b21660b445d3fe476f8652abbd5a8b879&v=4", "8", "jenkins-infra/repository-permissions-updater jenkinsci/email-ext-plugin jenkinsci/acceptance-test-harness jenkinsci/jenkins jenkinsci/git-client-plugin"
+"2024-05-27T07-34-43Z", "2024-04", "patrikcerbak", "", "", "https://github.com/patrikcerbak", "https://avatars.githubusercontent.com/u/115928463?u=cc0e726cbe86234370fa0c374db8358ef3caefdb&v=4", "1", "jenkinsci/report-jtreg-plugin"
