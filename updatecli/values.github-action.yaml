@@ -4,5 +4,5 @@ github:
   username: "github-actions"
   token: "UPDATECLI_GITHUB_TOKEN"
   branch: "main"
-  owner: "gounthar"
+  owner: "jmMeessen"
   repository: "jenkins-submitter-stats"
