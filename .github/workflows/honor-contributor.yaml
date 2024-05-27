@@ -42,8 +42,8 @@ jobs:
       id: generate
       run: |
         GITHUB_ENV_PATH=$(mktemp)
-        sudo chown root:root $GITHUB_ENV_PATH
         docker run --rm \
+          -u $(id -u):$(id -g) \
           -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
           -e GIT_COMMITTER_NAME="${{ github.actor }}" \
           -e GIT_COMMITTER_EMAIL="${{ github.actor }}@users.noreply.github.com" \
