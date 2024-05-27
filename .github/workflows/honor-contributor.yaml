@@ -27,21 +27,26 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-      # The second step is to change the ownership of the '/workspace' directory.
+    # The second step is to change the ownership of the '/workspace' directory.
+    # This is done to ensure that the Docker container has the correct permissions to interact with the '/workspace' directory.
     - name: Change ownership of workspace
       run: sudo chown -R $(whoami) ${{ github.workspace }}
 
-    # The second step is to build a Docker image using the Dockerfile in the current repository.
+    # The third step is to build a Docker image using the Dockerfile in the current repository.
     - name: Build Docker image
       run: docker build -t my-docker-image .
 
-    # The third step is to run a shell script named 'generateHonoredContribDataFile.sh' in the Docker container.
+    # The fourth step is to run a shell script named 'generateHonoredContribDataFile.sh' in the Docker container.
     # The script is run with a GitHub token passed as an environment variable.
+    # The Docker container is run with the GitHub workspace mounted as a volume.
+    # This allows the script to interact with the Git repository.
     - name: Run generateHonoredContribDataFile.sh
       run: |
-        # The Docker container is run with the GitHub workspace mounted as a volume.
-        # This allows the script to interact with the Git repository.
         docker run --rm \
           -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
+          -e GIT_COMMITTER_NAME="Your Name" \
+          -e GIT_COMMITTER_EMAIL="you@example.com" \
+          -e GIT_AUTHOR_NAME="Your Name" \
+          -e GIT_AUTHOR_EMAIL="you@example.com" \
           -v ${{ github.workspace }}:/workspace \
           my-docker-image bash -c "cd /workspace && ./generateHonoredContribDataFile.sh"
