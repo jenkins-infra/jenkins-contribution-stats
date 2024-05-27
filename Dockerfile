@@ -54,4 +54,10 @@ USER root
 RUN ln -s $(which date) /bin/gdate && \
     brew tap jmMeessen/tap && \
     brew install jenkins-stats && \
-    brew install jenkins-top-submitters
+    brew install jenkins-top-submitters \
+
+# Copy the generateHonoredContribDataFile.sh script into the Docker image
+COPY generateHonoredContribDataFile.sh /generateHonoredContribDataFile.sh
+
+# Make the script executable
+RUN chmod +x /generateHonoredContribDataFile.sh
