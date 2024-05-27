@@ -57,7 +57,7 @@ RUN ln -s $(which date) /bin/gdate && \
     brew install jenkins-top-submitters
 
 # Copy the generateHonoredContribDataFile.sh script into the Docker image
-COPY generateHonoredContribDataFile.sh /generateHonoredContribDataFile.sh
+COPY *.sh /
 
 # Make the script executable
-RUN chmod +x /generateHonoredContribDataFile.sh
+RUN chmod +x /*.sh
