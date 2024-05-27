@@ -2,7 +2,7 @@ name: Honor Contributor
 
 on:
   schedule:
-    - cron: '35 7 * 10-3 *'  # Run this workflow at 8:30 AM Paris time (Standard Time)
+    - cron: '35 7 * * *'  # Run this workflow at 8:30 AM Paris time (Standard Time)
 
 jobs:
   honor-contributor:
