@@ -41,10 +41,10 @@ git config --global --add safe.directory "$PWD"
 git add .
 
 # Read the third field (GitHub handle) from the honored_contributor.csv file
-github_handle=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f3 | tr -d '"')
+github_handle=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f3 | tr -d '[:space:]' | tr -d '"')
 
 # Read the fourth field (name) from the honored_contributor.csv file
-honored_contributor=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f4 | tr -d '"')
+honored_contributor=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f4 | tr -d '[:space:]' | tr -d '"')
 
 # If the name is empty, use the GitHub handle
 if [ -z "$honored_contributor" ]; then
