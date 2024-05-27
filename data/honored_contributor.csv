@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-05-27T07-42-15Z", "2024-04", "maksudur-rahman-maruf", "Maksudur Rahman Maruf", "Dynamic Solution Innovators", "https://github.com/maksudur-rahman-maruf", "https://avatars.githubusercontent.com/u/43263023?u=dcf737fe26d4e8206cd34806087afd7c6f24fef2&v=4", "4", "jenkinsci/synopsys-security-scan-plugin"
+"2024-05-27T07-42-35Z", "2024-04", "hashar", "Antoine Musso", "MediaWiki developer", "https://github.com/hashar", "https://avatars.githubusercontent.com/u/281689?u=8450da7f7088337173e50778ac65f55e70a7892a&v=4", "5", "jenkinsci/parameterized-trigger-plugin jenkinsci/collapsing-console-sections-plugin jenkins-infra/repository-permissions-updater"
