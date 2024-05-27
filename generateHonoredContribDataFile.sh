@@ -42,4 +42,4 @@ git commit -m "Latest changes made by jenkins-stats"
 
 # Push the changes to the remote repository
 echo "Pushing the changes to the remote repository"
-git push origin docker
+git push
