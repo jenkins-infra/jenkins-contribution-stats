@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-05-27T12-55-42Z", "2024-04", "Waschndolos", "Waschndolos", "", "https://github.com/Waschndolos", "https://avatars.githubusercontent.com/u/22710627?u=683e1e7bfc1b3999ab526484e5f3cd5f64b37d9d&v=4", "3", "jenkinsci/prometheus-plugin jenkins-infra/repository-permissions-updater"
+"2024-05-27T15-15-49Z", "2024-04", "MarkRx", "Mark", "Paychex", "https://github.com/MarkRx", "https://avatars.githubusercontent.com/u/17504314?u=10dc51a3cedabda9f3d3cf2761bc1e62bcf0d1fd&v=4", "2", "jenkinsci/scm-api-plugin jenkinsci/branch-api-plugin"
