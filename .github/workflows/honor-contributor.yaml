@@ -41,6 +41,7 @@ jobs:
     - name: Run generateHonoredContribDataFile.sh
       id: generate
       run: |
+        GITHUB_ENV_PATH=$(mktemp)
         docker run --rm \
           -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
           -e GIT_COMMITTER_NAME="${{ github.actor }}" \
