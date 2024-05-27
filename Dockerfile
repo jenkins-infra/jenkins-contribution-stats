@@ -1,4 +1,4 @@
-# This Dockerfile is used to build an image for a Go application.
+# This Dockerfile is used as a minimum image for the Jenkins Top Submitters GitHub Action.
 
 # We start from the golang:1.22.3-bookworm base image.
 FROM golang:1.22.3-bookworm
@@ -13,7 +13,7 @@ ARG USER_ID
 ARG GROUP_ID
 
 # We update the package lists for upgrades for packages that need upgrading, as well as new packages that have just come to the repositories.
-# We install datamash, git, sudo, and GitHub CLI.
+# We install datamash, git, jq, sudo, and GitHub CLI.
 # We also check if wget is installed, if not, we install it.
 # We create a directory for the GitHub CLI keyring and download the keyring.
 # We add the GitHub CLI repository to the sources list.
@@ -72,8 +72,12 @@ RUN ln -s $(which date) /bin/gdate && \
     brew install jenkins-top-submitters
 
 # Create a new user with the user ID and group ID.
+# If the group already exists, use the existing group.
+# If the user already exists, use the existing user.
 # Switch to the new user.
-RUN groupadd -g $GROUP_ID runner && \
-    useradd -l -u $USER_ID -g runner runner && \
-    install -d -m 0755 -o runner -g runner /home/runner
-USER runner
+# This is done to ensure that the Docker container runs with the same user and group IDs as the GitHub runner,
+# which helps to avoid permission issues when the Docker container writes to files that the GitHub runner needs to access.
+RUN if getent group $GROUP_ID ; then groupname=$(getent group $GROUP_ID | cut -d: -f1) ; else groupadd -g $GROUP_ID runner && groupname=runner ; fi && \
+    if getent passwd $USER_ID ; then username=$(getent passwd $USER_ID | cut -d: -f1) ; else useradd -l -u $USER_ID -g $groupname runner && username=runner ; fi && \
+    install -d -m 0755 -o $username -g $groupname /home/runner
+USER $username
