@@ -3,3 +3,4 @@ json_data/
 docker-database/DB_dockerDir/submissions.csv
 docker-database/flyway_dockerDir/submissions.csv
 debug.log
+/.idea/
