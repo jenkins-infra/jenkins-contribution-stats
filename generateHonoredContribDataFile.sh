@@ -45,7 +45,7 @@ git config --global --add safe.directory "$PWD"
 
 # Add all changes to the staging area.
 # This prepares the changes for a commit.
-git add .
+git add data/honored_contributor.csv
 
 # Read the third field (GitHub handle) from the honored_contributor.csv file
 # This is the GitHub handle of the honored contributor.
