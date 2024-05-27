@@ -6,7 +6,7 @@ name: Honor Contributor  # Name of the workflow
 on:  # The workflow will run when code is pushed to the 'docker' branch
   push:
     branches:
-      - git-push-by-ga
+      - git-push-by-ga  # The workflow will run when code is pushed to the 'git-push-by-ga' branch
   # The workflow is scheduled to run on a cron schedule.
   # The cron syntax is in UTC.
   # The current schedule is '35 7 * * *', which means the workflow will run at 7:35 AM UTC every day.
@@ -57,8 +57,8 @@ jobs:
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Adding ${{ steps.generate.outputs.honored_contributor }} as the honored contributor."
-        branch: ${{ github.ref_name }}
-        file_pattern: data/honored_contributor.csv
-        commit_user_name: GitHub Actions
-        commit_user_email: actions@github.com
+        commit_message: "Adding ${{ env.HONORED_CONTRIBUTOR }} as the honored contributor."  # The commit message includes the name of the honored contributor
+        branch: ${{ github.ref_name }}  # The changes are committed and pushed to the current branch that triggered the workflow
+        file_pattern: data/honored_contributor.csv  # Only changes to the 'data/honored_contributor.csv' file are committed
+        commit_user_name: GitHub Actions  # The name of the user who makes the commit is 'GitHub Actions'
+        commit_user_email: actions@github.com  # The email of the user who makes the commit is 'actions@github.com'

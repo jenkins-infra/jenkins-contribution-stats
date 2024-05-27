@@ -64,6 +64,5 @@ fi
 # Print a message indicating that the honored contributor is being added.
 echo "Adding $honored_contributor as the honored contributor."
 
-# Set the honored_contributor as an output variable.
-# This allows the honored_contributor to be used in subsequent steps in a GitHub Actions workflow.
-echo "::set-output name=honored_contributor::$honored_contributor"
+# Set the honored_contributor as an output variable using an environment file.
+echo "HONORED_CONTRIBUTOR=$honored_contributor" >> $GITHUB_ENV
