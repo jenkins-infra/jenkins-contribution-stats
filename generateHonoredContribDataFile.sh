@@ -53,7 +53,7 @@ fi
 
 # Commit the changes with a message that includes the honored contributor's name or GitHub handle
 echo "Adding $honored_contributor as the honored contributor."
-git commit -m "Latest changes made by jenkins-stats for $honored_contributor"
+git commit -m "Adding $honored_contributor as the honored contributor."
 
 # Push the changes to the remote repository
 echo "Pushing the changes to the remote repository"
