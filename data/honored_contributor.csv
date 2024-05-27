@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-05-27T06-02-38Z", "2024-04", "susmitagorai29", "", "", "https://github.com/susmitagorai29", "https://avatars.githubusercontent.com/u/71459698?v=4", "8", "jenkinsci/checkmarx-plugin"
+"2024-05-27T07-26-20Z", "2024-04", "amuniz", "Antonio Muniz", "CloudBees, Inc.", "https://github.com/amuniz", "https://avatars.githubusercontent.com/u/1017585?u=9daee24b5962822dfe352221f2c8781b90cc8017&v=4", "2", "jenkinsci/github-branch-source-plugin jenkinsci/config-file-provider-plugin"
