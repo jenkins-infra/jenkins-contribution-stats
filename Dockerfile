@@ -14,7 +14,7 @@ ENV GITHUB_TOKEN=$GITHUB_TOKEN
 # We create a directory for the GitHub CLI keyring and download the keyring.
 # We add the GitHub CLI repository to the sources list.
 # We update the package lists again and install the GitHub CLI.
-RUN apt update && apt install -y datamash git sudo && \
+RUN apt update && apt install -y datamash git jq sudo && \
         (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
         && sudo mkdir -p -m 755 /etc/apt/keyrings \
         && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
