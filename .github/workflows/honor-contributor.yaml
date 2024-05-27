@@ -1,18 +1,22 @@
 # This is a GitHub Actions workflow file named 'Honor Contributor'.
 # It is scheduled to run at a specific time and performs a series of steps on a Ubuntu runner.
-name: Honor Contributor
+name: Honor Contributor  # Name of the workflow
 
+# Defines when the workflow will run
 on:
+  # The workflow will run when code is pushed to the 'docker' branch
   push:
     branches:
-      - docker  # This workflow will run whenever code is pushed to the 'docker' branch
+      - docker
   # The workflow is scheduled to run on a cron schedule.
   # The cron syntax is in UTC.
   # The current schedule is '35 7 * * *', which means the workflow will run at 7:35 AM UTC every day.
   schedule:
-    - cron: '35 7 * * *'  # Run this workflow at 8:35 AM Paris time (Standard Time)
-  workflow_dispatch:  # Allows the workflow to be manually triggered
+    - cron: '35 7 * * *'
+  # The workflow can also be manually triggered
+  workflow_dispatch:
 
+# Defines the jobs to be run
 jobs:
   # The job is named 'honor-contributor'.
   honor-contributor:
@@ -31,6 +35,8 @@ jobs:
     # The script is run with a GitHub token passed as an environment variable.
     - name: Run generateHonoredContribDataFile.sh
       run: |
+        # The Docker container is run with the GitHub workspace mounted as a volume.
+        # This allows the script to interact with the Git repository.
         docker run --rm \
           -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
           -v ${{ github.workspace }}:/workspace \
