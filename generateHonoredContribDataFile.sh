@@ -45,7 +45,7 @@ git config --global --add safe.directory "$PWD"
 
 # Add all changes to the staging area.
 # This prepares the changes for a commit.
-git add .
+git add data/honored_contributor.csv
 
 # Read the third field (GitHub handle) from the honored_contributor.csv file
 # This is the GitHub handle of the honored contributor.
@@ -64,5 +64,15 @@ fi
 # Print a message indicating that the honored contributor is being added.
 echo "Adding $honored_contributor as the honored contributor."
 
+# Check if the GITHUB_ENV variable is defined.
+# If not, create it using mktemp.
+if [ -z ${GITHUB_ENV+x} ]; then
+    GITHUB_ENV=$(mktemp)
+    echo -e "\e[36mGITHUB_ENV \e[33mis unset (I guess you're not in a GitHub action), so I'm creating a new temporary file \e[36m$GITHUB_ENV\e[33m so the script won't fail.\e[0m"
+    # Set a trap to delete the temporary file when the script exits.
+    trap "rm -f $GITHUB_ENV" EXIT
+else
+    echo "GITHUB_ENV is set to '$GITHUB_ENV'"
+fi
 # Set the honored_contributor as an output variable using an environment file.
 echo "HONORED_CONTRIBUTOR=$honored_contributor" >> $GITHUB_ENV
