@@ -1,44 +1,44 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2024-04".
+over the 12 months before "2024-05".
 
 
 | Submitter                | Total_PRs |
 | ------------------------ | --------: |
-| MarkEWaite               |      1087 |
-| basil                    |       989 |
-| lemeurherve              |       793 |
-| dduportal                |       746 |
-| NotMyFault               |       745 |
-| jonesbusy                |       427 |
-| smerle33                 |       375 |
-| jglick                   |       349 |
-| gounthar                 |       326 |
-| uhafner                  |       209 |
-| mawinter69               |       206 |
-| daniel-beck              |       184 |
-| timja                    |       159 |
-| janfaracik               |       103 |
-| Vlatombe                 |       102 |
-| kmartens27               |        93 |
-| jtnord                   |        93 |
-| krisstern                |        88 |
-| alecharp                 |        83 |
-| olamy                    |        68 |
-| zbynek                   |        62 |
+| MarkEWaite               |      1107 |
+| basil                    |       919 |
+| lemeurherve              |       780 |
+| dduportal                |       703 |
+| NotMyFault               |       663 |
+| jonesbusy                |       430 |
+| smerle33                 |       358 |
+| gounthar                 |       350 |
+| jglick                   |       309 |
+| mawinter69               |       231 |
+| uhafner                  |       187 |
+| daniel-beck              |       185 |
+| timja                    |       153 |
+| Vlatombe                 |       108 |
+| janfaracik               |       104 |
+| jtnord                   |       102 |
+| kmartens27               |        99 |
+| krisstern                |        87 |
+| alecharp                 |        75 |
+| olamy                    |        71 |
+| zbynek                   |        65 |
 | rahulsom                 |        59 |
 | damianszczepanik         |        56 |
 | dwnusbaum                |        55 |
-| StefanSpieker            |        49 |
-| mPokornyETM              |        47 |
-| nikita-tkachenko-datadog |        47 |
+| nikita-tkachenko-datadog |        52 |
+| StefanSpieker            |        50 |
+| mPokornyETM              |        49 |
 | vishalhcl-5960           |        46 |
-| car-roll                 |        44 |
-| Dohbedoh                 |        41 |
+| strangelookingnerd       |        42 |
 | ARUS2023                 |        41 |
-| yaroslavafenkin          |        36 |
-| viceice                  |        34 |
-| brokenpip3               |        33 |
-| waltwilo                 |        30 |
-| Waschndolos              |        30 |
+| viceice                  |        39 |
+| car-roll                 |        37 |
+| Dohbedoh                 |        36 |
+| Waschndolos              |        33 |
+| BobDu                    |        32 |
+| waltwilo                 |        32 |
