@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-05-31T07-42-29Z", "2024-04", "ankit-patil-hubs", "Ankit Patil", "Delphix", "https://github.com/ankit-patil-hubs", "https://avatars.githubusercontent.com/u/112482330?v=4", "1", "jenkinsci/delphix-plugin"
+"2024-06-03T07-42-24Z", "2024-05", "zbynek", "Zbynek Konecny", "GeoGebra", "https://github.com/zbynek", "https://avatars.githubusercontent.com/u/1105305?v=4", "3", "jenkins-infra/jenkins.io jenkinsci/credentials-plugin jenkinsci/jenkins"
