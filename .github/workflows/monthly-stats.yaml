@@ -1,0 +1,64 @@
+# This is a GitHub Actions workflow file named 'Honor Contributor'.
+# It is scheduled to run at a specific time and performs a series of steps on a Ubuntu runner.
+name: Monthly Stats Update  # Name of the workflow
+
+# Defines when the workflow will run
+on:  
+  # The workflow is scheduled to run on a cron schedule.
+  # The cron syntax is in UTC.
+  # The current schedule is '35 7 * * *', which means the workflow will run at 7:35 AM UTC every day.
+  schedule:
+    - cron: '0 2 1 * *'
+  # The workflow can also be manually triggered
+  workflow_dispatch:
+
+# Defines the jobs to be run
+jobs:
+  # The job is named 'honor-contributor'.
+  monthly-stats-update:
+    # The job runs on the latest version of Ubuntu.
+    runs-on: ubuntu-latest
+    steps:
+    # The first step is to checkout the code from the current repository.
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # The second step is to change the ownership of the '/workspace' directory.
+    # This is done to ensure that the Docker container has the correct permissions to interact with the '/workspace' directory.
+    - name: Change ownership of workspace
+      run: sudo chown -R $(whoami) ${{ github.workspace }}
+
+    # The third step is to build a Docker image using the Dockerfile in the current repository.
+    - name: Build Docker image
+      run: docker build --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) -t stats .
+
+    # The fourth step is to run the generateHonoredContribDataFile.sh script inside a Docker container.
+    # The script is run with several environment variables set, including the GitHub token and the GitHub actor's name and email.
+    # The GitHub workspace is mounted as a volume inside the Docker container.
+    - name: Run update-stats.sh
+      id: generate
+      run: |
+        GITHUB_ENV_PATH=$(mktemp)
+        docker run --rm \
+          -u $(id -u):$(id -g) \
+          -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} \
+          -e GIT_COMMITTER_NAME="${{ github.actor }}" \
+          -e GIT_COMMITTER_EMAIL="${{ github.actor }}@users.noreply.github.com" \
+          -e GIT_AUTHOR_NAME="${{ github.actor }}" \
+          -e GIT_AUTHOR_EMAIL="${{ github.actor }}@users.noreply.github.com" \
+          -e GITHUB_ENV=$GITHUB_ENV_PATH \
+          -v ${{ github.workspace }}:/workspace \
+          -v $GITHUB_ENV_PATH:$GITHUB_ENV_PATH \
+          stats bash -c "cd /workspace && ./update-stats.sh"
+      shell: bash
+
+    # The fifth step is to commit and push the changes made by the generateHonoredContribDataFile.sh script.
+    # The commit message includes the name of the honored contributor, which is output by the generateHonoredContribDataFile.sh script.
+    # The changes are committed and pushed to the current branch that triggered the workflow.
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Adding ${{ env.HONORED_CONTRIBUTOR }} as the honored contributor."  # The commit message includes the name of the honored contributor
+        branch: ${{ github.ref_name }}  # The changes are committed and pushed to the current branch that triggered the workflow
+        commit_user_name: GitHub Actions  # The name of the user who makes the commit is 'GitHub Actions'
+        commit_user_email: actions@github.com  # The email of the user who makes the commit is 'actions@github.com'
