@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-06-03T08-12-38Z", "2024-05", "Enigo", "Ruslan S.", "Smaato", "https://github.com/Enigo", "https://avatars.githubusercontent.com/u/15067216?u=6e9c45c3c1a5f06196d20a9ee575221e824a9544&v=4", "2", "jenkinsci/pipeline-gcp-plugin"
+"2024-06-03T07-42-24Z", "2024-05", "zbynek", "Zbynek Konecny", "GeoGebra", "https://github.com/zbynek", "https://avatars.githubusercontent.com/u/1105305?v=4", "3", "jenkins-infra/jenkins.io jenkinsci/credentials-plugin jenkinsci/jenkins"
