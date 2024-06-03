@@ -3,7 +3,8 @@
 # This script is used to honor a contributor based on their contributions in a specific month.
 # If no month is specified, it defaults to the previous month.
 
-set -e  # Exit immediately if a command exits with a non-zero status.
+# Exit immediately if a command exits with a non-zero status.
+set -e
 
 # Check if the GitHub Personal Access token is defined.
 # If not, print an error message and exit the script.
@@ -21,6 +22,8 @@ else
     gnu_date="date"
 fi
 
+# The month to process is passed as an argument to the script.
+# If no month is specified, it defaults to the previous month.
 month_to_process="$1"
 
 # Has month to process been specified? If not compute it.
@@ -72,6 +75,7 @@ if ! csvstat "$csv_file" > /dev/null 2>&1; then
     exit 1
 fi
 
+# If the CSV file is valid and not empty, print a success message.
 echo -e "\e[36m$csv_file\e[33m is valid and not empty."
 
 # Read the third field (GitHub handle) from the honored_contributor.csv file
