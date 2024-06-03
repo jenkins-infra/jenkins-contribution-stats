@@ -65,6 +65,7 @@ fi
 num_columns=$(head -n 1 "$csv_file" | tr ',' '\n' | wc -l)
 if [ "$num_columns" -ne 9 ]; then
     echo "${RED}Error: $csv_file is not valid. It should have 9 columns but it has $num_columns.${NC}"
+    cat "$csv_file"
     exit 1
 fi
 
@@ -72,6 +73,7 @@ fi
 # If csvstat is able to compute the statistics without any errors, it means the CSV file is valid
 if ! csvstat "$csv_file" > /dev/null 2>&1; then
     echo "${RED}Error: $csv_file is not a valid CSV file.${NC}"
+    cat "$csv_file"
     exit 1
 fi
 
