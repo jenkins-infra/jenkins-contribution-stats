@@ -69,7 +69,8 @@ USER root
 RUN ln -s $(which date) /bin/gdate && \
     brew tap jmMeessen/tap && \
     brew install jenkins-stats && \
-    brew install jenkins-top-submitters
+    brew install jenkins-top-submitters && \
+    brew install csvkit
 
 # Create a new user with the user ID and group ID.
 # If the group already exists, use the existing group.
