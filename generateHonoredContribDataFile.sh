@@ -3,7 +3,8 @@
 # This script is used to honor a contributor based on their contributions in a specific month.
 # If no month is specified, it defaults to the previous month.
 
-set -e  # Exit immediately if a command exits with a non-zero status.
+# Exit immediately if a command exits with a non-zero status.
+set -e
 
 # Check if the GitHub Personal Access token is defined.
 # If not, print an error message and exit the script.
@@ -21,6 +22,8 @@ else
     gnu_date="date"
 fi
 
+# The month to process is passed as an argument to the script.
+# If no month is specified, it defaults to the previous month.
 month_to_process="$1"
 
 # Has month to process been specified? If not compute it.
@@ -39,21 +42,45 @@ fi
 # The jenkins-stats command is expected to be in the PATH.
 jenkins-stats honor "$month_to_process" --data_dir=data/ -v
 
-# Add the current working directory to the list of directories that Git considers to be safe.
-# This is to prevent Git from refusing to work with files in the current directory.
-git config --global --add safe.directory "$PWD"
+# Path to the CSV file
+csv_file="data/honored_contributor.csv"
+# Red color
+RED='\033[31m'
+# No color
+NC='\033[0m'
 
-# Add all changes to the staging area.
-# This prepares the changes for a commit.
-git add data/honored_contributor.csv
+# Check if the CSV file exists
+if [ ! -f "$csv_file" ]; then
+    echo -e "${RED}Error: ${NC}$csv_file does not exist."
+    exit 1
+fi
+
+# Check if the CSV file is not empty
+if [ ! -s "$csv_file" ]; then
+    echo -e "${RED}Error: ${NC}$csv_file is empty."
+    exit 1
+fi
+
+# Check if the CSV file is valid (i.e., it has the correct number of columns)
+num_columns=$(head -n 1 "$csv_file" | tr ',' '\n' | wc -l)
+if [ "$num_columns" -ne 9 ]; then
+    echo -e "${RED}Error: ${NC}$csv_file is not valid. It should have 9 columns but it has $num_columns."
+    cat "$csv_file"
+    exit 1
+fi
+
+python3 .github/workflows/check-csv.py $csv_file
+
+# If the CSV file is valid and not empty, print a success message.
+echo -e "\e[36m$csv_file\e[33m is valid and not empty."
 
 # Read the third field (GitHub handle) from the honored_contributor.csv file
 # This is the GitHub handle of the honored contributor.
-github_handle=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f3 | tr -d '[:space:]' | tr -d '"')
+github_handle=$(tail -n 1 $csv_file | cut -d',' -f3 | tr -d '[:space:]' | tr -d '"')
 
 # Read the fourth field (name) from the honored_contributor.csv file
 # This is the name of the honored contributor.
-honored_contributor=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f4 | tr -d '[:space:]' | tr -d '"')
+honored_contributor=$(tail -n 1 $csv_file | cut -d',' -f4 | tr -d '[:space:]' | tr -d '"')
 
 # If the name is empty, use the GitHub handle
 # This is to ensure that the honored contributor is always identified.
@@ -62,7 +89,7 @@ if [ -z "$honored_contributor" ]; then
 fi
 
 # Print a message indicating that the honored contributor is being added.
-echo "Adding $honored_contributor as the honored contributor."
+echo -e "Adding \e[36m$honored_contributor\e[33m as the honored contributor."
 
 # Check if the GITHUB_ENV variable is defined.
 # If not, create it using mktemp.
