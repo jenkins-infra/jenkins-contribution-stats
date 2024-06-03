@@ -45,37 +45,31 @@ jenkins-stats honor "$month_to_process" --data_dir=data/ -v
 # Path to the CSV file
 csv_file="data/honored_contributor.csv"
 # Red color
-RED='\033[0;31m'
+RED='\033[31m'
 # No color
 NC='\033[0m'
 
 # Check if the CSV file exists
 if [ ! -f "$csv_file" ]; then
-    echo "${RED}Error: $csv_file does not exist.${NC}"
+    echo -e "${RED}Error: ${NC}$csv_file does not exist."
     exit 1
 fi
 
 # Check if the CSV file is not empty
 if [ ! -s "$csv_file" ]; then
-    echo "${RED}Error: $csv_file is empty.${NC}"
+    echo -e "${RED}Error: ${NC}$csv_file is empty."
     exit 1
 fi
 
 # Check if the CSV file is valid (i.e., it has the correct number of columns)
 num_columns=$(head -n 1 "$csv_file" | tr ',' '\n' | wc -l)
 if [ "$num_columns" -ne 9 ]; then
-    echo "${RED}Error: $csv_file is not valid. It should have 9 columns but it has $num_columns.${NC}"
+    echo -e "${RED}Error: ${NC}$csv_file is not valid. It should have 9 columns but it has $num_columns."
     cat "$csv_file"
     exit 1
 fi
 
-# Use csvstat to get statistics about the CSV file
-# If csvstat is able to compute the statistics without any errors, it means the CSV file is valid
-if ! csvstat "$csv_file" > /dev/null 2>&1; then
-    echo "${RED}Error: $csv_file is not a valid CSV file.${NC}"
-    cat "$csv_file"
-    exit 1
-fi
+python3 .github/workflows/check-csv.py $csv_file
 
 # If the CSV file is valid and not empty, print a success message.
 echo -e "\e[36m$csv_file\e[33m is valid and not empty."

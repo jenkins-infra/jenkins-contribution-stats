@@ -18,7 +18,7 @@ ARG GROUP_ID
 # We create a directory for the GitHub CLI keyring and download the keyring.
 # We add the GitHub CLI repository to the sources list.
 # We update the package lists again and install the GitHub CLI.
-RUN apt update && apt install -y datamash git jq sudo && \
+RUN apt update && apt install -y datamash git jq python3 python3-venv sudo && \
         (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
         && sudo mkdir -p -m 755 /etc/apt/keyrings \
         && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
@@ -26,6 +26,12 @@ RUN apt update && apt install -y datamash git jq sudo && \
         && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
         && sudo apt update \
         && sudo apt install gh -y
+
+# Create a virtual environment
+RUN python3 -m venv /opt/venv
+
+# Activate the virtual environment
+ENV PATH="/opt/venv/bin:$PATH"
 
 # We create a new user called linuxbrew with home directory and zsh as default shell.
 # We add the user to the sudo group.
@@ -69,8 +75,7 @@ USER root
 RUN ln -s $(which date) /bin/gdate && \
     brew tap jmMeessen/tap && \
     brew install jenkins-stats && \
-    brew install jenkins-top-submitters && \
-    brew install csvkit
+    brew install jenkins-top-submitters
 
 # Create a new user with the user ID and group ID.
 # If the group already exists, use the existing group.
