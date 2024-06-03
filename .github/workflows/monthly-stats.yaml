@@ -3,10 +3,10 @@
 name: Monthly Stats Update  # Name of the workflow
 
 # Defines when the workflow will run
-on:  
+on:
   # The workflow is scheduled to run on a cron schedule.
   # The cron syntax is in UTC.
-  # The current schedule is '35 7 * * *', which means the workflow will run at 7:35 AM UTC every day.
+  # The current schedule is '0 2 1 * *', which means the workflow will run at 2:00 AM UTC on the first day of every month.
   schedule:
     - cron: '0 2 1 * *'
   # The workflow can also be manually triggered
@@ -14,7 +14,7 @@ on:
 
 # Defines the jobs to be run
 jobs:
-  # The job is named 'honor-contributor'.
+  # The job is named 'monthly-stats-update'.
   monthly-stats-update:
     # The job runs on the latest version of Ubuntu.
     runs-on: ubuntu-latest
@@ -32,7 +32,7 @@ jobs:
     - name: Build Docker image
       run: docker build --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) -t stats .
 
-    # The fourth step is to run the generateHonoredContribDataFile.sh script inside a Docker container.
+    # The fourth step is to run the update-stats.sh script inside a Docker container.
     # The script is run with several environment variables set, including the GitHub token and the GitHub actor's name and email.
     # The GitHub workspace is mounted as a volume inside the Docker container.
     - name: Run update-stats.sh
@@ -52,13 +52,13 @@ jobs:
           stats bash -c "cd /workspace && ./update-stats.sh"
       shell: bash
 
-    # The fifth step is to commit and push the changes made by the generateHonoredContribDataFile.sh script.
-    # The commit message includes the name of the honored contributor, which is output by the generateHonoredContribDataFile.sh script.
+    # The fifth step is to commit and push the changes made by the update-stats.sh script.
+    # The commit message includes the current date.
     # The changes are committed and pushed to the current branch that triggered the workflow.
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Adding ${{ env.HONORED_CONTRIBUTOR }} as the honored contributor."  # The commit message includes the name of the honored contributor
+        commit_message: "Monthly changes computed on $(date +'%m/%d/%Y')."  # The commit message includes the current date
         branch: ${{ github.ref_name }}  # The changes are committed and pushed to the current branch that triggered the workflow
         commit_user_name: GitHub Actions  # The name of the user who makes the commit is 'GitHub Actions'
         commit_user_email: actions@github.com  # The email of the user who makes the commit is 'actions@github.com'
