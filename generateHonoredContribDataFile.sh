@@ -39,21 +39,48 @@ fi
 # The jenkins-stats command is expected to be in the PATH.
 jenkins-stats honor "$month_to_process" --data_dir=data/ -v
 
-# Add the current working directory to the list of directories that Git considers to be safe.
-# This is to prevent Git from refusing to work with files in the current directory.
-git config --global --add safe.directory "$PWD"
+# Path to the CSV file
+csv_file="data/honored_contributor.csv"
+# Red color
+RED='\033[0;31m'
+# No color
+NC='\033[0m'
 
-# Add all changes to the staging area.
-# This prepares the changes for a commit.
-git add data/honored_contributor.csv
+# Check if the CSV file exists
+if [ ! -f "$csv_file" ]; then
+    echo "${RED}Error: $csv_file does not exist.${NC}"
+    exit 1
+fi
+
+# Check if the CSV file is not empty
+if [ ! -s "$csv_file" ]; then
+    echo "${RED}Error: $csv_file is empty.${NC}"
+    exit 1
+fi
+
+# Check if the CSV file is valid (i.e., it has the correct number of columns)
+num_columns=$(head -n 1 "$csv_file" | tr ',' '\n' | wc -l)
+if [ "$num_columns" -ne 9 ]; then
+    echo "${RED}Error: $csv_file is not valid. It should have 9 columns but it has $num_columns.${NC}"
+    exit 1
+fi
+
+# Use csvstat to get statistics about the CSV file
+# If csvstat is able to compute the statistics without any errors, it means the CSV file is valid
+if ! csvstat "$csv_file" > /dev/null 2>&1; then
+    echo "${RED}Error: $csv_file is not a valid CSV file.${NC}"
+    exit 1
+fi
+
+echo -e "\e[36m$csv_file\e[33m is valid and not empty."
 
 # Read the third field (GitHub handle) from the honored_contributor.csv file
 # This is the GitHub handle of the honored contributor.
-github_handle=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f3 | tr -d '[:space:]' | tr -d '"')
+github_handle=$(tail -n 1 $csv_file | cut -d',' -f3 | tr -d '[:space:]' | tr -d '"')
 
 # Read the fourth field (name) from the honored_contributor.csv file
 # This is the name of the honored contributor.
-honored_contributor=$(tail -n 1 data/honored_contributor.csv | cut -d',' -f4 | tr -d '[:space:]' | tr -d '"')
+honored_contributor=$(tail -n 1 $csv_file | cut -d',' -f4 | tr -d '[:space:]' | tr -d '"')
 
 # If the name is empty, use the GitHub handle
 # This is to ensure that the honored contributor is always identified.
@@ -62,7 +89,7 @@ if [ -z "$honored_contributor" ]; then
 fi
 
 # Print a message indicating that the honored contributor is being added.
-echo "Adding $honored_contributor as the honored contributor."
+echo -e "Adding \e[36m$honored_contributor\e[33m as the honored contributor."
 
 # Check if the GITHUB_ENV variable is defined.
 # If not, create it using mktemp.
