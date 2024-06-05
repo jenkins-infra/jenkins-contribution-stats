@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-06-04T07-42-50Z", "2024-05", "hjain-perforce", "Himanshu Jain", "@perforce", "https://github.com/hjain-perforce", "https://avatars.githubusercontent.com/u/124277196?u=d3aab3d9c9fd361626b75bfd64be01a9ba84f719&v=4", "1", "jenkinsci/p4-plugin"
+"2024-06-05T07-42-53Z", "2024-05", "ctudor", "", "", "https://github.com/ctudor", "https://avatars.githubusercontent.com/u/25062412?v=4", "1", "jenkinsci/gerrit-trigger-plugin"
