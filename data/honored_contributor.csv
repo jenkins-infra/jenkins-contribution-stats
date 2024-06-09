@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-06-08T07-42-48Z", "2024-05", "DanielHougaard", "Daniel Hougaard", "Infisical", "https://github.com/DanielHougaard", "https://avatars.githubusercontent.com/u/62331820?u=1f3e935febe34627658df37f0ab63b648de1183a&v=4", "3", "jenkinsci/infisical-plugin jenkins-infra/repository-permissions-updater"
+"2024-06-09T07-42-31Z", "2024-05", "slide", "Alex Earl", "", "https://github.com/slide", "https://avatars.githubusercontent.com/u/55871?u=23fc7a3a4a304bdc6c9612bb0dc5d84ee560beb6&v=4", "1", "jenkinsci/email-ext-plugin"
