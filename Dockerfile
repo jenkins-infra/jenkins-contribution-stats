@@ -1,7 +1,7 @@
 # This Dockerfile is used as a minimum image for the Jenkins Top Submitters GitHub Action.
 
 # We start from the golang:1.22.3-bookworm base image.
-FROM golang:1.22.3-bookworm
+FROM golang:1.22.4-bookworm
 
 # We declare an ARG for the GitHub token, which will be used for authentication.
 ARG GITHUB_TOKEN
