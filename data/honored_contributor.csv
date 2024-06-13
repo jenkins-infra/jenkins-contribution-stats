@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-06-12T07-42-38Z", "2024-05", "Dohbedoh", "Allan Burdajewicz", "@cloudbees ", "https://github.com/Dohbedoh", "https://avatars.githubusercontent.com/u/6858329?u=023db2411de943133d85531311056c929f092aa9&v=4", "4", "jenkinsci/support-core-plugin jenkinsci/github-branch-source-plugin jenkinsci/ssh-credentials-plugin jenkinsci/trilead-api-plugin"
+"2024-06-13T08-19-35Z", "2024-05", "ctudor", "", "", "https://github.com/ctudor", "https://avatars.githubusercontent.com/u/25062412?v=4", "1", "jenkinsci/gerrit-trigger-plugin"
