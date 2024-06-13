@@ -51,7 +51,9 @@ RUN /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/instal
 USER root
 
 # We change the owner of the linuxbrew directory to the container user.
-RUN chown -R $CONTAINER_USER: /home/linuxbrew/.linuxbrew
+# We create a symbolic link from the date command to /bin/gdate.
+RUN chown -R $CONTAINER_USER: /home/linuxbrew/.linuxbrew && \
+        ln -s $(which date) /bin/gdate
 
 # We add the linuxbrew bin directory to the PATH environment variable.
 ENV PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
@@ -66,16 +68,14 @@ USER linuxbrew
 RUN brew update && \
     brew doctor
 
-# We switch back to the root user.
-USER root
-
-# We create a symbolic link from the date command to /bin/gdate.
 # We tap a custom Homebrew repository.
 # We install the jenkins-stats and jenkins-top-submitters packages from the custom repository.
-RUN ln -s $(which date) /bin/gdate && \
-    brew tap jmMeessen/tap && \
+RUN brew tap jmMeessen/tap && \
     brew install jenkins-stats && \
     brew install jenkins-top-submitters
+
+# We switch back to the root user.
+USER root
 
 # Create a new user with the user ID and group ID.
 # If the group already exists, use the existing group.
