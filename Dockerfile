@@ -72,7 +72,7 @@ RUN brew update && \
 # We install the jenkins-contribution-extractor and jenkins-contribution-aggregator packages from the custom repository.
 RUN brew tap jenkins-infra/tap && \
     brew install jenkins-contribution-extractor && \
-    brew install  jenkins-contribution-extractor
+    brew install  jenkins-contribution-aggregator
 
 # We switch back to the root user.
 USER root
