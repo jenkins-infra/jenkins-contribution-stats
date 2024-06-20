@@ -41,10 +41,10 @@ do
     per_submitter_filename="$org_data_dir/pr_per_submitter-${to_process_year}-${to_process_month}.csv"
     per_comment_filename="$org_data_dir/comments_per_commenter-${to_process_year}-${to_process_month}.csv"
 
-    jenkins-stats remove file:jenkins-excluded-users.txt "$submission_filename"
-    jenkins-stats remove file:jenkins-excluded-users.txt "$comment_filename"
-    jenkins-stats remove file:jenkins-excluded-users.txt "$per_submitter_filename"
-    jenkins-stats remove file:jenkins-excluded-users.txt "$per_comment_filename"
+    jenkins-contribution-extractor remove file:jenkins-excluded-users.txt "$submission_filename"
+    jenkins-contribution-extractor remove file:jenkins-excluded-users.txt "$comment_filename"
+    jenkins-contribution-extractor remove file:jenkins-excluded-users.txt "$per_submitter_filename"
+    jenkins-contribution-extractor remove file:jenkins-excluded-users.txt "$per_comment_filename"
     echo "--"
 
     # For Debug

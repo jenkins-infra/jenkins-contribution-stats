@@ -51,14 +51,14 @@ getContributions(){
     local searched_month="${year}-${month_decimal}"
 
 
-    # Jenkins-stats is a tool that will retrieve the required data from GitHub
+    # jenkins-contribution-extractor is a tool that will retrieve the required data from GitHub
     if [[ "$org_to_process" == "jenkins" ]];
     then
-        jenkins-stats get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
-        jenkins-stats get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
-        jenkins-stats get submitters jenkins-docs "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
+        jenkins-contribution-extractor get submitters jenkinsci "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
+        jenkins-contribution-extractor get submitters jenkins-infra "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
+        jenkins-contribution-extractor get submitters jenkins-docs "${searched_month}" -a -o "${csv_filename}" "$debug" "$exclusion"
     else
-        jenkins-stats get submitters "$org_to_process" "${searched_month}" -a -o "${csv_filename}" "$debug"
+        jenkins-contribution-extractor get submitters "$org_to_process" "${searched_month}" -a -o "${csv_filename}" "$debug"
     fi
 
 
@@ -70,7 +70,7 @@ getContributions(){
 
     # retrieve the commenters for that month
     commenters_csv_filename="${org_data_dir}/comments-${year}-${month_decimal}.csv"
-    jenkins-stats get commenters "${csv_filename}" -o "${commenters_csv_filename}" "$debug" "$exclusion"
+    jenkins-contribution-extractor get commenters "${csv_filename}" -o "${commenters_csv_filename}" "$debug" "$exclusion"
 
     # Create the pivot table for the month we downloaded
     summaryCommenters="${org_data_dir}/comments_per_commenter-${year}-${month_decimal}.csv"

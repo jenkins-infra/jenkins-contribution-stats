@@ -39,8 +39,8 @@ then
 fi
 
 # Perform the query and generate the data file data/honored_contributor.csv.
-# The jenkins-stats command is expected to be in the PATH.
-jenkins-stats honor "$month_to_process" --data_dir=data/ -v
+# The jenkins-contribution-extractor command is expected to be in the PATH.
+jenkins-contribution-extractor honor "$month_to_process" --data_dir=data/ -v
 
 # Path to the CSV file
 csv_file="data/honored_contributor.csv"
