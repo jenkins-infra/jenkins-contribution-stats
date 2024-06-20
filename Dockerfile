@@ -69,7 +69,7 @@ RUN brew update && \
     brew doctor
 
 # We tap a custom Homebrew repository.
-# We install the jenkins-stats and jenkins-top-submitters packages from the custom repository.
+# We install the jenkins-contribution-extractor and jenkins-top-submitters packages from the custom repository.
 RUN brew tap jenkins-infra/tap && \
     brew install jenkins-contribution-extractor && \
     brew install  jenkins-contribution-extractor

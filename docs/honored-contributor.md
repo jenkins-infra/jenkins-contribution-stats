@@ -38,7 +38,7 @@ The file name will be "https://github.com/jmMeessen/jenkins-submitter-stats/tree
 ## Technical Specification
 
 Seen that the extracted data files contain only part of the required information, a dedicated processing option will have to be created. 
-It will be implemented as a new command of the `jenkins-stats` application.
+It will be implemented as a new command of the `jenkins-contribution-extractor` application.
 
 ### New CLI command
 
