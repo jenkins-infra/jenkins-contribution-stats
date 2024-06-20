@@ -110,5 +110,5 @@ tail -n +2 "$overview_file" > "$overview_file.tmp" && mv "$overview_file.tmp" "$
 #Generate the latest top-35 submitters over a year with the generated data
 echo " "
 echo "Computing top ${consolidation_type}"
-jenkins-top-submitters extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".md --month=latest --period=12 --topSize=35 --type="$top_type"
-jenkins-top-submitters compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.md --compare=3 --month=latest --period=12 --topSize=35 --type="$top_type" --history
+jenkins-contribution-aggregator extract "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type".md --month=latest --period=12 --topSize=35 --type="$top_type"
+jenkins-contribution-aggregator compare "$overview_file" -o $org_data_consolidation_dir/top_"$consolidation_type"_evolution.md --compare=3 --month=latest --period=12 --topSize=35 --type="$top_type" --history

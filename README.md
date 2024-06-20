@@ -48,7 +48,7 @@ This is the list of executables that have to be installed in order for the autom
 - `gh` : the Github command line utility
 - `jq` : Json query tool
 - `datamash` : data manipulation tool (CSV pivots)
-- `jenkins-top-submitters` : extracts the to submitters or commenters from the global pivot tables
+- `jenkins-contribution-aggregator` : extracts the to submitters or commenters from the global pivot tables
 - `jenkins-contribution-extractor` : various extraction and jenkins data handling tools
 - `gdate` : GNU date manipulation tool for Mac OS (part of `coreutils`, installable with brew)
 
@@ -87,8 +87,8 @@ flowchart TD
     extracData[[extract-monthly-submissions.sh]]
     get_submitters{{"jenkins-contribution-extractor get submitters {org}"}}
     get_commenters{{"jenkins-contribution-extractor get commenters"}}
-    top_extract{{jenkins-top-submitters </br> extract}}
-    top_compare{{jenkins-top-submitters </br>compare}}
+    top_extract{{jenkins-contribution-aggregator </br> extract}}
+    top_compare{{jenkins-contribution-aggregator </br>compare}}
 
     %% data files
     submission_month[(submission_YYMM.csv)]
