@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-06-24T07-40-09Z", "2024-05", "xie-rufeng", "", "", "https://github.com/xie-rufeng", "https://avatars.githubusercontent.com/u/59386902?v=4", "1", "jenkinsci/alibabacloud-ecs-plugin"
+"2024-06-25T07-39-47Z", "2024-05", "dwnusbaum", "Devin Nusbaum", "@cloudbees ", "https://github.com/dwnusbaum", "https://avatars.githubusercontent.com/u/1068968?u=5ea9c773c2f1e086d5e43cd822477ba675f1395d&v=4", "2", "jenkinsci/workflow-cps-plugin jenkinsci/workflow-api-plugin"
