@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-06-27T07-39-38Z", "2024-05", "mridhulak99", "Mridhula.k", "In", "https://github.com/mridhulak99", "https://avatars.githubusercontent.com/u/46248002?u=db94f2d166d98875a28e95059213119e052bba7a&v=4", "1", "jenkinsci/jenkins"
+"2024-06-28T07-39-36Z", "2024-05", "DanielHougaard", "Daniel Hougaard", "Infisical", "https://github.com/DanielHougaard", "https://avatars.githubusercontent.com/u/62331820?u=1f3e935febe34627658df37f0ab63b648de1183a&v=4", "3", "jenkinsci/infisical-plugin jenkins-infra/repository-permissions-updater"
