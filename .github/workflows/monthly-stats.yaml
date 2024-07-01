@@ -51,10 +51,11 @@ jobs:
           -v $GITHUB_ENV_PATH:$GITHUB_ENV_PATH \
           stats bash -c "cd /workspace && ./update-stats.sh"
       shell: bash
-      # The fifth step is to get the current date as GitHub Actions does not perform shell command substitution in the with: section of a step.
+
+    # The fifth step is to get the current date as GitHub Actions does not perform shell command substitution in the with: section of a step.
     - name: Get current date
       id: date
-      run: echo "::set-output name=date::$(date +'%m/%d/%Y')"
+      run: echo "CURRENT_DATE=$(date +'%m/%d/%Y')" >> $GITHUB_ENV
 
     # The sixth step is to commit and push the changes made by the update-stats.sh script.
     # The commit message includes the current date.
@@ -62,7 +63,7 @@ jobs:
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Monthly changes computed on ${{ steps.date.outputs.date }}."  # The commit message includes the current date
+        commit_message: "Monthly changes computed on ${{ env.CURRENT_DATE }}"  # The commit message includes the current date
         branch: ${{ github.ref_name }}  # The changes are committed and pushed to the current branch that triggered the workflow
         commit_user_name: GitHub Actions  # The name of the user who makes the commit is 'GitHub Actions'
         commit_user_email: actions@github.com  # The email of the user who makes the commit is 'actions@github.com'
