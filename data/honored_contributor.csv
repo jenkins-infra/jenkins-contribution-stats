@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-07-04T07-40-09Z", "2024-06", "GiorgioBullo", "", "", "https://github.com/GiorgioBullo", "https://avatars.githubusercontent.com/u/36818217?v=4", "1", "jenkinsci/pipeline-utility-steps-plugin"
+"2024-07-05T07-39-41Z", "2024-06", "mawinter69", "Markus Winter", "SAP", "https://github.com/mawinter69", "https://avatars.githubusercontent.com/u/17767050?v=4", "13", "jenkinsci/acceptance-test-harness jenkinsci/git-plugin jenkinsci/customizable-header-plugin jenkinsci/agent-maintenance-plugin jenkinsci/jenkins jenkinsci/schedule-build-plugin jenkinsci/flatpickr-api-plugin jenkins-infra/repository-permissions-updater"
