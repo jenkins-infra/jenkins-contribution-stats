@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-07-09T07-39-58Z", "2024-06", "njimenezotto", "", "OSP", "https://github.com/njimenezotto", "https://avatars.githubusercontent.com/u/55832791?u=bfcb3c0c72c7c11461d373f231bb414dbb23c05c&v=4", "1", "jenkinsci/sqlplus-script-runner-plugin"
+"2024-07-10T07-39-34Z", "2024-06", "cpfarherFinitestate", "", "", "https://github.com/cpfarherFinitestate", "https://avatars.githubusercontent.com/u/152283809?u=5ab447023e5e57b86be2643531f6e8d9f5f8d6b5&v=4", "2", "jenkinsci/finite-state-third-party-upload-plugin jenkins-infra/repository-permissions-updater"
