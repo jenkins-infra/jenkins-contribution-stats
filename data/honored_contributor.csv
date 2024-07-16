@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-07-15T07-39-42Z", "2024-06", "gounthar", "Bruno Verachten", "@cloudbees", "https://github.com/gounthar", "https://avatars.githubusercontent.com/u/116569?u=8a2071933b85ffad89769902e73df3cfdd31d0aa&v=4", "53", "jenkins-infra/jenkins.io jenkins-docs/quickstart-tutorials jenkinsci/plugin-modernizer-tool jenkinsci/gitea-checks-plugin jenkins-infra/stats.jenkins.io jenkins-infra/jenkins-contribution-stats jenkinsci/docker-ssh-agent jenkinsci/docker-agent"
+"2024-07-16T07-39-44Z", "2024-06", "jcheaib", "", "", "https://github.com/jcheaib", "https://avatars.githubusercontent.com/u/173037971?v=4", "1", "jenkinsci/p4-plugin"
