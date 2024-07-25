@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-07-24T07-39-35Z", "2024-06", "james1miller93", "James Miller", "Elsevier", "https://github.com/james1miller93", "https://avatars.githubusercontent.com/u/30479535?u=0507612ca373c302d84e4d6fed3674fbdbdd71e2&v=4", "1", "jenkinsci/helm-charts"
+"2024-07-25T07-39-38Z", "2024-06", "daniel-beck", "Daniel Beck", "@cloudbees ", "https://github.com/daniel-beck", "https://avatars.githubusercontent.com/u/1831569?u=a3692bd96d54be3ca51a96cf0d44c831a2d33c89&v=4", "5", "jenkinsci/.github jenkinsci/matrix-auth-plugin jenkinsci/jenkins jenkinsci/android-emulator-plugin"
