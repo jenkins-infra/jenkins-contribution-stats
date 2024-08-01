@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2024-06".
+over the 12 months before "2024-08".
 
 
 | Commenter                | Total_Comments |
 | ------------------------ | -------------: |
-| MarkEWaite               |           1876 |
-| dduportal                |           1764 |
-| lemeurherve              |           1459 |
-| jglick                   |           1350 |
-| timja                    |           1186 |
-| basil                    |           1122 |
-| NotMyFault               |            774 |
-| kmartens27               |            732 |
-| jtnord                   |            690 |
-| daniel-beck              |            608 |
-| gounthar                 |            507 |
-| krisstern                |            438 |
-| uhafner                  |            407 |
-| alecharp                 |            394 |
-| dwnusbaum                |            386 |
-| mawinter69               |            331 |
-| smerle33                 |            323 |
-| jonesbusy                |            302 |
-| aneveux                  |            292 |
-| olamy                    |            279 |
-| Vlatombe                 |            263 |
-| judovana                 |            173 |
-| Jagrutiti                |            148 |
-| kinow                    |            147 |
-| zbynek                   |            132 |
-| sridamul                 |            127 |
-| janfaracik               |            127 |
-| bguerin                  |            121 |
-| car-roll                 |            119 |
-| LizGaudet                |            119 |
-| pdk27                    |            115 |
-| damianszczepanik         |            115 |
-| nikita-tkachenko-datadog |            102 |
-| mPokornyETM              |             96 |
-| kuisathaverat            |             94 |
+| MarkEWaite               |           1651 |
+| dduportal                |           1585 |
+| lemeurherve              |           1315 |
+| jglick                   |           1148 |
+| timja                    |           1132 |
+| basil                    |            847 |
+| jtnord                   |            616 |
+| NotMyFault               |            587 |
+| kmartens27               |            545 |
+| daniel-beck              |            455 |
+| krisstern                |            413 |
+| gounthar                 |            373 |
+| uhafner                  |            362 |
+| jonesbusy                |            334 |
+| smerle33                 |            318 |
+| mawinter69               |            296 |
+| alecharp                 |            287 |
+| dwnusbaum                |            255 |
+| olamy                    |            249 |
+| Vlatombe                 |            230 |
+| judovana                 |            152 |
+| sridamul                 |            143 |
+| zbynek                   |            135 |
+| kinow                    |            111 |
+| janfaracik               |            102 |
+| bguerin                  |            100 |
+| mPokornyETM              |             93 |
+| kuisathaverat            |             91 |
+| nikita-tkachenko-datadog |             89 |
+| car-roll                 |             88 |
+| drodriguezhdez           |             88 |
+| abhishekmaity            |             84 |
+| damianszczepanik         |             84 |
+| KalleOlaviNiemitalo      |             83 |
+| AayushSaini101           |             83 |
