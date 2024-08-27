@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-08-26T07-40-09Z", "2024-07", "StefanSpieker", "Stefan Spieker", "", "https://github.com/StefanSpieker", "https://avatars.githubusercontent.com/u/22742658?u=e2345316bbc7a402431cc1fc40015ed6de7524e4&v=4", "2", "jenkinsci/ssh-agents-plugin jenkinsci/thin-backup-plugin"
+"2024-08-27T07-40-04Z", "2024-07", "waltwilo", "", "", "https://github.com/waltwilo", "https://avatars.githubusercontent.com/u/144280698?v=4", "1", "jenkinsci/amazon-inspector-image-scanner-plugin"
