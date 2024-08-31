@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-08-30T07-40-54Z", "2024-07", "MxEh-TT", "", "", "https://github.com/MxEh-TT", "https://avatars.githubusercontent.com/u/137298204?u=2cdcc92f349e362996f9ba923102afab364416d2&v=4", "4", "jenkinsci/ecu-test-execution-plugin jenkinsci/ecutest-plugin"
+"2024-08-31T07-39-50Z", "2024-07", "bot-githubaction", "Bot Githubaction", "", "https://github.com/bot-githubaction", "https://avatars.githubusercontent.com/u/98587996?u=5d56ee5477e0b161756325c497e0bcb684853490&v=4", "1", "jenkinsci/gradle-plugin"
