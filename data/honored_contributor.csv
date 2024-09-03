@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-09-02T07-39-42Z", "2024-08", "NotMyFault", "Alexander Brandes", "", "https://github.com/NotMyFault", "https://avatars.githubusercontent.com/u/13383509?u=e63ee84568c653c545bf9cb025d6910f24723ed3&v=4", "3", "jenkinsci/jenkins jenkins-infra/release"
+"2024-09-03T07-39-47Z", "2024-08", "dkjellin", "", "", "https://github.com/dkjellin", "https://avatars.githubusercontent.com/u/48895750?v=4", "1", "jenkinsci/atlassian-bitbucket-server-integration-plugin"
