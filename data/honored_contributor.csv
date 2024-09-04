@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-09-03T07-39-47Z", "2024-08", "dkjellin", "", "", "https://github.com/dkjellin", "https://avatars.githubusercontent.com/u/48895750?v=4", "1", "jenkinsci/atlassian-bitbucket-server-integration-plugin"
+"2024-09-04T07-40-09Z", "2024-08", "cyrille-leclerc", "Cyrille Le Clerc", "Grafana Labs", "https://github.com/cyrille-leclerc", "https://avatars.githubusercontent.com/u/459691?u=ac90fedd5a59913b8fa09c3e0d97dc8ad2c44df6&v=4", "4", "jenkinsci/opentelemetry-api-plugin jenkinsci/opentelemetry-plugin"
