@@ -11,4 +11,4 @@ jenkinsadmin
 sghill-rewrite  # Automated Refactoring by @sghill
 snyk-bot
 timja-bot
-
+AppVeyorBot
