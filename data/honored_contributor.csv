@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-09-04T07-40-09Z", "2024-08", "cyrille-leclerc", "Cyrille Le Clerc", "Grafana Labs", "https://github.com/cyrille-leclerc", "https://avatars.githubusercontent.com/u/459691?u=ac90fedd5a59913b8fa09c3e0d97dc8ad2c44df6&v=4", "4", "jenkinsci/opentelemetry-api-plugin jenkinsci/opentelemetry-plugin"
+"2024-09-05T07-39-23Z", "2024-08", "sichapman", "Simon Chapman", "", "https://github.com/sichapman", "https://avatars.githubusercontent.com/u/7984422?u=5168345ed56d6ef64780d358d7b44f8ccc69004f&v=4", "1", "jenkinsci/gitlab-branch-source-plugin"
