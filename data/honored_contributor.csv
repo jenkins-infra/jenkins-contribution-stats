@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-09-17T07-39-53Z", "2024-08", "tamarleviCm", "", "", "https://github.com/tamarleviCm", "https://avatars.githubusercontent.com/u/110327792?u=0b03ad6f7858e48611188068e48309e602bc8c6b&v=4", "1", "jenkinsci/checkmarx-ast-scanner-plugin"
+"2024-09-18T07-40-21Z", "2024-08", "maxwai", "Maximilian Waidelich", "LRE Medical", "https://github.com/maxwai", "https://avatars.githubusercontent.com/u/44324946?v=4", "2", "jenkinsci/coverage-plugin jenkinsci/coverage-model"
