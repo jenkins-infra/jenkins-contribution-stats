@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-09-18T07-40-21Z", "2024-08", "maxwai", "Maximilian Waidelich", "LRE Medical", "https://github.com/maxwai", "https://avatars.githubusercontent.com/u/44324946?v=4", "2", "jenkinsci/coverage-plugin jenkinsci/coverage-model"
+"2024-09-19T07-40-10Z", "2024-08", "vwagh-dev", "Vishal Wagh", "Cloudbees", "https://github.com/vwagh-dev", "https://avatars.githubusercontent.com/u/169045855?u=10b032333b42df141ff2a1d80ca145a84046ed43&v=4", "2", "jenkinsci/parameterized-remote-trigger-plugin jenkinsci/github-api-plugin"
