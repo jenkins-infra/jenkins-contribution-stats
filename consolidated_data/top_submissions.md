@@ -1,43 +1,43 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2024-08".
+over the 12 months before "2024-09".
 
 
 | Submitter                | Total_PRs |
 | ------------------------ | --------: |
-| strangelookingnerd       |       915 |
-| MarkEWaite               |       856 |
-| basil                    |       777 |
-| dduportal                |       739 |
-| lemeurherve              |       682 |
-| jonesbusy                |       567 |
-| gounthar                 |       499 |
-| smerle33                 |       381 |
-| jglick                   |       283 |
-| mawinter69               |       238 |
-| NotMyFault               |       208 |
-| uhafner                  |       196 |
-| daniel-beck              |       165 |
-| timja                    |       134 |
-| Vlatombe                 |       114 |
-| jtnord                   |        99 |
-| janfaracik               |        96 |
-| kmartens27               |        94 |
+| strangelookingnerd       |       932 |
+| MarkEWaite               |       812 |
+| basil                    |       771 |
+| dduportal                |       729 |
+| jonesbusy                |       693 |
+| lemeurherve              |       607 |
+| gounthar                 |       505 |
+| smerle33                 |       352 |
+| jglick                   |       279 |
+| mawinter69               |       226 |
+| NotMyFault               |       196 |
+| uhafner                  |       191 |
+| daniel-beck              |       159 |
+| timja                    |       137 |
+| Vlatombe                 |       118 |
+| kmartens27               |       106 |
+| janfaracik               |       102 |
+| jtnord                   |        96 |
 | krisstern                |        85 |
 | sridamul                 |        76 |
 | viceice                  |        72 |
-| alecharp                 |        69 |
-| zbynek                   |        62 |
-| olamy                    |        60 |
-| nikita-tkachenko-datadog |        56 |
-| StefanSpieker            |        50 |
+| alecharp                 |        70 |
+| olamy                    |        69 |
+| nikita-tkachenko-datadog |        69 |
+| StefanSpieker            |        57 |
+| zbynek                   |        53 |
+| jayfranco999             |        49 |
 | shlomomdahan             |        47 |
-| cyrille-leclerc          |        47 |
 | damianszczepanik         |        45 |
-| mPokornyETM              |        43 |
-| ARUS2023                 |        41 |
-| vishalhcl-5960           |        41 |
-| waltwilo                 |        38 |
-| dwnusbaum                |        37 |
-| jayfranco999             |        36 |
+| cyrille-leclerc          |        43 |
+| dwnusbaum                |        41 |
+| mPokornyETM              |        41 |
+| vishalhcl-5960           |        40 |
+| waltwilo                 |        39 |
+| maksudur-rahman-maruf    |        38 |
