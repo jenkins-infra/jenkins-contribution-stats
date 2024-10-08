@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-10-07T07-39-40Z", "2024-09", "zaman-akib", "Akib Uz Zaman", "Dynamic Solution Innovators Ltd", "https://github.com/zaman-akib", "https://avatars.githubusercontent.com/u/42386528?u=c1b987385141f51743d5432a39d96e9adfe1e7d6&v=4", "1", "jenkinsci/synopsys-security-scan-plugin"
+"2024-10-08T07-39-43Z", "2024-09", "Dohbedoh", "Allan Burdajewicz", "@cloudbees ", "https://github.com/Dohbedoh", "https://avatars.githubusercontent.com/u/6858329?u=023db2411de943133d85531311056c929f092aa9&v=4", "6", "jenkinsci/kubernetes-plugin jenkinsci/github-branch-source-plugin jenkinsci/support-core-plugin jenkinsci/credentials-plugin"
