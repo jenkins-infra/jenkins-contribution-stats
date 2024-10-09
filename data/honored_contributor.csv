@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-10-08T07-39-43Z", "2024-09", "Dohbedoh", "Allan Burdajewicz", "@cloudbees ", "https://github.com/Dohbedoh", "https://avatars.githubusercontent.com/u/6858329?u=023db2411de943133d85531311056c929f092aa9&v=4", "6", "jenkinsci/kubernetes-plugin jenkinsci/github-branch-source-plugin jenkinsci/support-core-plugin jenkinsci/credentials-plugin"
+"2024-10-09T07-39-48Z", "2024-09", "kuisathaverat", "Ivan Fernandez Calvo", "@elastic", "https://github.com/kuisathaverat", "https://avatars.githubusercontent.com/u/5400788?u=6e0a80ab6392df2a34fa0c0f576aa09b424817cd&v=4", "2", "jenkinsci/saml-plugin jenkinsci/opentelemetry-plugin"
