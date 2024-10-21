@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-10-20T07-39-43Z", "2024-09", "PayBas", "", "", "https://github.com/PayBas", "https://avatars.githubusercontent.com/u/3015760?u=9c0a4f512a5887d97887eaed41665abc3ebf567f&v=4", "1", "jenkinsci/kubernetes-plugin"
+"2024-10-21T07-40-13Z", "2024-09", "solarlodge", "Christian Brauchmann", "", "https://github.com/solarlodge", "https://avatars.githubusercontent.com/u/10247679?u=767022c68455ea46f44b0ecc2bb3648974df3abd&v=4", "1", "jenkinsci/bitbucket-push-and-pull-request-plugin"
