@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-10-31T07-39-49Z", "2024-09", "AlexanderGunnarssonMW", "Alexander Gunnarsson", "Meltwater", "https://github.com/AlexanderGunnarssonMW", "https://avatars.githubusercontent.com/u/89029311?u=38377c20b805d512558b3352f9cee14a890238c8&v=4", "1", "jenkinsci/junit-plugin"
+"2024-11-01T07-39-50Z", "2024-10", "mhenschke-atl", "", "Atlassian", "https://github.com/mhenschke-atl", "https://avatars.githubusercontent.com/u/53157896?u=b1cae600b2fe695ff474d46f3704dc42fc856d5e&v=4", "1", "jenkinsci/atlassian-bitbucket-server-integration-plugin"
