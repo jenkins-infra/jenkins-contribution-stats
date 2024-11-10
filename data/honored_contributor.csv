@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-11-09T07-39-30Z", "2024-10", "darinpope", "Darin Pope", "@cloudbees", "https://github.com/darinpope", "https://avatars.githubusercontent.com/u/121270?u=721f9580e88d7c15766c03f5fc6e11fadf8ccff2&v=4", "26", "jenkinsci/bom jenkinsci/schedule-build-plugin jenkinsci/configurationslicing-plugin jenkinsci/embeddable-build-status-plugin"
+"2024-11-10T07-39-41Z", "2024-10", "sadmananik", "Sadman Anik", "", "https://github.com/sadmananik", "https://avatars.githubusercontent.com/u/36187489?u=bfddb631ae627316a5f8355eddb03e69be31ce8b&v=4", "4", "jenkinsci/black-duck-security-scan-plugin"
