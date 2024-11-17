@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-11-16T07-39-56Z", "2024-10", "iandrewt", "Andrew Titmuss", "ubank", "https://github.com/iandrewt", "https://avatars.githubusercontent.com/u/12795256?u=7f2dfbc6e5074749e92b8dca5caa445ca0df035e&v=4", "1", "jenkinsci/kubernetes-plugin"
+"2024-11-17T07-40-19Z", "2024-10", "jtnord", "James Nord", "CloudBees", "https://github.com/jtnord", "https://avatars.githubusercontent.com/u/494726?u=4691356b21660b445d3fe476f8652abbd5a8b879&v=4", "6", "jenkinsci/oic-auth-plugin jenkinsci/jep"
