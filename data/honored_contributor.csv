@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-11-26T07-40-36Z", "2024-10", "mythsunwind", "Sven Jost", "", "https://github.com/mythsunwind", "https://avatars.githubusercontent.com/u/1278296?u=1a62f0e05b58e912b8f22d307d4fa6d59177d328&v=4", "5", "jenkinsci/flaky-test-handler-plugin jenkins-infra/repository-permissions-updater"
+"2024-11-27T07-40-43Z", "2024-10", "krisstern", "Kris Stern", "", "https://github.com/krisstern", "https://avatars.githubusercontent.com/u/88480540?u=0bea587611b603e0805cf23153be7b30cc7990c8&v=4", "5", "jenkins-infra/docs.jenkins.io jenkinsci/docker-plugin jenkinsci/gitlab-oauth-plugin jenkins-infra/contributor-spotlight"
