@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-11-27T07-40-43Z", "2024-10", "krisstern", "Kris Stern", "", "https://github.com/krisstern", "https://avatars.githubusercontent.com/u/88480540?u=0bea587611b603e0805cf23153be7b30cc7990c8&v=4", "5", "jenkins-infra/docs.jenkins.io jenkinsci/docker-plugin jenkinsci/gitlab-oauth-plugin jenkins-infra/contributor-spotlight"
+"2024-11-28T07-40-34Z", "2024-10", "niraami", "Marek Ištok", "", "https://github.com/niraami", "https://avatars.githubusercontent.com/u/24532624?v=4", "1", "jenkinsci/multibranch-action-triggers-plugin"
