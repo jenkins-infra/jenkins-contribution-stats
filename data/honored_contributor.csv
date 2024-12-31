@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2024-12-30T07-40-32Z", "2024-11", "yashpal2104", "Yash Pal", "student", "https://github.com/yashpal2104", "https://avatars.githubusercontent.com/u/112522911?u=b402f559f2c00797d0cfb5eb14836070f2c81c53&v=4", "1", "jenkinsci/embeddable-build-status-plugin"
+"2024-12-31T07-39-33Z", "2024-11", "bguerin", "Benoit Guerin", "", "https://github.com/bguerin", "https://avatars.githubusercontent.com/u/800956?v=4", "1", "jenkinsci/pipeline-maven-plugin"
