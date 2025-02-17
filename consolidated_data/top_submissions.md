@@ -1,43 +1,43 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2024-12".
+over the 12 months before "2025-01".
 
 
 | Submitter                | Total_PRs |
 | ------------------------ | --------: |
-| jonesbusy                |      1046 |
-| strangelookingnerd       |       962 |
-| basil                    |       938 |
-| dduportal                |       753 |
-| MarkEWaite               |       719 |
-| gounthar                 |       560 |
-| lemeurherve              |       376 |
-| smerle33                 |       351 |
-| jglick                   |       269 |
-| timja                    |       186 |
-| mawinter69               |       175 |
-| daniel-beck              |       153 |
-| uhafner                  |       149 |
-| NotMyFault               |       146 |
+| strangelookingnerd       |      1395 |
+| jonesbusy                |      1206 |
+| basil                    |      1011 |
+| gounthar                 |       925 |
+| dduportal                |       730 |
+| MarkEWaite               |       726 |
+| smerle33                 |       323 |
+| lemeurherve              |       319 |
+| jglick                   |       260 |
+| mawinter69               |       196 |
+| timja                    |       191 |
+| daniel-beck              |       161 |
+| janfaracik               |       146 |
+| Vlatombe                 |       133 |
+| uhafner                  |       124 |
 | shlomomdahan             |       120 |
-| Vlatombe                 |       116 |
-| janfaracik               |       116 |
-| kmartens27               |       114 |
-| yaroslavafenkin          |       113 |
-| jtnord                   |        91 |
-| nikita-tkachenko-datadog |        87 |
-| jayfranco999             |        85 |
-| krisstern                |        77 |
-| viceice                  |        75 |
-| alecharp                 |        75 |
-| olamy                    |        74 |
-| sridamul                 |        70 |
-| darinpope                |        68 |
-| StefanSpieker            |        54 |
-| cyrille-leclerc          |        49 |
-| dwnusbaum                |        47 |
+| kmartens27               |       110 |
+| yaroslavafenkin          |       109 |
+| darinpope                |       102 |
+| jayfranco999             |        96 |
+| NotMyFault               |        90 |
+| nikita-tkachenko-datadog |        88 |
+| jtnord                   |        87 |
+| viceice                  |        79 |
+| krisstern                |        74 |
+| olamy                    |        72 |
+| sridamul                 |        69 |
+| alecharp                 |        69 |
+| cyrille-leclerc          |        54 |
+| StefanSpieker            |        50 |
+| nfalco79                 |        46 |
 | Dohbedoh                 |        46 |
-| zbynek                   |        45 |
-| maksudur-rahman-maruf    |        42 |
-| mPokornyETM              |        37 |
+| yashpal2104              |        45 |
+| dwnusbaum                |        44 |
+| zbynek                   |        44 |
