@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2025-02".
+over the 12 months before "2025-03".
 
 
-| Commenter           | Total_Comments |
-| ------------------- | -------------: |
-| timja               |           1328 |
-| dduportal           |           1278 |
-| MarkEWaite          |           1246 |
-| jglick              |           1180 |
-| basil               |            980 |
-| krisstern           |            837 |
-| jonesbusy           |            625 |
-| gounthar            |            536 |
-| jtnord              |            481 |
-| daniel-beck         |            414 |
-| kmartens27          |            411 |
-| lemeurherve         |            361 |
-| Vlatombe            |            296 |
-| uhafner             |            264 |
-| dwnusbaum           |            262 |
-| mawinter69          |            240 |
-| LizGaudet           |            234 |
-| smerle33            |            224 |
-| janfaracik          |            214 |
-| NotMyFault          |            194 |
-| strangelookingnerd  |            184 |
-| alecharp            |            172 |
-| olamy               |            155 |
-| yaroslavafenkin     |            148 |
-| biru-codeastromer   |            140 |
-| fcojfernandez       |            138 |
-| gbhat618            |            105 |
-| judovana            |            104 |
-| yashpal2104         |            104 |
-| AppVeyorBot         |            104 |
-| amuniz              |            103 |
-| shlomomdahan        |             99 |
-| KalleOlaviNiemitalo |             96 |
-| zbynek              |             96 |
-| drodriguezhdez      |             92 |
+| Commenter          | Total_Comments |
+| ------------------ | -------------: |
+| timja              |           1379 |
+| jglick             |           1312 |
+| MarkEWaite         |           1269 |
+| dduportal          |           1252 |
+| krisstern          |           1032 |
+| basil              |            925 |
+| jonesbusy          |            647 |
+| gounthar           |            577 |
+| kmartens27         |            492 |
+| jtnord             |            486 |
+| daniel-beck        |            414 |
+| biru-codeastromer  |            413 |
+| uhafner            |            347 |
+| Vlatombe           |            316 |
+| lemeurherve        |            314 |
+| dwnusbaum          |            261 |
+| mawinter69         |            257 |
+| janfaracik         |            252 |
+| LizGaudet          |            244 |
+| smerle33           |            210 |
+| strangelookingnerd |            205 |
+| gbhat618           |            169 |
+| alecharp           |            154 |
+| olamy              |            153 |
+| yaroslavafenkin    |            142 |
+| fcojfernandez      |            138 |
+| NotMyFault         |            115 |
+| zbynek             |            105 |
+| yashpal2104        |            104 |
+| AppVeyorBot        |            103 |
+| amuniz             |            101 |
+| shlomomdahan       |             99 |
+| judovana           |             96 |
+| lemeurherveCB      |             94 |
+| nfalco79           |             92 |
