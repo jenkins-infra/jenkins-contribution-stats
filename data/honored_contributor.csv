@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-03-08T07-39-47Z", "2025-02", "Vahila", "", "@MathWorks", "https://github.com/Vahila", "https://avatars.githubusercontent.com/u/70003902?v=4", "3", "jenkins-infra/repository-permissions-updater jenkinsci/matlab-plugin"
+"2025-03-09T07-39-27Z", "2025-02", "pedrompflopes", "Pedro Lopes", "Checkmarx", "https://github.com/pedrompflopes", "https://avatars.githubusercontent.com/u/83576881?v=4", "10", "jenkinsci/checkmarx-ast-scanner-plugin"
