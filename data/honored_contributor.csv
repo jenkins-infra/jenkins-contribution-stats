@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-03-13T07-40-07Z", "2025-02", "rsandell", "Robert Sandell", "CloudBees Inc.", "https://github.com/rsandell", "https://avatars.githubusercontent.com/u/300688?v=4", "3", "jenkinsci/winstone jenkinsci/pipeline-utility-steps-plugin jenkinsci/jackson2-api-plugin"
+"2025-03-14T07-39-35Z", "2025-02", "stuartrowe", "Stuart Rowe", "", "https://github.com/stuartrowe", "https://avatars.githubusercontent.com/u/551572?u=0c6df1fa1e4944832f48612d1984261f55fd4b99&v=4", "6", "jenkinsci/pipeline-build-step-plugin jenkins-infra/update-center2 jenkins-infra/repository-permissions-updater jenkinsci/p4-plugin jenkinsci/pipeline-graph-view-plugin"
