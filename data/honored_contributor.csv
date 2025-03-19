@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-03-18T07-40-33Z", "2025-02", "xie-rufeng", "", "", "https://github.com/xie-rufeng", "https://avatars.githubusercontent.com/u/59386902?v=4", "1", "jenkinsci/alibabacloud-ecs-plugin"
+"2025-03-19T07-40-16Z", "2025-02", "zaman-akib", "Akib Uz Zaman", "Dynamic Solution Innovators Ltd", "https://github.com/zaman-akib", "https://avatars.githubusercontent.com/u/42386528?u=c1b987385141f51743d5432a39d96e9adfe1e7d6&v=4", "3", "jenkinsci/blackduck-security-scan-plugin jenkins-infra/repository-permissions-updater"
