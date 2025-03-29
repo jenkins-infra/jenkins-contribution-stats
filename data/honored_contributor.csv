@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-03-27T07-39-56Z", "2025-02", "jimmyleocn", "", "", "https://github.com/jimmyleocn", "https://avatars.githubusercontent.com/u/42566991?u=b2b4f3f6d80dd574d44ecb9aa6ef6bf578d29445&v=4", "2", "jenkins-infra/repository-permissions-updater jenkinsci/copy-data-to-workspace-plugin"
+"2025-03-29T07-39-33Z", "2025-02", "arturmelanchyk", "Artur Melanchyk", "", "https://github.com/arturmelanchyk", "https://avatars.githubusercontent.com/u/13834276?u=09824a4085dc4473958c624e605d431983e817e4&v=4", "3", "jenkinsci/anka-build-plugin"
