@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-03-30T07-39-28Z", "2025-02", "daniel-beck", "Daniel Beck", "@cloudbees ", "https://github.com/daniel-beck", "https://avatars.githubusercontent.com/u/1831569?u=a3692bd96d54be3ca51a96cf0d44c831a2d33c89&v=4", "15", "jenkins-infra/release jenkinsci/jenkins jenkins-infra/update-center2 jenkinsci/jelly jenkins-infra/docker-openvpn jenkins-infra/jenkins-security-scan jenkins-infra/jenkins-codeql jenkinsci/stapler"
+"2025-03-31T07-40-14Z", "2025-02", "kunstewi", "Stewi", "", "https://github.com/kunstewi", "https://avatars.githubusercontent.com/u/170243715?u=9ee1fc78b78b0d28fde4ee86e3c87fbd6c2fc5a4&v=4", "1", "jenkins-infra/jenkins.io"
