@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-04-03T07-40-13Z", "2025-03", "ErikRehmTT", "Erik Rehm", "@tracetronic ", "https://github.com/ErikRehmTT", "https://avatars.githubusercontent.com/u/112951632?u=20b1fd217cb416fca8cb4be79b9711349b25006d&v=4", "1", "jenkinsci/ecu-test-execution-plugin"
+"2025-04-04T07-40-25Z", "2025-03", "margaritalm", "Margarita", "Checkmarx", "https://github.com/margaritalm", "https://avatars.githubusercontent.com/u/45617576?u=105108d8d5a3132b9193e7b7233f2f97ef694296&v=4", "1", "jenkinsci/checkmarx-ast-scanner-plugin"
