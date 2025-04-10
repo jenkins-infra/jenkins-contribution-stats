@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-04-08T07-40-17Z", "2025-03", "ykhandelwal913", "yogesh khandelwal", "", "https://github.com/ykhandelwal913", "https://avatars.githubusercontent.com/u/16071601?u=b31daeee699d8a8780359951cd786a95b3b08cc1&v=4", "3", "jenkinsci/git-forensics-plugin jenkinsci/forensics-api-plugin"
+"2025-04-10T07-40-24Z", "2025-03", "alecharp", "Adrien Lecharpentier", "CloudBees", "https://github.com/alecharp", "https://avatars.githubusercontent.com/u/985955?u=d4fa9538e453c7b623eb93328caecc349b2103c4&v=4", "18", "jenkins-infra/plugin-health-scoring jenkins-infra/repository-permissions-updater jenkins-infra/javadoc jenkinsci/pipeline-maven-plugin jenkinsci/bom"
