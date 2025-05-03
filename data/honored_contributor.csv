@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-05-02T07-40-28Z", "2025-04", "Jay-oao", "Jayanth", "", "https://github.com/Jay-oao", "https://avatars.githubusercontent.com/u/121299537?v=4", "2", "jenkinsci/echarts-api-plugin jenkinsci/jenkins"
+"2025-05-03T07-39-59Z", "2025-04", "PierreBtz", "Pierre Beitz", "@cloudbees ", "https://github.com/PierreBtz", "https://avatars.githubusercontent.com/u/9881659?u=aafff7c58b6022eeb51e7baf23350ede7e9f0198&v=4", "3", "jenkinsci/cloudbees-jenkins-advisor-plugin jenkinsci/support-core-plugin jenkins-infra/jenkins.io"
