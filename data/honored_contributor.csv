@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-05-11T07-40-14Z", "2025-04", "olamy", "Olivier Lamy", "@Kawa-Software", "https://github.com/olamy", "https://avatars.githubusercontent.com/u/19728?u=7d45694e8150f992beab6979fb7fe9dfaad2597e&v=4", "1", "jenkinsci/blueocean-plugin"
+"2025-05-12T12-38-10Z", "2025-04", "RajdeepBng10", "Rajdeep Banerjee", "", "https://github.com/RajdeepBng10", "https://avatars.githubusercontent.com/u/138233165?v=4", "6", "jenkinsci/matrix-communication-plugin jenkinsci/blackduck-security-scan-plugin jenkinsci/gradle-jpi-plugin jenkinsci/dependency-check-plugin jenkinsci/checkmarx-ast-scanner-plugin"
