@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-05-12T12-38-10Z", "2025-04", "RajdeepBng10", "Rajdeep Banerjee", "", "https://github.com/RajdeepBng10", "https://avatars.githubusercontent.com/u/138233165?v=4", "6", "jenkinsci/matrix-communication-plugin jenkinsci/blackduck-security-scan-plugin jenkinsci/gradle-jpi-plugin jenkinsci/dependency-check-plugin jenkinsci/checkmarx-ast-scanner-plugin"
+"2025-05-13T07-40-55Z", "2025-04", "mhoffrog", "Markus Hoffrogge", "Rockwell Automation", "https://github.com/mhoffrog", "https://avatars.githubusercontent.com/u/45703410?u=cb7bde9f7c57146f3fb5fda3c126f6af3f21c7aa&v=4", "1", "jenkinsci/unleash-plugin"
