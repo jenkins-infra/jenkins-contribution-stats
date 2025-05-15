@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-05-14T07-40-52Z", "2025-04", "RajdeepBng10", "Rajdeep Banerjee", "", "https://github.com/RajdeepBng10", "https://avatars.githubusercontent.com/u/138233165?v=4", "6", "jenkinsci/matrix-communication-plugin jenkinsci/blackduck-security-scan-plugin jenkinsci/gradle-jpi-plugin jenkinsci/dependency-check-plugin jenkinsci/checkmarx-ast-scanner-plugin"
+"2025-05-15T07-40-40Z", "2025-04", "bug-bbounty", "", "", "https://github.com/bug-bbounty", "https://avatars.githubusercontent.com/u/206803686?v=4", "1", "jenkinsci/meterian-scanner-plugin"
