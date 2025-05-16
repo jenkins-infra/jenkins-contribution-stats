@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-05-15T07-40-40Z", "2025-04", "bug-bbounty", "", "", "https://github.com/bug-bbounty", "https://avatars.githubusercontent.com/u/206803686?v=4", "1", "jenkinsci/meterian-scanner-plugin"
+"2025-05-16T07-40-38Z", "2025-04", "madisparn", "Madis Pärn", "-", "https://github.com/madisparn", "https://avatars.githubusercontent.com/u/1169354?u=d7c7500745dbfe56c047e1bb81cc0a397b83d553&v=4", "1", "jenkinsci/bitbucket-branch-source-plugin"
