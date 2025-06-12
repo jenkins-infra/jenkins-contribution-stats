@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-06-11T07-40-55Z", "2025-05", "waltwilo", "", "", "https://github.com/waltwilo", "https://avatars.githubusercontent.com/u/144280698?v=4", "1", "jenkinsci/amazon-inspector-image-scanner-plugin"
+"2025-06-12T07-40-58Z", "2025-05", "prdhamdh", "Prashant Dhamdhere", "Red Hat", "https://github.com/prdhamdh", "https://avatars.githubusercontent.com/u/183483734?u=520fd34045c6ad4a6fddd0399969061461e34fb9&v=4", "6", "jenkinsci/openshift-sync-plugin jenkinsci/openshift-login-plugin jenkinsci/openshift-client-plugin jenkins-infra/repository-permissions-updater"
