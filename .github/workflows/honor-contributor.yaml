@@ -58,7 +58,7 @@ jobs:
     # The commit message includes the name of the honored contributor, which is output by the generateHonoredContribDataFile.sh script.
     # The changes are committed and pushed to the current branch that triggered the workflow.
     - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v5
+      uses: stefanzweifel/git-auto-commit-action@v6
       with:
         commit_message: "Adding ${{ env.HONORED_CONTRIBUTOR }} as the honored contributor."  # The commit message includes the name of the honored contributor
         branch: ${{ github.ref_name }}  # The changes are committed and pushed to the current branch that triggered the workflow
