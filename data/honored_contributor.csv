@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-06-16T07-41-38Z", "2025-05", "sbobin", "Stephane Bobin", "@MathWorks", "https://github.com/sbobin", "https://avatars.githubusercontent.com/u/48511431?u=490bad1b90746b23d67b31e36999b142644d1817&v=4", "1", "jenkinsci/mathworks-polyspace-plugin"
+"2025-06-17T07-41-35Z", "2025-05", "nfalco79", "Nikolas Falco", "Finantix", "https://github.com/nfalco79", "https://avatars.githubusercontent.com/u/4160180?u=23a8cde938a833af48fe83ddb26ca3b1f9e835a0&v=4", "8", "jenkinsci/bitbucket-branch-source-plugin"
