@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-06-17T07-41-35Z", "2025-05", "nfalco79", "Nikolas Falco", "Finantix", "https://github.com/nfalco79", "https://avatars.githubusercontent.com/u/4160180?u=23a8cde938a833af48fe83ddb26ca3b1f9e835a0&v=4", "8", "jenkinsci/bitbucket-branch-source-plugin"
+"2025-06-18T07-41-54Z", "2025-05", "jaguilar-atl", "Josh Aguilar", "Atlassian", "https://github.com/jaguilar-atl", "https://avatars.githubusercontent.com/u/87738724?u=481e15b871845a490daf8707d2cdfef5aec0afd1&v=4", "2", "jenkinsci/atlassian-bitbucket-server-integration-plugin"
