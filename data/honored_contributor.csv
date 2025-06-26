@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-06-24T07-41-43Z", "2025-05", "kvanzuijlen", "Koen van Zuijlen", "@deBijenkorf", "https://github.com/kvanzuijlen", "https://avatars.githubusercontent.com/u/8818390?v=4", "1", "jenkinsci/helm-charts"
+"2025-06-26T07-41-19Z", "2025-05", "aHenryJard", "A. Jard", "@OpenCTI-Platform @FiligranHQ ", "https://github.com/aHenryJard", "https://avatars.githubusercontent.com/u/3634942?u=5eb6f74cf106803228e078e6e4b8b13adc923383&v=4", "1", "jenkins-infra/repository-permissions-updater"
