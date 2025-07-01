@@ -1,43 +1,43 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2025-05".
+over the 12 months before "2025-06".
 
 
 | Submitter                | Total_PRs |
 | ------------------------ | --------: |
-| strangelookingnerd       |      1951 |
-| gounthar                 |      1507 |
-| jonesbusy                |      1336 |
-| basil                    |      1142 |
-| dduportal                |       942 |
-| MarkEWaite               |       786 |
-| smerle33                 |       373 |
-| jglick                   |       272 |
-| timja                    |       206 |
-| janfaracik               |       192 |
-| mawinter69               |       186 |
-| jayfranco999             |       147 |
-| daniel-beck              |       147 |
-| uhafner                  |       133 |
-| Vlatombe                 |       120 |
-| shlomomdahan             |       119 |
-| kmartens27               |       117 |
-| darinpope                |       115 |
+| strangelookingnerd       |      1695 |
+| gounthar                 |      1534 |
+| jonesbusy                |      1352 |
+| basil                    |      1082 |
+| dduportal                |      1032 |
+| MarkEWaite               |       751 |
+| smerle33                 |       381 |
+| jglick                   |       277 |
+| timja                    |       207 |
+| janfaracik               |       200 |
+| mawinter69               |       193 |
+| daniel-beck              |       151 |
+| jayfranco999             |       141 |
+| darinpope                |       122 |
+| kmartens27               |       122 |
+| uhafner                  |       119 |
+| Vlatombe                 |       118 |
 | yaroslavafenkin          |       106 |
-| lemeurherve              |       106 |
-| nfalco79                 |        88 |
-| krisstern                |        87 |
-| biru-codeastromer        |        78 |
-| alecharp                 |        71 |
-| rahulsom                 |        65 |
-| nikita-tkachenko-datadog |        64 |
-| olamy                    |        63 |
-| cyrille-leclerc          |        62 |
-| jtnord                   |        61 |
+| nfalco79                 |       106 |
+| biru-codeastromer        |       103 |
+| shlomomdahan             |        96 |
+| krisstern                |        83 |
+| alecharp                 |        70 |
+| rahulsom                 |        66 |
+| nikita-tkachenko-datadog |        60 |
+| olamy                    |        57 |
+| jtnord                   |        54 |
+| cyrille-leclerc          |        51 |
+| zbynek                   |        51 |
 | yashpal2104              |        50 |
-| sridamul                 |        47 |
-| StefanSpieker            |        47 |
-| viceice                  |        46 |
-| Dohbedoh                 |        41 |
-| kuisathaverat            |        40 |
+| kuisathaverat            |        50 |
+| StefanSpieker            |        48 |
+| CodexRaunak              |        46 |
+| lewisbirks               |        44 |
+| Dohbedoh                 |        40 |
