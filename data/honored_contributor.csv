@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-07-07T07-41-47Z", "2025-06", "NotMyFault", "Alexander Brandes", "", "https://github.com/NotMyFault", "https://avatars.githubusercontent.com/u/13383509?u=e63ee84568c653c545bf9cb025d6910f24723ed3&v=4", "5", "jenkins-infra/repository-permissions-updater jenkinsci/jenkins"
+"2025-07-08T07-42-02Z", "2025-06", "stuartrowe", "Stuart Rowe", "@electronicarts", "https://github.com/stuartrowe", "https://avatars.githubusercontent.com/u/551572?u=0c6df1fa1e4944832f48612d1984261f55fd4b99&v=4", "4", "jenkinsci/workflow-basic-steps-plugin jenkinsci/pipeline-graph-view-plugin"
