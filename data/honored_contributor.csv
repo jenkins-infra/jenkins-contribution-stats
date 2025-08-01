@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-07-31T07-43-00Z", "2025-06", "vwagh-dev", "Vishal Wagh", "Cloudbees", "https://github.com/vwagh-dev", "https://avatars.githubusercontent.com/u/169045855?u=10b032333b42df141ff2a1d80ca145a84046ed43&v=4", "3", "jenkinsci/bitbucket-branch-source-plugin jenkinsci/htmlpublisher-plugin"
+"2025-08-01T07-43-40Z", "2025-07", "das7pad", "Jakob Ackermann", "@overleaf", "https://github.com/das7pad", "https://avatars.githubusercontent.com/u/17931887?u=e7b44042e05c8280b5bb6e2c5f903000fdf01b1d&v=4", "7", "jenkinsci/pipeline-graph-view-plugin"
