@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-08-04T07-45-21Z", "2025-07", "artursmolarek", "Artur Smolarek", "SecureAuth", "https://github.com/artursmolarek", "https://avatars.githubusercontent.com/u/895822?u=a64bb5101ecf7da8acbc9fa643a0137cceab15cb&v=4", "1", "jenkinsci/hetzner-cloud-plugin"
+"2025-08-05T07-44-15Z", "2025-07", "jayfranco999", "Jaideep", "", "https://github.com/jayfranco999", "https://avatars.githubusercontent.com/u/79799016?v=4", "3", "jenkins-infra/status jenkins-infra/jenkins-infra jenkins-infra/docker-geoipupdate"
