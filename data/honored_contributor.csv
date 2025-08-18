@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-08-17T07-40-26Z", "2025-07", "waveywaves", "Vibhav Bobade", "", "https://github.com/waveywaves", "https://avatars.githubusercontent.com/u/11972233?u=2d65898e8ce04c4031b6583cf935734d229317ae&v=4", "1", "jenkinsci/tekton-client-plugin"
+"2025-08-18T07-42-14Z", "2025-07", "sandeepbarnwal", "Sandeep Kumar Barnwal", "cloudbees", "https://github.com/sandeepbarnwal", "https://avatars.githubusercontent.com/u/5296981?u=75ddf83f9d0ec949158d5dbcc30820db2ed7dd84&v=4", "2", "jenkinsci/workflow-durable-task-step-plugin jenkinsci/opentelemetry-plugin"
