@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2025-07".
+over the 12 months before "2025-08".
 
 
 | Commenter          | Total_Comments |
 | ------------------ | -------------: |
-| krisstern          |           1647 |
-| timja              |           1647 |
-| dduportal          |           1516 |
-| jglick             |           1493 |
-| MarkEWaite         |           1259 |
-| basil              |            950 |
-| kmartens27         |            824 |
-| gounthar           |            662 |
-| jonesbusy          |            657 |
-| biru-codeastromer  |            585 |
-| daniel-beck        |            451 |
+| krisstern          |           1672 |
+| timja              |           1624 |
+| jglick             |           1522 |
+| dduportal          |           1510 |
+| MarkEWaite         |           1257 |
+| basil              |            923 |
+| kmartens27         |            826 |
+| gounthar           |            633 |
+| jonesbusy          |            631 |
+| biru-codeastromer  |            586 |
+| daniel-beck        |            447 |
+| jtnord             |            420 |
 | Vlatombe           |            418 |
-| jtnord             |            405 |
-| janfaracik         |            325 |
-| strangelookingnerd |            321 |
-| mawinter69         |            318 |
-| dwnusbaum          |            304 |
+| mawinter69         |            323 |
+| janfaracik         |            317 |
+| strangelookingnerd |            307 |
 | gbhat618           |            301 |
 | LizGaudet          |            295 |
-| uhafner            |            270 |
-| smerle33           |            256 |
-| alecharp           |            240 |
-| lewisbirks         |            188 |
-| nfalco79           |            163 |
+| dwnusbaum          |            279 |
+| uhafner            |            275 |
+| smerle33           |            257 |
+| alecharp           |            243 |
+| lewisbirks         |            199 |
+| olamy              |            176 |
+| nfalco79           |            173 |
+| kuisathaverat      |            170 |
+| A1exKH             |            165 |
 | yaroslavafenkin    |            155 |
-| olamy              |            155 |
-| kuisathaverat      |            154 |
 | lemeurherveCB      |            145 |
-| A1exKH             |            143 |
-| AppVeyorBot        |            140 |
-| felipecrs          |            133 |
-| scherler           |            133 |
-| nevingeorgesunny   |            125 |
+| felipecrs          |            134 |
+| scherler           |            130 |
+| CodexRaunak        |            125 |
+| nevingeorgesunny   |            124 |
 | yashpal2104        |            124 |
 | fcojfernandez      |            122 |
