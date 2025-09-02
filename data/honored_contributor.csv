@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-09-01T07-40-41Z", "2025-08", "s78258819-svg", "", "", "https://github.com/s78258819-svg", "https://avatars.githubusercontent.com/u/229107832?v=4", "3", "jenkinsci/bitbucket-push-and-pull-request-plugin"
+"2025-09-02T07-40-46Z", "2025-08", "nikos445", "Nikolaos Astyrakakis", "Robert Bosch", "https://github.com/nikos445", "https://avatars.githubusercontent.com/u/3193713?u=a8b583c7ad8681bc6e3af1ce7a706d8f19af93fe&v=4", "2", "jenkins-infra/repository-permissions-updater"
