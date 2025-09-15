@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-09-12T07-39-41Z", "2025-08", "kellie-freeman", "Kellie Freeman", "CloudBees", "https://github.com/kellie-freeman", "https://avatars.githubusercontent.com/u/80066741?u=8b51ea2fe5971a8b2242dc9638b32f9c40998966&v=4", "1", "jenkins-infra/jenkins.io"
+"2025-09-15T07-40-54Z", "2025-08", "rubenyoungon", "", "", "https://github.com/rubenyoungon", "https://avatars.githubusercontent.com/u/15817416?u=0c1cbad581852e17b0aa951cdc312a0d32f14dc1&v=4", "1", "jenkinsci/parameterized-remote-trigger-plugin"
