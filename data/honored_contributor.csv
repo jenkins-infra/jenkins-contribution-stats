@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-09-22T07-40-38Z", "2025-08", "cpfarherFinitestate", "", "", "https://github.com/cpfarherFinitestate", "https://avatars.githubusercontent.com/u/152283809?u=5ab447023e5e57b86be2643531f6e8d9f5f8d6b5&v=4", "6", "jenkinsci/finite-state-analysis-plugin jenkins-infra/repository-permissions-updater"
+"2025-09-24T07-40-28Z", "2025-08", "krisstern", "Kris Stern", "", "https://github.com/krisstern", "https://avatars.githubusercontent.com/u/88480540?u=0bea587611b603e0805cf23153be7b30cc7990c8&v=4", "7", "jenkinsci/bom jenkinsci/acceptance-test-harness jenkinsci/jenkins jenkins-infra/release"
