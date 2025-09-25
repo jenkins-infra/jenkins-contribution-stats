@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-09-24T07-40-28Z", "2025-08", "krisstern", "Kris Stern", "", "https://github.com/krisstern", "https://avatars.githubusercontent.com/u/88480540?u=0bea587611b603e0805cf23153be7b30cc7990c8&v=4", "7", "jenkinsci/bom jenkinsci/acceptance-test-harness jenkinsci/jenkins jenkins-infra/release"
+"2025-09-25T07-40-45Z", "2025-08", "fcojfernandez", "Francisco Javier Fernandez", "", "https://github.com/fcojfernandez", "https://avatars.githubusercontent.com/u/31063239?u=f5b72a907aed076c524c4d2fd41ca08a9696c891&v=4", "1", "jenkins-infra/repository-permissions-updater"
