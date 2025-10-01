@@ -1,43 +1,43 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2025-08".
+over the 12 months before "2025-09".
 
 
-| Submitter                | Total_PRs |
-| ------------------------ | --------: |
-| gounthar                 |      1540 |
-| jonesbusy                |      1370 |
-| strangelookingnerd       |      1352 |
-| dduportal                |      1099 |
-| basil                    |      1073 |
-| MarkEWaite               |       737 |
-| smerle33                 |       385 |
-| jglick                   |       277 |
-| janfaracik               |       228 |
-| timja                    |       212 |
-| daniel-beck              |       212 |
-| mawinter69               |       184 |
-| uhafner                  |       178 |
-| darinpope                |       137 |
-| jayfranco999             |       127 |
-| kmartens27               |       125 |
-| nfalco79                 |       117 |
-| biru-codeastromer        |       117 |
-| Vlatombe                 |       111 |
-| yaroslavafenkin          |       106 |
-| krisstern                |        91 |
-| lewisbirks               |        79 |
-| alecharp                 |        78 |
-| CodexRaunak              |        73 |
-| shlomomdahan             |        73 |
-| rahulsom                 |        68 |
-| jtnord                   |        66 |
-| olamy                    |        62 |
-| dwnusbaum                |        61 |
-| kuisathaverat            |        59 |
-| zbynek                   |        55 |
-| nikita-tkachenko-datadog |        54 |
-| yashpal2104              |        50 |
-| StefanSpieker            |        50 |
-| NotMyFault               |        47 |
+| Submitter            | Total_PRs |
+| -------------------- | --------: |
+| gounthar             |      1791 |
+| strangelookingnerd   |      1385 |
+| jonesbusy            |      1220 |
+| dduportal            |      1089 |
+| basil                |      1013 |
+| MarkEWaite           |       719 |
+| smerle33             |       398 |
+| jglick               |       281 |
+| janfaracik           |       234 |
+| timja                |       213 |
+| daniel-beck          |       211 |
+| uhafner              |       204 |
+| mawinter69           |       191 |
+| darinpope            |       134 |
+| nfalco79             |       126 |
+| biru-codeastromer    |       118 |
+| jayfranco999         |       115 |
+| kmartens27           |       110 |
+| yaroslavafenkin      |       106 |
+| Vlatombe             |       101 |
+| krisstern            |        90 |
+| lewisbirks           |        79 |
+| alecharp             |        75 |
+| CodexRaunak          |        74 |
+| shlomomdahan         |        73 |
+| jtnord               |        69 |
+| rahulsom             |        68 |
+| dwnusbaum            |        62 |
+| zbynek               |        58 |
+| kuisathaverat        |        57 |
+| NotMyFault           |        56 |
+| aaravmahajanofficial |        51 |
+| olamy                |        51 |
+| yashpal2104          |        50 |
+| panicking            |        47 |

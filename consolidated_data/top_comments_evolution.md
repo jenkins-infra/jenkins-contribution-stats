@@ -1,49 +1,48 @@
 # Top Commenters (Compare)
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2025-08".
+over the 12 months before "2025-10".
 Table shows new and "churned" commenters compared 
 to the situation 3 months before.
 
 
 | Commenter           | Comments | status  |
 | ------------------- | -------: | ------- |
-| [krisstern](commentersPlot/krisstern.png) |     1672 |         |
-| [timja](commentersPlot/timja.png) |     1624 |         |
-| [jglick](commentersPlot/jglick.png) |     1522 |         |
-| [dduportal](commentersPlot/dduportal.png) |     1510 |         |
-| [MarkEWaite](commentersPlot/MarkEWaite.png) |     1257 |         |
-| [basil](commentersPlot/basil.png) |      923 |         |
-| [kmartens27](commentersPlot/kmartens27.png) |      826 |         |
-| [gounthar](commentersPlot/gounthar.png) |      633 |         |
-| [jonesbusy](commentersPlot/jonesbusy.png) |      631 |         |
-| [biru-codeastromer](commentersPlot/biru-codeastromer.png) |      586 |         |
-| [daniel-beck](commentersPlot/daniel-beck.png) |      447 |         |
-| [jtnord](commentersPlot/jtnord.png) |      420 |         |
-| [Vlatombe](commentersPlot/Vlatombe.png) |      418 |         |
-| [mawinter69](commentersPlot/mawinter69.png) |      323 |         |
-| [janfaracik](commentersPlot/janfaracik.png) |      317 |         |
-| [strangelookingnerd](commentersPlot/strangelookingnerd.png) |      307 |         |
-| [gbhat618](commentersPlot/gbhat618.png) |      301 |         |
-| [LizGaudet](commentersPlot/LizGaudet.png) |      295 |         |
-| [dwnusbaum](commentersPlot/dwnusbaum.png) |      279 |         |
-| [uhafner](commentersPlot/uhafner.png) |      275 |         |
-| [smerle33](commentersPlot/smerle33.png) |      257 |         |
-| [alecharp](commentersPlot/alecharp.png) |      243 |         |
-| [lewisbirks](commentersPlot/lewisbirks.png) |      199 | new     |
-| [olamy](commentersPlot/olamy.png) |      176 |         |
-| [nfalco79](commentersPlot/nfalco79.png) |      173 |         |
-| [kuisathaverat](commentersPlot/kuisathaverat.png) |      170 |         |
-| [A1exKH](commentersPlot/A1exKH.png) |      165 |         |
-| [yaroslavafenkin](commentersPlot/yaroslavafenkin.png) |      155 |         |
-| [lemeurherveCB](commentersPlot/lemeurherveCB.png) |      145 |         |
-| [felipecrs](commentersPlot/felipecrs.png) |      134 |         |
-| [scherler](commentersPlot/scherler.png) |      130 | new     |
+| [timja](commentersPlot/timja.png) |     1488 |         |
+| [krisstern](commentersPlot/krisstern.png) |     1421 |         |
+| [dduportal](commentersPlot/dduportal.png) |     1392 |         |
+| [jglick](commentersPlot/jglick.png) |     1284 |         |
+| [MarkEWaite](commentersPlot/MarkEWaite.png) |     1173 |         |
+| [kmartens27](commentersPlot/kmartens27.png) |      694 |         |
+| [basil](commentersPlot/basil.png) |      624 |         |
+| [jonesbusy](commentersPlot/jonesbusy.png) |      594 |         |
+| [biru-codeastromer](commentersPlot/biru-codeastromer.png) |      587 |         |
+| [gounthar](commentersPlot/gounthar.png) |      547 |         |
+| [daniel-beck](commentersPlot/daniel-beck.png) |      376 |         |
+| [Vlatombe](commentersPlot/Vlatombe.png) |      340 |         |
+| [jtnord](commentersPlot/jtnord.png) |      321 |         |
+| [gbhat618](commentersPlot/gbhat618.png) |      302 |         |
+| [janfaracik](commentersPlot/janfaracik.png) |      301 |         |
+| [strangelookingnerd](commentersPlot/strangelookingnerd.png) |      285 |         |
+| [mawinter69](commentersPlot/mawinter69.png) |      282 |         |
+| [uhafner](commentersPlot/uhafner.png) |      268 |         |
+| [alecharp](commentersPlot/alecharp.png) |      234 |         |
+| [dwnusbaum](commentersPlot/dwnusbaum.png) |      226 |         |
+| [smerle33](commentersPlot/smerle33.png) |      223 |         |
+| [LizGaudet](commentersPlot/LizGaudet.png) |      211 |         |
+| [lewisbirks](commentersPlot/lewisbirks.png) |      201 |         |
+| [A1exKH](commentersPlot/A1exKH.png) |      188 |         |
+| [nfalco79](commentersPlot/nfalco79.png) |      176 |         |
+| [kuisathaverat](commentersPlot/kuisathaverat.png) |      147 |         |
+| [felipecrs](commentersPlot/felipecrs.png) |      135 |         |
+| [lemeurherveCB](commentersPlot/lemeurherveCB.png) |      133 |         |
 | [CodexRaunak](commentersPlot/CodexRaunak.png) |      125 | new     |
-| [nevingeorgesunny](commentersPlot/nevingeorgesunny.png) |      124 | new     |
-| [yashpal2104](commentersPlot/yashpal2104.png) |      124 |         |
-| [fcojfernandez](commentersPlot/fcojfernandez.png) |      122 |         |
-| [lemeurherve](commentersPlot/lemeurherve.png) |          | churned |
-| [AppVeyorBot](commentersPlot/AppVeyorBot.png) |          | churned |
-| [zbynek](commentersPlot/zbynek.png) |          | churned |
-| [KalleOlaviNiemitalo](commentersPlot/KalleOlaviNiemitalo.png) |          | churned |
+| [olamy](commentersPlot/olamy.png) |      119 |         |
+| [AppVeyorBot](commentersPlot/AppVeyorBot.png) |      118 |         |
+| [nevingeorgesunny](commentersPlot/nevingeorgesunny.png) |      117 |         |
+| [scherler](commentersPlot/scherler.png) |      110 |         |
+| [KalleOlaviNiemitalo](commentersPlot/KalleOlaviNiemitalo.png) |       99 | new     |
+| [zbynek](commentersPlot/zbynek.png) |       94 | new     |
+| [yaroslavafenkin](commentersPlot/yaroslavafenkin.png) |          | churned |
+| [yashpal2104](commentersPlot/yashpal2104.png) |          | churned |
+| [fcojfernandez](commentersPlot/fcojfernandez.png) |          | churned |
