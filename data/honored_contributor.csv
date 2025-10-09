@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-10-08T07-40-30Z", "2025-09", "fuero", "fuero", "", "https://github.com/fuero", "https://avatars.githubusercontent.com/u/108815?v=4", "1", "jenkinsci/kubernetes-operator"
+"2025-10-09T07-40-12Z", "2025-09", "imonteroperez", "Ildefonso Montero", "@cloudbees formerly: @intelliment @Yaco-Sistemas ", "https://github.com/imonteroperez", "https://avatars.githubusercontent.com/u/595347?u=c503c83190b5ab2f2861027193635617fc117612&v=4", "7", "jenkinsci/JiraTestResultReporter-plugin"
