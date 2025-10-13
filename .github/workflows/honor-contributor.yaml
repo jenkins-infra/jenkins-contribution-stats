@@ -32,6 +32,15 @@ jobs:
     - name: Build Docker image
       run: docker build --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) -t stats .
 
+    # Debug step to check environment
+    - name: Debug Docker environment
+      run: |
+        docker run --rm \
+          -u $(id -u):$(id -g) \
+          -e PATH="/home/linuxbrew/.linuxbrew/bin:/opt/venv/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
+          -v ${{ github.workspace }}:/workspace \
+          stats bash -c "cd /workspace && ./debug-env.sh"
+
     # The fourth step is to run the generateHonoredContribDataFile.sh script inside a Docker container.
     # The script is run with several environment variables set, including the GitHub token and the GitHub actor's name and email.
     # The GitHub workspace is mounted as a volume inside the Docker container.
