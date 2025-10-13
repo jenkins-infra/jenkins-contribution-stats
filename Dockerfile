@@ -77,6 +77,9 @@ RUN brew tap jenkins-infra/tap && \
 # We switch back to the root user.
 USER root
 
+# Apply world-readable permissions again after brew install to ensure installed binaries are accessible
+RUN chmod -R a+rX /home/linuxbrew/.linuxbrew
+
 # Create the /home/runner directory that will be used by the runtime user
 # The actual user will be specified via -u flag when running the container
 RUN mkdir -p /home/runner && chmod 777 /home/runner
