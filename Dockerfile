@@ -50,10 +50,10 @@ RUN /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/instal
 # We switch back to the root user.
 USER root
 
-# We change the owner of the linuxbrew directory to the container user.
 # We create a symbolic link from the date command to /bin/gdate.
-RUN chown -R $CONTAINER_USER: /home/linuxbrew/.linuxbrew && \
-        ln -s $(which date) /bin/gdate
+# We make the Homebrew directory world-readable so any user can execute the binaries.
+RUN ln -s $(which date) /bin/gdate && \
+        chmod -R a+rX /home/linuxbrew/.linuxbrew
 
 # We add the linuxbrew bin directory to the PATH environment variable.
 ENV PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
