@@ -77,13 +77,6 @@ RUN brew tap jenkins-infra/tap && \
 # We switch back to the root user.
 USER root
 
-# Create a new user with the user ID and group ID.
-# If the group already exists, use the existing group.
-# If the user already exists, use the existing user.
-# Switch to the new user.
-# This is done to ensure that the Docker container runs with the same user and group IDs as the GitHub runner,
-# which helps to avoid permission issues when the Docker container writes to files that the GitHub runner needs to access.
-RUN if getent group $GROUP_ID ; then groupname=$(getent group $GROUP_ID | cut -d: -f1) ; else groupadd -g $GROUP_ID runner && groupname=runner ; fi && \
-    if getent passwd $USER_ID ; then username=$(getent passwd $USER_ID | cut -d: -f1) ; else useradd -l -u $USER_ID -g $groupname runner && username=runner ; fi && \
-    install -d -m 0755 -o $username -g $groupname /home/runner
-USER $username
+# Create the /home/runner directory that will be used by the runtime user
+# The actual user will be specified via -u flag when running the container
+RUN mkdir -p /home/runner && chmod 777 /home/runner
