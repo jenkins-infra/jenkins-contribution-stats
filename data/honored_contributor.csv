@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-10-23T07-40-52Z", "2025-09", "Dohbedoh", "Allan Burdajewicz", "@cloudbees ", "https://github.com/Dohbedoh", "https://avatars.githubusercontent.com/u/6858329?u=023db2411de943133d85531311056c929f092aa9&v=4", "8", "jenkinsci/kubernetes-plugin jenkinsci/acceptance-test-harness jenkinsci/bom jenkinsci/okhttp-api-plugin jenkinsci/bitbucket-branch-source-plugin jenkinsci/ec2-plugin"
+"2025-10-24T07-40-35Z", "2025-09", "kartikeyg0104", "Kartikey Gupta", "", "https://github.com/kartikeyg0104", "https://avatars.githubusercontent.com/u/180191571?v=4", "1", "jenkinsci/resources-ai-chatbot-plugin"
