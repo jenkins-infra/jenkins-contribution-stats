@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-10-26T07-40-07Z", "2025-09", "gilgameshfreedom", "Anatolii Korostelev", "", "https://github.com/gilgameshfreedom", "https://avatars.githubusercontent.com/u/842775?v=4", "1", "jenkinsci/s3-plugin"
+"2025-10-27T07-40-52Z", "2025-09", "dwnusbaum", "Devin Nusbaum", "@cloudbees ", "https://github.com/dwnusbaum", "https://avatars.githubusercontent.com/u/1068968?u=5ea9c773c2f1e086d5e43cd822477ba675f1395d&v=4", "8", "jenkinsci/workflow-support-plugin jenkinsci/workflow-api-plugin jenkinsci/jenkins-test-harness jenkinsci/pipeline-groovy-lib-plugin jenkinsci/workflow-cps-plugin jenkins-infra/jenkins.io jenkinsci/maven-hpi-plugin jenkinsci/git-plugin"
