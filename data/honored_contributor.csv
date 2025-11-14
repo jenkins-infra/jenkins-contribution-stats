@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-11-10T07-41-03Z", "2025-10", "kmartens27", "Kevin Martens", "", "https://github.com/kmartens27", "https://avatars.githubusercontent.com/u/99040580?u=155d293161dbf7e6dda79a1b106319504c77e275&v=4", "1", "jenkins-infra/jenkins.io"
+"2025-11-14T07-40-56Z", "2025-10", "RanjitCS", "Ranjit C", "@CloudBees", "https://github.com/RanjitCS", "https://avatars.githubusercontent.com/u/30661484?v=4", "2", "jenkins-infra/repository-permissions-updater jenkinsci/scm-api-plugin"
