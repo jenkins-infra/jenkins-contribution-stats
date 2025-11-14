@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-11-13T07-41-37Z", "2025-10", "vincenpt", "Paul Vincent", "", "https://github.com/vincenpt", "https://avatars.githubusercontent.com/u/3343814?u=c9a386012c49fe8a8a5cd9e05abb58a25a44f8ad&v=4", "1", "jenkins-infra/repository-permissions-updater"
+"2025-11-14T07-40-56Z", "2025-10", "RanjitCS", "Ranjit C", "@CloudBees", "https://github.com/RanjitCS", "https://avatars.githubusercontent.com/u/30661484?v=4", "2", "jenkins-infra/repository-permissions-updater jenkinsci/scm-api-plugin"
