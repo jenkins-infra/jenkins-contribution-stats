@@ -21,7 +21,7 @@ jobs:
     steps:
     # The first step is to checkout the code from the current repository.
     - name: Checkout code
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
 
     # The second step is to change the ownership of the '/workspace' directory.
     # This is done to ensure that the Docker container has the correct permissions to interact with the '/workspace' directory.
