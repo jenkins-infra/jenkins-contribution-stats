@@ -1,43 +1,43 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2025-10".
+over the 12 months before "2025-11".
 
 
 | Submitter            | Total_PRs |
 | -------------------- | --------: |
-| gounthar             |      1812 |
-| strangelookingnerd   |      1435 |
-| dduportal            |      1127 |
-| jonesbusy            |      1108 |
-| basil                |       835 |
-| MarkEWaite           |       774 |
-| smerle33             |       366 |
-| jglick               |       274 |
-| janfaracik           |       262 |
-| timja                |       214 |
-| uhafner              |       213 |
-| daniel-beck          |       196 |
-| mawinter69           |       193 |
-| nfalco79             |       132 |
+| gounthar             |      1789 |
+| strangelookingnerd   |      1475 |
+| dduportal            |      1045 |
+| jonesbusy            |       946 |
+| MarkEWaite           |       828 |
+| basil                |       725 |
+| smerle33             |       343 |
+| jglick               |       288 |
+| janfaracik           |       264 |
+| timja                |       223 |
+| uhafner              |       222 |
+| daniel-beck          |       213 |
+| mawinter69           |       208 |
 | biru-codeastromer    |       121 |
-| darinpope            |       109 |
-| jayfranco999         |       101 |
-| kmartens27           |       101 |
-| Vlatombe             |        92 |
-| krisstern            |        88 |
-| alecharp             |        80 |
+| nfalco79             |       113 |
+| lemeurherve          |       100 |
+| kmartens27           |        90 |
+| Vlatombe             |        87 |
+| jtnord               |        86 |
+| jayfranco999         |        85 |
+| alecharp             |        82 |
+| krisstern            |        81 |
 | lewisbirks           |        79 |
-| jtnord               |        76 |
+| darinpope            |        77 |
 | CodexRaunak          |        74 |
+| NotMyFault           |        73 |
 | rahulsom             |        68 |
-| yaroslavafenkin      |        61 |
-| NotMyFault           |        59 |
-| lemeurherve          |        58 |
-| aaravmahajanofficial |        55 |
-| kuisathaverat        |        54 |
+| aaravmahajanofficial |        57 |
+| kuisathaverat        |        52 |
+| olamy                |        52 |
 | dwnusbaum            |        52 |
-| zbynek               |        51 |
-| olamy                |        51 |
+| zbynek               |        52 |
 | panicking            |        49 |
-| StefanSpieker        |        46 |
+| gbhat618             |        46 |
+| StefanSpieker        |        43 |
