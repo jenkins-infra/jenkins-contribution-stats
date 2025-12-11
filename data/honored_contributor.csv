@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-12-10T07-42-51Z", "2025-11", "crwdharshitac", "crwd-harshitaconeri", "", "https://github.com/crwdharshitac", "https://avatars.githubusercontent.com/u/179260187?v=4", "2", "jenkinsci/crowdstrike-security-plugin"
+"2025-12-11T07-42-34Z", "2025-11", "janfaracik", "Jan Faracik", "", "https://github.com/janfaracik", "https://avatars.githubusercontent.com/u/43062514?u=85ef455173bdf2ea821a981268a46e13176e26be&v=4", "8", "jenkins-infra/jenkins.io jenkinsci/jenkins jenkinsci/pipeline-graph-view-plugin jenkinsci/acceptance-test-harness jenkinsci/bom"
