@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-12-11T07-42-34Z", "2025-11", "janfaracik", "Jan Faracik", "", "https://github.com/janfaracik", "https://avatars.githubusercontent.com/u/43062514?u=85ef455173bdf2ea821a981268a46e13176e26be&v=4", "8", "jenkins-infra/jenkins.io jenkinsci/jenkins jenkinsci/pipeline-graph-view-plugin jenkinsci/acceptance-test-harness jenkinsci/bom"
+"2025-12-12T07-42-28Z", "2025-11", "nfalco79", "Nikolas Falco", "Finantix", "https://github.com/nfalco79", "https://avatars.githubusercontent.com/u/4160180?u=23a8cde938a833af48fe83ddb26ca3b1f9e835a0&v=4", "2", "jenkinsci/bitbucket-branch-source-plugin"
