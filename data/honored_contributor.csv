@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-12-18T07-42-00Z", "2025-11", "thewuffel", "", "", "https://github.com/thewuffel", "https://avatars.githubusercontent.com/u/84853379?v=4", "1", "jenkinsci/jira-steps-plugin"
+"2025-12-19T07-42-00Z", "2025-11", "TimSVector", "Tim Schneider", "Vector North America", "https://github.com/TimSVector", "https://avatars.githubusercontent.com/u/18580931?u=87ab120a0c6230f0121e9cc12241457cc4c07041&v=4", "2", "jenkinsci/vectorcast-coverage-plugin jenkinsci/coverage-plugin"
