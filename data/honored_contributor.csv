@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-12-19T07-42-00Z", "2025-11", "TimSVector", "Tim Schneider", "Vector North America", "https://github.com/TimSVector", "https://avatars.githubusercontent.com/u/18580931?u=87ab120a0c6230f0121e9cc12241457cc4c07041&v=4", "2", "jenkinsci/vectorcast-coverage-plugin jenkinsci/coverage-plugin"
+"2025-12-20T07-40-49Z", "2025-11", "long76", "", "", "https://github.com/long76", "https://avatars.githubusercontent.com/u/18124433?v=4", "9", "jenkinsci/docker-build-step-plugin jenkinsci/nodepool-agents-plugin jenkinsci/docker-swarm-plugin jenkinsci/azure-app-service-plugin jenkinsci/docker-plugin jenkinsci/bom jenkinsci/docker-java-api-plugin"
