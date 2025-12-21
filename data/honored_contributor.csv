@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-12-20T07-40-49Z", "2025-11", "long76", "", "", "https://github.com/long76", "https://avatars.githubusercontent.com/u/18124433?v=4", "9", "jenkinsci/docker-build-step-plugin jenkinsci/nodepool-agents-plugin jenkinsci/docker-swarm-plugin jenkinsci/azure-app-service-plugin jenkinsci/docker-plugin jenkinsci/bom jenkinsci/docker-java-api-plugin"
+"2025-12-21T07-40-52Z", "2025-11", "yaswanthkumarch", "yaswanth", "", "https://github.com/yaswanthkumarch", "https://avatars.githubusercontent.com/u/82691830?v=4", "1", "jenkinsci/pipeline-npm-plugin"
