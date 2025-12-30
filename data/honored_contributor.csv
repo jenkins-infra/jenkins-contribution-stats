@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2025-12-29T07-43-55Z", "2025-11", "shanth17", "", "", "https://github.com/shanth17", "https://avatars.githubusercontent.com/u/117092474?v=4", "1", "jenkins-docs/simple-java-maven-app"
+"2025-12-30T07-42-28Z", "2025-11", "jtnord", "James Nord", "CloudBees", "https://github.com/jtnord", "https://avatars.githubusercontent.com/u/494726?u=4691356b21660b445d3fe476f8652abbd5a8b879&v=4", "12", "jenkins-infra/repository-permissions-updater jenkinsci/manage-permission-plugin jenkinsci/jenkins jenkinsci/acceptance-test-harness jenkinsci/workflow-durable-task-step-plugin jenkinsci/blueocean-plugin"
