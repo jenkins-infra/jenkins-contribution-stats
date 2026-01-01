@@ -1,49 +1,49 @@
 # Top Submitters (Compare)
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2025-11".
+over the 12 months before "2025-12".
 Table shows new and "churned" submitters compared 
 to the situation 3 months before.
 
 
-| Submitter                | Total_PRs | Status  |
-| ------------------------ | --------: | ------- |
-| [gounthar](plot/gounthar.png) |      1789 |         |
-| [strangelookingnerd](plot/strangelookingnerd.png) |      1475 |         |
-| [dduportal](plot/dduportal.png) |      1045 |         |
-| [jonesbusy](plot/jonesbusy.png) |       946 |         |
-| [MarkEWaite](plot/MarkEWaite.png) |       828 |         |
-| [basil](plot/basil.png) |       725 |         |
-| [smerle33](plot/smerle33.png) |       343 |         |
-| [jglick](plot/jglick.png) |       288 |         |
-| [janfaracik](plot/janfaracik.png) |       264 |         |
-| [timja](plot/timja.png) |       223 |         |
-| [uhafner](plot/uhafner.png) |       222 |         |
-| [daniel-beck](plot/daniel-beck.png) |       213 |         |
-| [mawinter69](plot/mawinter69.png) |       208 |         |
-| [biru-codeastromer](plot/biru-codeastromer.png) |       121 |         |
-| [nfalco79](plot/nfalco79.png) |       113 |         |
-| [lemeurherve](plot/lemeurherve.png) |       100 | new     |
-| [kmartens27](plot/kmartens27.png) |        90 |         |
-| [Vlatombe](plot/Vlatombe.png) |        87 |         |
-| [jtnord](plot/jtnord.png) |        86 |         |
-| [jayfranco999](plot/jayfranco999.png) |        85 |         |
-| [alecharp](plot/alecharp.png) |        82 |         |
-| [krisstern](plot/krisstern.png) |        81 |         |
+| Submitter            | Total_PRs | Status  |
+| -------------------- | --------: | ------- |
+| [gounthar](plot/gounthar.png) |      1758 |         |
+| [strangelookingnerd](plot/strangelookingnerd.png) |      1520 |         |
+| [dduportal](plot/dduportal.png) |      1040 |         |
+| [MarkEWaite](plot/MarkEWaite.png) |       866 |         |
+| [jonesbusy](plot/jonesbusy.png) |       791 |         |
+| [basil](plot/basil.png) |       690 |         |
+| [smerle33](plot/smerle33.png) |       307 |         |
+| [jglick](plot/jglick.png) |       287 |         |
+| [timja](plot/timja.png) |       283 |         |
+| [janfaracik](plot/janfaracik.png) |       253 |         |
+| [daniel-beck](plot/daniel-beck.png) |       245 |         |
+| [mawinter69](plot/mawinter69.png) |       229 |         |
+| [uhafner](plot/uhafner.png) |       227 |         |
+| [lemeurherve](plot/lemeurherve.png) |       192 | new     |
+| [NotMyFault](plot/NotMyFault.png) |       133 |         |
+| [biru-codeastromer](plot/biru-codeastromer.png) |       113 |         |
+| [nfalco79](plot/nfalco79.png) |       105 |         |
+| [jtnord](plot/jtnord.png) |        98 |         |
+| [jayfranco999](plot/jayfranco999.png) |        94 |         |
+| [Vlatombe](plot/Vlatombe.png) |        83 |         |
+| [alecharp](plot/alecharp.png) |        80 |         |
 | [lewisbirks](plot/lewisbirks.png) |        79 |         |
-| [darinpope](plot/darinpope.png) |        77 |         |
-| [CodexRaunak](plot/CodexRaunak.png) |        74 |         |
-| [NotMyFault](plot/NotMyFault.png) |        73 |         |
-| [rahulsom](plot/rahulsom.png) |        68 |         |
-| [aaravmahajanofficial](plot/aaravmahajanofficial.png) |        57 | new     |
-| [kuisathaverat](plot/kuisathaverat.png) |        52 |         |
-| [olamy](plot/olamy.png) |        52 |         |
-| [dwnusbaum](plot/dwnusbaum.png) |        52 |         |
-| [zbynek](plot/zbynek.png) |        52 |         |
-| [panicking](plot/panicking.png) |        49 | new     |
-| [gbhat618](plot/gbhat618.png) |        46 | new     |
-| [StefanSpieker](plot/StefanSpieker.png) |        43 |         |
+| [kmartens27](plot/kmartens27.png) |        79 |         |
+| [rahulsom](plot/rahulsom.png) |        75 |         |
+| [darinpope](plot/darinpope.png) |        74 |         |
+| [CodexRaunak](plot/CodexRaunak.png) |        73 |         |
+| [krisstern](plot/krisstern.png) |        72 |         |
+| [aaravmahajanofficial](plot/aaravmahajanofficial.png) |        58 |         |
+| [panicking](plot/panicking.png) |        55 |         |
+| [zbynek](plot/zbynek.png) |        53 |         |
+| [akash-manna-sky](plot/akash-manna-sky.png) |        52 | new     |
+| [Puffy1215](plot/Puffy1215.png) |        51 | new     |
+| [dwnusbaum](plot/dwnusbaum.png) |        50 |         |
+| [olamy](plot/olamy.png) |        48 |         |
+| [gbhat618](plot/gbhat618.png) |        45 | new     |
 | [yaroslavafenkin](plot/yaroslavafenkin.png) |           | churned |
 | [shlomomdahan](plot/shlomomdahan.png) |           | churned |
-| [nikita-tkachenko-datadog](plot/nikita-tkachenko-datadog.png) |           | churned |
+| [kuisathaverat](plot/kuisathaverat.png) |           | churned |
 | [yashpal2104](plot/yashpal2104.png) |           | churned |
