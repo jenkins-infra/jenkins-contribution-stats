@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-01-03T07-40-46Z", "2025-12", "froque", "Filipe Roque", "", "https://github.com/froque", "https://avatars.githubusercontent.com/u/8249379?v=4", "3", "jenkinsci/powershell-plugin jenkinsci/credentials-plugin jenkinsci/pipeline-maven-plugin"
+"2026-01-04T07-42-00Z", "2025-12", "marek-parfianowicz", "Marek Parfianowicz", "", "https://github.com/marek-parfianowicz", "https://avatars.githubusercontent.com/u/22013249?u=0b433fcb6f8dd55b64bf3526c23d067ce3fc1a33&v=4", "1", "jenkinsci/clover-plugin"
