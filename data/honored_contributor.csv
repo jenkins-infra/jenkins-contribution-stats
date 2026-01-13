@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-01-12T07-44-33Z", "2025-12", "ibain", "", "", "https://github.com/ibain", "https://avatars.githubusercontent.com/u/34986682?u=527c49b939a83de7a6388254820e4d5ff0a18bb0&v=4", "4", "jenkinsci/diversion-scm-plugin"
+"2026-01-13T07-43-24Z", "2025-12", "mikecirioli", "michael cirioli", "Cloudbees", "https://github.com/mikecirioli", "https://avatars.githubusercontent.com/u/8135503?u=6cb0762280438f1ff7d7c93a92ccae2decd6892e&v=4", "1", "jenkins-infra/repository-permissions-updater"
