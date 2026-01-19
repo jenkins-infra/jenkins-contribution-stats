@@ -1,7 +1,7 @@
 # This Dockerfile is used as a minimum image for the Jenkins Top Submitters GitHub Action.
 
 # We start from the golang:1.25.2-trixie base image.
-FROM golang:1.25.5-trixie
+FROM golang:1.26rc2-trixie
 
 # We declare an ARG for the GitHub token, which will be used for authentication.
 ARG GITHUB_TOKEN
