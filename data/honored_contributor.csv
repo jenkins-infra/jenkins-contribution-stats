@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-01-28T07-44-27Z", "2025-12", "omer-za", "Omer", "", "https://github.com/omer-za", "https://avatars.githubusercontent.com/u/75115812?u=091528c3e0aae5a8ad1d79d3b4da7ea8de2cbc20&v=4", "1", "jenkinsci/azure-vm-agents-plugin"
+"2026-01-29T07-51-39Z", "2025-12", "jayfranco999", "Jaideep", "", "https://github.com/jayfranco999", "https://avatars.githubusercontent.com/u/79799016?v=4", "11", "jenkins-infra/azure jenkins-infra/kubernetes-management jenkins-infra/docker-jenkins-infraci jenkins-infra/jenkins-infra jenkins-infra/terraform-aws-sponsorship jenkins-infra/docker-jenkins-weeklyci"
