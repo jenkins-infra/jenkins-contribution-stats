@@ -95,23 +95,11 @@ then
     echo "      MMM is the month in three letters (ex OCT)"
     exit 1
 fi
-case "$year_to_process" in
-    2020) 
-        ;;
-    2021) 
-        ;;
-    2022) 
-        ;;
-    2023) 
-        ;;
-    2024) 
-        ;;
-    2025) 
-        ;;
-    *) echo "Unsupported year: $year_to_process"
-        exit 1
-        ;;
-esac
+current_year=$(date '+%Y')
+if [ "$year_to_process" -lt 2020 ] || [ "$year_to_process" -gt "$current_year" ]; then
+    echo "Unsupported year: $year_to_process (must be between 2020 and $current_year)"
+    exit 1
+fi
 
 
 month_input="$2"
