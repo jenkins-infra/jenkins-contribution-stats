@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-01-31T07-45-15Z", "2025-12", "rahulsom", "Rahul Somasunderam", "@Netflix ", "https://github.com/rahulsom", "https://avatars.githubusercontent.com/u/193047?u=4eaf6a11ce9dcc7938eba752e9833d2f874f6fdb&v=4", "7", "jenkinsci/gradle-jpi-plugin"
+"2026-03-25T21-56-03Z", "2026-02", "panicking", "Michael Nazzareno Trimarchi", "Amarula Solutions B.V.", "https://github.com/panicking", "https://avatars.githubusercontent.com/u/2083511?v=4", "9", "jenkinsci/explain-error-plugin jenkinsci/gerrit-checks-api-plugin jenkins-infra/repository-permissions-updater jenkinsci/warnings-ng-plugin jenkinsci/publish-over-dropbox-plugin jenkinsci/git-collect-plugin"
