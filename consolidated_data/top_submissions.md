@@ -1,43 +1,44 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2025-12".
+over the 12 months before "2026-02".
 
 
 | Submitter            | Total_PRs |
 | -------------------- | --------: |
-| gounthar             |      1758 |
-| strangelookingnerd   |      1520 |
-| dduportal            |      1040 |
-| MarkEWaite           |       866 |
-| jonesbusy            |       791 |
-| basil                |       690 |
-| smerle33             |       307 |
-| jglick               |       287 |
-| timja                |       283 |
-| janfaracik           |       253 |
-| daniel-beck          |       245 |
-| mawinter69           |       229 |
-| uhafner              |       227 |
-| lemeurherve          |       192 |
-| NotMyFault           |       133 |
-| biru-codeastromer    |       113 |
-| nfalco79             |       105 |
-| jtnord               |        98 |
-| jayfranco999         |        94 |
-| Vlatombe             |        83 |
+| jonesbusy            |      1203 |
+| gounthar             |      1181 |
+| strangelookingnerd   |      1023 |
+| dduportal            |      1000 |
+| MarkEWaite           |       899 |
+| lemeurherve          |       388 |
+| basil                |       343 |
+| jglick               |       296 |
+| timja                |       277 |
+| daniel-beck          |       263 |
+| mawinter69           |       233 |
+| smerle33             |       232 |
+| janfaracik           |       222 |
+| uhafner              |       209 |
+| NotMyFault           |       150 |
+| jtnord               |       112 |
+| jayfranco999         |       102 |
+| nfalco79             |        89 |
+| akash-manna-sky      |        82 |
+| rahulsom             |        81 |
 | alecharp             |        80 |
 | lewisbirks           |        79 |
-| kmartens27           |        79 |
-| rahulsom             |        75 |
-| darinpope            |        74 |
-| CodexRaunak          |        73 |
-| krisstern            |        72 |
-| aaravmahajanofficial |        58 |
-| panicking            |        55 |
-| zbynek               |        53 |
-| akash-manna-sky      |        52 |
-| Puffy1215            |        51 |
-| dwnusbaum            |        50 |
-| olamy                |        48 |
-| gbhat618             |        45 |
+| biru-codeastromer    |        74 |
+| krisstern            |        74 |
+| kmartens27           |        68 |
+| CodexRaunak          |        64 |
+| aaravmahajanofficial |        62 |
+| Vatsal-Verma         |        61 |
+| panicking            |        60 |
+| Puffy1215            |        57 |
+| kuisathaverat        |        55 |
+| Vlatombe             |        53 |
+| olamy                |        47 |
+| dwnusbaum            |        46 |
+| shenxianpeng         |        46 |
+| cronik               |        46 |
