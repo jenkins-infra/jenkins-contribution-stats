@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-03-25T21-56-03Z", "2026-02", "panicking", "Michael Nazzareno Trimarchi", "Amarula Solutions B.V.", "https://github.com/panicking", "https://avatars.githubusercontent.com/u/2083511?v=4", "9", "jenkinsci/explain-error-plugin jenkinsci/gerrit-checks-api-plugin jenkins-infra/repository-permissions-updater jenkinsci/warnings-ng-plugin jenkinsci/publish-over-dropbox-plugin jenkinsci/git-collect-plugin"
+"2026-03-26T07-57-36Z", "2026-02", "cyanbaz", "Caner Yanbaz", "", "https://github.com/cyanbaz", "https://avatars.githubusercontent.com/u/103248957?u=973f844396834e0d43891eb649228ff3bedc7789&v=4", "1", "jenkinsci/json-parameter-plugin"
