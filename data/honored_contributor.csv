@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-04-07T08-01-29Z", "2026-03", "ProthamD", "PROTHAM", "", "https://github.com/ProthamD", "https://avatars.githubusercontent.com/u/155388736?u=55db0be9d035475d94636dc312ead3848aa650d7&v=4", "1", "jenkins-infra/contributor-spotlight"
+"2026-04-08T08-03-27Z", "2026-03", "JokevO", "Joke van Oijen", "jokevo", "https://github.com/JokevO", "https://avatars.githubusercontent.com/u/11290078?v=4", "3", "jenkinsci/theme-manager-plugin jenkinsci/gruvbox-theme-plugin"
