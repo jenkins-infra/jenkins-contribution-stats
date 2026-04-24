@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-04-23T08-14-28Z", "2026-03", "Piyush0049", "Piyush Joshi", "", "https://github.com/Piyush0049", "https://avatars.githubusercontent.com/u/157375019?u=d56bfd5d227176d1cab06d5a4752b3ae06a3d3a0&v=4", "1", "jenkins-infra/jenkins.io"
+"2026-04-24T08-20-40Z", "2026-03", "gounthar", "Bruno Verachten", "@cloudbees", "https://github.com/gounthar", "https://avatars.githubusercontent.com/u/116569?u=8a2071933b85ffad89769902e73df3cfdd31d0aa&v=4", "34", "jenkins-docs/quickstart-tutorials jenkins-infra/jenkins-contribution-stats jenkinsci/docker-ssh-agent jenkinsci/docker jenkinsci/docker-agents jenkinsci/gitlab-oauth-plugin"
