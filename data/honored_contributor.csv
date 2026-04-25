@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-04-24T08-20-40Z", "2026-03", "gounthar", "Bruno Verachten", "@cloudbees", "https://github.com/gounthar", "https://avatars.githubusercontent.com/u/116569?u=8a2071933b85ffad89769902e73df3cfdd31d0aa&v=4", "34", "jenkins-docs/quickstart-tutorials jenkins-infra/jenkins-contribution-stats jenkinsci/docker-ssh-agent jenkinsci/docker jenkinsci/docker-agents jenkinsci/gitlab-oauth-plugin"
+"2026-04-25T07-58-39Z", "2026-03", "f-bonfanti", "", "", "https://github.com/f-bonfanti", "https://avatars.githubusercontent.com/u/93936843?u=62c9cdbf9cf105355e732eec912d56d2dc5cac9f&v=4", "4", "jenkinsci/loadninja-plugin jenkins-infra/repository-permissions-updater"
