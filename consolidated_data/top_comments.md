@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2026-04".
+over the 12 months before "2026-05".
 
 
 | Commenter          | Total_Comments |
 | ------------------ | -------------: |
-| timja              |           1802 |
-| MarkEWaite         |           1574 |
-| dduportal          |           1303 |
-| krisstern          |           1298 |
-| jglick             |           1124 |
-| lemeurherve        |            744 |
-| daniel-beck        |            539 |
-| uhafner            |            523 |
-| mawinter69         |            506 |
-| jtnord             |            441 |
-| jonesbusy          |            410 |
-| berviantoleo       |            395 |
-| strangelookingnerd |            311 |
-| janfaracik         |            270 |
-| kmartens27         |            262 |
-| gounthar           |            228 |
-| basil              |            224 |
-| akash-manna-sky    |            218 |
-| alecharp           |            195 |
-| lewisbirks         |            176 |
-| NotMyFault         |            164 |
-| dwnusbaum          |            163 |
+| timja              |           1795 |
+| MarkEWaite         |           1698 |
+| dduportal          |           1301 |
+| jglick             |           1256 |
+| krisstern          |           1232 |
+| lemeurherve        |            865 |
+| uhafner            |            591 |
+| daniel-beck        |            552 |
+| mawinter69         |            520 |
+| jtnord             |            461 |
+| berviantoleo       |            407 |
+| jonesbusy          |            404 |
+| janfaracik         |            275 |
+| akash-manna-sky    |            243 |
+| strangelookingnerd |            231 |
+| gbhat618           |            222 |
+| alecharp           |            181 |
+| gounthar           |            179 |
+| kmartens27         |            177 |
+| NotMyFault         |            175 |
+| dwnusbaum          |            162 |
 | DecodeX15          |            160 |
-| kuisathaverat      |            153 |
-| biru-codeastromer  |            138 |
-| cnu1812            |            138 |
-| olamy              |            131 |
-| A1exKH             |            126 |
-| gbhat618           |            122 |
-| Vlatombe           |            116 |
-| slide              |            116 |
-| ArpanC6            |            114 |
-| panicking          |             87 |
-| Vatsal-Verma       |             83 |
-| zbynek             |             82 |
+| kuisathaverat      |            152 |
+| lewisbirks         |            141 |
+| ArpanC6            |            138 |
+| basil              |            129 |
+| slide              |            125 |
+| cnu1812            |            111 |
+| olamy              |            110 |
+| A1exKH             |            107 |
+| Vatsal-Verma       |            100 |
+| Vlatombe           |             90 |
+| zbynek             |             88 |
+| das7pad            |             83 |
+| AppVeyorBot        |             82 |
