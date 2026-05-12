@@ -36,7 +36,7 @@ jobs:
         for i in 1 2 3; do
           docker build --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) -t stats . && break
           [ $i -lt 3 ] && echo "Build attempt $i failed, retrying in 30s..." && sleep 30
-        done
+        done || { echo "Docker build failed after 3 attempts"; exit 1; }
 
     # The fourth step is to run the update-stats.sh script inside a Docker container.
     # The script is run with several environment variables set, including the GitHub token and the GitHub actor's name and email.
