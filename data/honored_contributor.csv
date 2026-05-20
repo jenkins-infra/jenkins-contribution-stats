@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-05-19T08-42-36Z", "2026-04", "SalehAhmadi", "Saleh Ahmadi", "@SignPath ", "https://github.com/SalehAhmadi", "https://avatars.githubusercontent.com/u/47143979?u=6ed24dceb66e24e056936a66924e286b5e2d5d42&v=4", "2", "jenkinsci/signpath-plugin"
+"2026-05-20T08-40-40Z", "2026-04", "okirmis", "Oskar Kirmis", "TripleBit Solutions GmbH", "https://github.com/okirmis", "https://avatars.githubusercontent.com/u/3977994?u=416e8ea8b5b39ad9f9e3f4ac35024f41400208e0&v=4", "1", "jenkinsci/lockable-resources-plugin"
