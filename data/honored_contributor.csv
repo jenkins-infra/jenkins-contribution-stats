@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-05-20T08-40-40Z", "2026-04", "okirmis", "Oskar Kirmis", "TripleBit Solutions GmbH", "https://github.com/okirmis", "https://avatars.githubusercontent.com/u/3977994?u=416e8ea8b5b39ad9f9e3f4ac35024f41400208e0&v=4", "1", "jenkinsci/lockable-resources-plugin"
+"2026-05-21T08-44-29Z", "2026-04", "mbSmaga", "Michał Smaga", "", "https://github.com/mbSmaga", "https://avatars.githubusercontent.com/u/1110333?u=f2a24f32befb27e440b205c89085a87137f74ccd&v=4", "5", "jenkinsci/sectioned-view-plugin jenkinsci/docker-swarm-plugin jenkins-infra/repository-permissions-updater"
