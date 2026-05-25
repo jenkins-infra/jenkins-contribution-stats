@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-05-24T08-26-42Z", "2026-04", "rodrigo-roca", "Rodrigo Roca", "", "https://github.com/rodrigo-roca", "https://avatars.githubusercontent.com/u/124577199?u=fff3eb6b3caf49addd8a547ac162a146333c1407&v=4", "1", "jenkinsci/datadog-plugin"
+"2026-05-25T08-56-21Z", "2026-04", "zbynek", "Zbynek Konecny", "GeoGebra", "https://github.com/zbynek", "https://avatars.githubusercontent.com/u/1105305?v=4", "6", "jenkinsci/jenkins jenkinsci/warnings-ng-plugin jenkinsci/mcp-server-plugin"
