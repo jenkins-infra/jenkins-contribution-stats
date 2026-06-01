@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-05-31T08-30-46Z", "2026-04", "nfalco79", "Nikolas Falco", "Finantix", "https://github.com/nfalco79", "https://avatars.githubusercontent.com/u/4160180?u=23a8cde938a833af48fe83ddb26ca3b1f9e835a0&v=4", "2", "jenkinsci/bitbucket-branch-source-plugin"
+"2026-06-01T09-26-32Z", "2026-05", "andreahlert", "André Ahlert", "", "https://github.com/andreahlert", "https://avatars.githubusercontent.com/u/180008227?u=f57e5137c8099bc62ea1cf060b13f6f5f671b53b&v=4", "2", "jenkinsci/authorize-project-plugin"
