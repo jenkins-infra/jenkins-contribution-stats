@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-06-09T08-44-13Z", "2026-05", "nfalco79", "Nikolas Falco", "Finantix", "https://github.com/nfalco79", "https://avatars.githubusercontent.com/u/4160180?u=23a8cde938a833af48fe83ddb26ca3b1f9e835a0&v=4", "1", "jenkinsci/bitbucket-branch-source-plugin"
+"2026-06-10T08-55-06Z", "2026-05", "sghill", "Steve Hill", "Netflix", "https://github.com/sghill", "https://avatars.githubusercontent.com/u/230004?u=f77c78a03aa707ad1de13d0dc1d5b46527abecce&v=4", "3", "jenkinsci/gradle-jpi-plugin jenkinsci/durable-task-plugin jenkinsci/jenkins"
