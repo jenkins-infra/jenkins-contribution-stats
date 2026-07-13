@@ -58,6 +58,9 @@ RUN ln -s $(which date) /bin/gdate && \
 # We add the linuxbrew bin directory to the PATH environment variable.
 ENV PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
 
+# Disable the Homebrew Linux sandbox since bubblewrap is not available in the Docker build environment.
+ENV HOMEBREW_NO_SANDBOX_LINUX=1
+
 # We configure git to add a safe directory.
 RUN git config --global --add safe.directory /home/linuxbrew/.linuxbrew/Homebrew
 
