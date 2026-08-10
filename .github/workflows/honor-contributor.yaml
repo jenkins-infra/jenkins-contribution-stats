@@ -66,6 +66,7 @@ jobs:
             else
               echo "$target_file already exists. Skipping monthly extraction."
             fi
+            # honor generation requires this monthly file to exist, whether pre-existing or newly extracted.
             ./generateHonoredContribDataFile.sh'
         HONORED_CONTRIBUTOR=$(cat $GITHUB_ENV_PATH | cut -d'=' -f2)
         echo "HONORED_CONTRIBUTOR=$HONORED_CONTRIBUTOR" >> $GITHUB_ENV
