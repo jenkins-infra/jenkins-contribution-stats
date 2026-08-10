@@ -74,6 +74,7 @@ RUN brew update && \
 # We tap a custom Homebrew repository.
 # We install the jenkins-contribution-extractor and jenkins-contribution-aggregator packages from the custom repository.
 RUN brew tap jenkins-infra/tap && \
+    brew trust jenkins-infra/tap && \
     brew install jenkins-contribution-extractor && \
     brew install  jenkins-contribution-aggregator
 
