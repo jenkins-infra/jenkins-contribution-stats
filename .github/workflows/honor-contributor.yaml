@@ -50,7 +50,11 @@ jobs:
           -e PATH="/home/linuxbrew/.linuxbrew/bin:/opt/venv/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
           -v ${{ github.workspace }}:/workspace \
           -v $GITHUB_ENV_PATH:$GITHUB_ENV_PATH \
-          stats bash -c "cd /workspace && ./generateHonoredContribDataFile.sh"
+          stats bash -lc 'cd /workspace
+            target_year=$(date -d "$(date +%Y-%m-1) -1 month" +%Y)
+            target_month=$(date -d "$(date +%Y-%m-1) -1 month" +%b | tr "[:lower:]" "[:upper:]")
+            ./extract-monthly-submissions.sh "$target_year" "$target_month"
+            ./generateHonoredContribDataFile.sh'
         HONORED_CONTRIBUTOR=$(cat $GITHUB_ENV_PATH | cut -d'=' -f2)
         echo "HONORED_CONTRIBUTOR=$HONORED_CONTRIBUTOR" >> $GITHUB_ENV
       shell: bash
