@@ -1,43 +1,43 @@
 # Top Submitters
 
 Extraction of the 35 top submitters (non-bot PR creators) 
-over the 12 months before "2026-05".
+over the 12 months before "2026-07".
 
 
 | Submitter            | Total_PRs |
 | -------------------- | --------: |
-| jonesbusy            |      1357 |
-| MarkEWaite           |      1170 |
-| dduportal            |       918 |
-| gounthar             |       843 |
-| lemeurherve          |       650 |
-| strangelookingnerd   |       579 |
-| jglick               |       317 |
-| timja                |       286 |
-| daniel-beck          |       250 |
-| uhafner              |       231 |
-| mawinter69           |       222 |
-| janfaracik           |       210 |
-| NotMyFault           |       152 |
-| basil                |       142 |
-| jayfranco999         |       130 |
-| akash-manna-sky      |       128 |
-| smerle33             |       122 |
-| jtnord               |       120 |
-| shenxianpeng         |        82 |
-| krisstern            |        82 |
-| Vatsal-Verma         |        80 |
-| rahulsom             |        65 |
+| jonesbusy            |      1457 |
+| MarkEWaite           |      1175 |
+| dduportal            |       823 |
+| gounthar             |       743 |
+| lemeurherve          |       741 |
+| strangelookingnerd   |       500 |
+| jglick               |       308 |
+| timja                |       299 |
+| daniel-beck          |       260 |
+| uhafner              |       229 |
+| jayfranco999         |       225 |
+| mawinter69           |       217 |
+| janfaracik           |       185 |
+| akash-manna-sky      |       171 |
+| NotMyFault           |       135 |
+| jtnord               |       116 |
+| Vatsal-Verma         |       114 |
+| shenxianpeng         |       110 |
+| krisstern            |       106 |
+| mPokornyETM          |        86 |
+| rahulsom             |        77 |
+| somiljain2006        |        77 |
+| das7pad              |        66 |
 | aaravmahajanofficial |        64 |
-| alecharp             |        62 |
-| nfalco79             |        60 |
-| das7pad              |        59 |
-| lewisbirks           |        53 |
-| mPokornyETM          |        52 |
-| panicking            |        51 |
-| donhui               |        51 |
-| Puffy1215            |        50 |
-| zbynek               |        48 |
-| kuisathaverat        |        47 |
+| panicking            |        62 |
+| gbhat618             |        61 |
+| donhui               |        61 |
+| alecharp             |        60 |
+| basil                |        54 |
+| nfalco79             |        49 |
+| smerle33             |        48 |
 | olamy                |        47 |
-| froque               |        47 |
+| froque               |        46 |
+| StefanSpieker        |        45 |
+| jimklimov            |        43 |

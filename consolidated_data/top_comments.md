@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2026-06".
+over the 12 months before "2026-08".
 
 
 | Commenter          | Total_Comments |
 | ------------------ | -------------: |
-| timja              |           1836 |
-| MarkEWaite         |           1735 |
-| dduportal          |           1313 |
-| jglick             |           1277 |
-| krisstern          |           1133 |
-| lemeurherve        |            941 |
-| uhafner            |            665 |
-| daniel-beck        |            542 |
-| mawinter69         |            533 |
-| jtnord             |            487 |
-| berviantoleo       |            389 |
-| jonesbusy          |            369 |
-| janfaracik         |            265 |
-| akash-manna-sky    |            260 |
-| gbhat618           |            235 |
-| strangelookingnerd |            218 |
-| alecharp           |            181 |
-| gounthar           |            176 |
-| NotMyFault         |            166 |
+| MarkEWaite         |           1919 |
+| timja              |           1853 |
+| dduportal          |           1341 |
+| jglick             |           1314 |
+| krisstern          |           1249 |
+| lemeurherve        |           1152 |
+| uhafner            |            700 |
+| mawinter69         |            545 |
+| daniel-beck        |            534 |
+| jtnord             |            516 |
+| gbhat618           |            442 |
+| berviantoleo       |            422 |
+| jonesbusy          |            343 |
+| akash-manna-sky    |            308 |
+| janfaracik         |            263 |
+| rsandell           |            204 |
+| strangelookingnerd |            170 |
+| Vatsal-Verma       |            162 |
 | DecodeX15          |            160 |
-| dwnusbaum          |            148 |
-| kuisathaverat      |            145 |
-| das7pad            |            143 |
-| rsandell           |            143 |
+| alecharp           |            155 |
+| slide              |            139 |
+| NotMyFault         |            139 |
 | ArpanC6            |            138 |
-| slide              |            130 |
-| basil              |            115 |
-| kmartens27         |            110 |
-| Vatsal-Verma       |            102 |
-| olamy              |             98 |
-| lewisbirks         |             97 |
-| cnu1812            |             95 |
-| A1exKH             |             95 |
-| shenxianpeng       |             91 |
-| zbynek             |             90 |
+| das7pad            |            137 |
+| gounthar           |            111 |
+| panicking          |            105 |
+| shenxianpeng       |            104 |
+| AppVeyorBot        |            102 |
+| zbynek             |             98 |
+| Aarav-Singh2007    |             93 |
+| PratikMane0112     |             93 |
+| jayfranco999       |             90 |
+| adityajalkhare     |             87 |
+| jimklimov          |             87 |
+| apuig              |             86 |
