@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-08-27T18-25-02Z", "2026-07", "googol4u", "", "", "https://github.com/googol4u", "https://avatars.githubusercontent.com/u/992409?v=4", "1", "jenkinsci/cvsclient"
+"2026-08-28T19-35-32Z", "2026-07", "zerlinpi", "", "", "https://github.com/zerlinpi", "https://avatars.githubusercontent.com/u/105773292?u=90c1d453390e122f68faf308a790361ce3118aac&v=4", "6", "jenkinsci/build-token-trigger-plugin jenkinsci/build-token-root-plugin jenkins-infra/repository-permissions-updater jenkinsci/bom"
