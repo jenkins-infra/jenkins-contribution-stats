@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-08-28T19-35-32Z", "2026-07", "zerlinpi", "", "", "https://github.com/zerlinpi", "https://avatars.githubusercontent.com/u/105773292?u=90c1d453390e122f68faf308a790361ce3118aac&v=4", "6", "jenkinsci/build-token-trigger-plugin jenkinsci/build-token-root-plugin jenkins-infra/repository-permissions-updater jenkinsci/bom"
+"2026-08-29T13-21-26Z", "2026-07", "anupamme", "Anupam Mediratta", "University of Edinburgh", "https://github.com/anupamme", "https://avatars.githubusercontent.com/u/667857?u=1e58e3c5be30e4249ed4eb58a248975110b1f676&v=4", "1", "jenkins-infra/plugin-site"
