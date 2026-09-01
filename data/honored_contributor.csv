@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-08-31T15-22-58Z", "2026-07", "donhui", "Donghui Wang", "", "https://github.com/donhui", "https://avatars.githubusercontent.com/u/5702065?u=99930242fd363331d71e38e5909cb7157d4e3a82&v=4", "7", "jenkinsci/secret-guard-plugin jenkinsci/smart-retry-plugin jenkins-infra/jenkins.io"
+"2026-09-01T12-43-53Z", "2026-08", "pvivekdev", "Vivek", "", "https://github.com/pvivekdev", "https://avatars.githubusercontent.com/u/58032672?u=46aec3f27517193cebe6b969ddb64b03a7582d6e&v=4", "1", "jenkins-infra/repository-permissions-updater"
