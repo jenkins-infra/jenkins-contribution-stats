@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-09-01T12-43-53Z", "2026-08", "pvivekdev", "Vivek", "", "https://github.com/pvivekdev", "https://avatars.githubusercontent.com/u/58032672?u=46aec3f27517193cebe6b969ddb64b03a7582d6e&v=4", "1", "jenkins-infra/repository-permissions-updater"
+"2026-09-02T12-16-48Z", "2026-08", "rzanner", "René Zanner", "", "https://github.com/rzanner", "https://avatars.githubusercontent.com/u/468743?u=232822c496d7a33bd65f7f6b12b1d20dbb738330&v=4", "2", "jenkinsci/delivery-pipeline-plugin"
