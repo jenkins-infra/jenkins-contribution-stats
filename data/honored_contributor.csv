@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-09-17T12-46-25Z", "2026-08", "DasTapan09", "Tapan Das", "", "https://github.com/DasTapan09", "https://avatars.githubusercontent.com/u/200184814?v=4", "1", "jenkinsci/sedstart-runner-plugin"
+"2026-09-18T12-21-39Z", "2026-08", "beslst", "Stefan Besler", "@zeugwerk", "https://github.com/beslst", "https://avatars.githubusercontent.com/u/84121166?u=1cb24433d0419e984fb6412f703e45cf73b97726&v=4", "1", "jenkinsci/publish-over-ssh-plugin"
