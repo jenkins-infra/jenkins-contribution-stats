@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-09-25T12-57-00Z", "2026-08", "hickford", "M Hickford", "", "https://github.com/hickford", "https://avatars.githubusercontent.com/u/105314?u=67850e32006897f171cec7e03a3e93445bf86dd9&v=4", "1", "jenkinsci/github-checks-plugin"
+"2026-09-26T12-24-53Z", "2026-08", "kohtaro-satoh", "Kohtaro Satoh", "CS-Atelier Inc.", "https://github.com/kohtaro-satoh", "https://avatars.githubusercontent.com/u/24289363?u=a5d90218235bd01ad1ab4590290e4605ef4ea0e1&v=4", "1", "jenkinsci/lockable-resources-plugin"
