@@ -1,43 +1,43 @@
 # Top Commenters
 
 Extraction of the 35 top (non-bot) commenters 
-over the 12 months before "2026-09".
+over the 12 months before "2026-10".
 
 
 | Commenter          | Total_Comments |
 | ------------------ | -------------: |
-| MarkEWaite         |           1930 |
-| timja              |           1886 |
-| jglick             |           1359 |
-| dduportal          |           1305 |
-| krisstern          |           1299 |
-| lemeurherve        |           1195 |
-| uhafner            |            690 |
-| mawinter69         |            565 |
-| daniel-beck        |            528 |
-| jtnord             |            499 |
-| gbhat618           |            455 |
-| berviantoleo       |            435 |
-| jonesbusy          |            353 |
-| akash-manna-sky    |            312 |
-| janfaracik         |            263 |
-| Vatsal-Verma       |            207 |
-| rsandell           |            188 |
+| MarkEWaite         |           1953 |
+| timja              |           1697 |
+| jglick             |           1413 |
+| krisstern          |           1356 |
+| dduportal          |           1356 |
+| lemeurherve        |           1319 |
+| uhafner            |            676 |
+| mawinter69         |            579 |
+| jtnord             |            541 |
+| daniel-beck        |            503 |
+| gbhat618           |            456 |
+| berviantoleo       |            445 |
+| jonesbusy          |            346 |
+| akash-manna-sky    |            310 |
+| janfaracik         |            214 |
+| Vatsal-Verma       |            211 |
+| rsandell           |            181 |
+| alecharp           |            162 |
 | DecodeX15          |            160 |
-| strangelookingnerd |            157 |
-| alecharp           |            155 |
-| slide              |            147 |
+| slide              |            145 |
+| strangelookingnerd |            139 |
 | ArpanC6            |            138 |
-| das7pad            |            128 |
-| NotMyFault         |            113 |
-| panicking          |            106 |
-| gounthar           |            106 |
-| AppVeyorBot        |            106 |
+| AppVeyorBot        |            112 |
+| PratikMane0112     |            111 |
+| jayfranco999       |            109 |
+| NotMyFault         |            107 |
 | Aarav-Singh2007    |            105 |
-| PratikMane0112     |            103 |
-| olamy              |             98 |
-| zbynek             |             97 |
-| jayfranco999       |             96 |
-| shenxianpeng       |             94 |
-| jimklimov          |             92 |
+| panicking          |            102 |
+| jimklimov          |            101 |
+| gounthar           |             98 |
+| olamy              |             95 |
+| zbynek             |             94 |
+| cnu1812            |             89 |
 | adityajalkhare     |             87 |
+| shenxianpeng       |             86 |
