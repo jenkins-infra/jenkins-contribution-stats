@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-02T14-06-36Z", "2026-09", "Tomasz-Krzeminski-Soonly-PL", "Tomasz Krzemiński", "Soonly PL", "https://github.com/Tomasz-Krzeminski-Soonly-PL", "https://avatars.githubusercontent.com/u/144336250?u=1c422aafc578de721caa1c634fab1d3a63fcc43d&v=4", "1", "jenkinsci/rundeck-plugin"
+"2026-10-03T12-42-42Z", "2026-09", "srinikvs", "", "", "https://github.com/srinikvs", "https://avatars.githubusercontent.com/u/263100693?v=4", "4", "jenkinsci/mcp-server-plugin jenkinsci/workflow-job-plugin jenkins-infra/plugin-modernizer-tool jenkinsci/opentelemetry-plugin"
