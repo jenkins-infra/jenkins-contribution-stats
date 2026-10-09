@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-08T14-53-42Z", "2026-09", "stumoss", "Stuart Moss", "", "https://github.com/stumoss", "https://avatars.githubusercontent.com/u/638763?u=0f36d2b62e224e52a9ffbbc881deb8cf9312af86&v=4", "1", "jenkinsci/gitlab-branch-source-plugin"
+"2026-10-09T14-37-41Z", "2026-09", "pfeuffer", "René Pfeuffer", "Cloudogu GmbH", "https://github.com/pfeuffer", "https://avatars.githubusercontent.com/u/281097?u=534e1d80da51dbc0ff0d9186ebcbe1dc11432f22&v=4", "1", "jenkinsci/scm-manager-plugin"
