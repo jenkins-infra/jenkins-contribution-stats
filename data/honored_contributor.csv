@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-13T15-15-09Z", "2026-09", "tembleking", "Fede Barcelona", "Sysdig", "https://github.com/tembleking", "https://avatars.githubusercontent.com/u/2988780?u=49fe65e3eff561b0cbebb19ce23e51178df49143&v=4", "1", "jenkinsci/sysdig-secure-plugin"
+"2026-10-14T13-04-16Z", "2026-09", "gbhat618", "Guruprasad Bhat", "CloudBees", "https://github.com/gbhat618", "https://avatars.githubusercontent.com/u/22970330?u=6bb1d72b9eb4b5118dfd16e6d10ed80a75df85d1&v=4", "3", "jenkinsci/cla jenkinsci/coverage-plugin jenkinsci/script-security-plugin"
