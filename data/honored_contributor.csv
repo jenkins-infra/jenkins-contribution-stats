@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-14T13-04-16Z", "2026-09", "gbhat618", "Guruprasad Bhat", "CloudBees", "https://github.com/gbhat618", "https://avatars.githubusercontent.com/u/22970330?u=6bb1d72b9eb4b5118dfd16e6d10ed80a75df85d1&v=4", "3", "jenkinsci/cla jenkinsci/coverage-plugin jenkinsci/script-security-plugin"
+"2026-10-15T12-50-07Z", "2026-09", "StefanSpieker", "Stefan Spieker", "@schaefflergroup ", "https://github.com/StefanSpieker", "https://avatars.githubusercontent.com/u/22742658?u=627845f51eadfda08d6add69429e70ba1a4f79f4&v=4", "3", "jenkins-infra/jenkins.io jenkinsci/cloudbees-disk-usage-simple-plugin"
