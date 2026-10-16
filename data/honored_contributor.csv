@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-15T12-50-07Z", "2026-09", "StefanSpieker", "Stefan Spieker", "@schaefflergroup ", "https://github.com/StefanSpieker", "https://avatars.githubusercontent.com/u/22742658?u=627845f51eadfda08d6add69429e70ba1a4f79f4&v=4", "3", "jenkins-infra/jenkins.io jenkinsci/cloudbees-disk-usage-simple-plugin"
+"2026-10-16T12-42-14Z", "2026-09", "slvinittomar", "", "", "https://github.com/slvinittomar", "https://avatars.githubusercontent.com/u/318166124?u=3bbe5d15eca7bb0cfae208b4120695f1f81615e3&v=4", "1", "jenkinsci/sauce-ondemand-plugin"
