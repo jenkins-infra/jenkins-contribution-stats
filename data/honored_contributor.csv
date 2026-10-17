@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-16T12-42-14Z", "2026-09", "slvinittomar", "", "", "https://github.com/slvinittomar", "https://avatars.githubusercontent.com/u/318166124?u=3bbe5d15eca7bb0cfae208b4120695f1f81615e3&v=4", "1", "jenkinsci/sauce-ondemand-plugin"
+"2026-10-17T11-44-58Z", "2026-09", "simonelbaz", "Simon Elbaz", "Linagora", "https://github.com/simonelbaz", "https://avatars.githubusercontent.com/u/1821095?v=4", "2", "jenkins-infra/repository-permissions-updater jenkinsci/openstack-cloud-plugin"
