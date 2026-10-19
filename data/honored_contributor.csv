@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-18T12-11-06Z", "2026-09", "atl-dyon", "", "", "https://github.com/atl-dyon", "https://avatars.githubusercontent.com/u/122507096?u=70e666ef1c93d25f8a6be05c8dccbefb92ab92e0&v=4", "1", "jenkinsci/atlassian-bitbucket-server-integration-plugin"
+"2026-10-19T14-57-04Z", "2026-09", "ahmedwalid05", "Ahmad Massoud", "@aws", "https://github.com/ahmedwalid05", "https://avatars.githubusercontent.com/u/9282818?u=68826515a3c33715939f198c92fe42539583ef45&v=4", "4", "jenkinsci/aws-codebuild-plugin jenkins-infra/repository-permissions-updater"
