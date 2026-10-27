@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-10-26T14-31-42Z", "2026-09", "pratikbin", "pratikbin", "nodeops-app", "https://github.com/pratikbin", "https://avatars.githubusercontent.com/u/68642400?u=592f7c07c19b59dc58e57536e5d432b3159345a0&v=4", "2", "jenkinsci/createos-sandbox-plugin"
+"2026-10-27T13-32-10Z", "2026-09", "nebezpechnoste", "Oleksandr Srv", "", "https://github.com/nebezpechnoste", "https://avatars.githubusercontent.com/u/7557120?v=4", "3", "jenkinsci/pipeline-graph-view-plugin jenkinsci/jenkins jenkinsci/json-editor-parameter-plugin"
