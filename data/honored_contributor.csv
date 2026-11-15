@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-11-14T14-27-25Z", "2026-10", "jgreffe", "Julien Greffe", "CloudBees", "https://github.com/jgreffe", "https://avatars.githubusercontent.com/u/36693362?u=f3afe0e7045bd22bdf2a1905249b5f65969f2104&v=4", "2", "jenkins-infra/plugin-site"
+"2026-11-15T14-57-25Z", "2026-10", "YanekC", "", "", "https://github.com/YanekC", "https://avatars.githubusercontent.com/u/35522321?u=850b3199ce843973bc488461b57106e64ce06f90&v=4", "2", "jenkinsci/tabs-parameter-plugin jenkinsci/oidc-provider-plugin"
