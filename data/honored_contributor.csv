@@ -1,2 +1,2 @@
 "RUN_DATE", "MONTH", "GH_HANDLE", "FULL_NAME", "COMPANY", "GH_HANDLE_URL", "GH_HANDLE_AVATAR", "NBR_PR", "REPOSITORIES"
-"2026-11-23T19-28-08Z", "2026-10", "PierreBtz", "Pierre Beitz", "@cloudbees ", "https://github.com/PierreBtz", "https://avatars.githubusercontent.com/u/9881659?u=aafff7c58b6022eeb51e7baf23350ede7e9f0198&v=4", "3", "jenkinsci/cloudbees-jenkins-advisor-plugin jenkinsci/audit-trail-plugin jenkinsci/shelve-project-plugin"
+"2026-11-25T18-09-33Z", "2026-10", "judovana", "", "", "https://github.com/judovana", "https://avatars.githubusercontent.com/u/2904395?v=4", "2", "jenkins-infra/repository-permissions-updater jenkinsci/report-jtreg-plugin"
